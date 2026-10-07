@@ -378,7 +378,7 @@ async function init() {
   bindEvents();
   renderHistory();
   try {
-    const response = await fetch('banco_B500.json');
+    const response = await fetch('banco_B500.json?v=20261007-cssfix');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];

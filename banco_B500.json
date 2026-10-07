@@ -14097,17 +14097,17 @@
         "La calificación del personal corresponde al juez presidente, según la página 28."
       ],
       "options": [
+        "Sólo 2 y 4.",
+        "Sólo 1, 2 y 4.",
         "Sólo 3 y 4.",
-        "Todas las afirmaciones son falsas.",
-        "Sólo 1 y 2.",
         "Sólo 4.",
         "Sólo 1 y 4."
       ],
       "key": 3,
       "option_reasons": [
+        "Incluye indebidamente 2.",
+        "Incluye indebidamente 1, 2.",
         "Incluye indebidamente 3.",
-        "Incluye indebidamente 1, 2, 3.",
-        "Incluye indebidamente 1, 2; omite 4.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 1."
       ],
@@ -14146,19 +14146,19 @@
         "Se comunica la existencia de una investigación por hechos determinados; no se declara culpabilidad."
       ],
       "options": [
-        "Sólo 1.",
-        "Sólo 3.",
+        "Sólo 1, 2 y 4.",
+        "Sólo 3 y 4.",
         "Sólo 2, 3 y 4.",
         "Sólo 1 y 4.",
-        "Sólo 3 y 4."
+        "Sólo 2 y 4."
       ],
       "key": 2,
       "option_reasons": [
-        "Incluye indebidamente 1; omite 2, 3, 4.",
-        "Omite 2, 4.",
+        "Incluye indebidamente 1; omite 3.",
+        "Omite 2.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1; omite 2, 3.",
-        "Omite 2."
+        "Omite 3."
       ],
       "negative": false,
       "number": 378,
@@ -14196,19 +14196,19 @@
         "Es parte de la definición de probidad de la página 25."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Sólo 2, 3 y 4.",
         "Sólo 2 y 4.",
         "Sólo 1, 2 y 4.",
-        "Sólo 2, 3 y 4.",
-        "Sólo 2."
+        "Sólo 3 y 4.",
+        "Sólo 1, 3 y 4."
       ],
       "key": 1,
       "option_reasons": [
-        "Incluye indebidamente 1, 3; omite 2, 4.",
+        "Incluye indebidamente 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1.",
-        "Incluye indebidamente 3.",
-        "Omite 4."
+        "Incluye indebidamente 3; omite 2.",
+        "Incluye indebidamente 1, 3; omite 2."
       ],
       "negative": false,
       "number": 379,
@@ -14248,17 +14248,17 @@
       "options": [
         "Sólo 1, 3 y 4.",
         "Sólo 1, 2 y 4.",
-        "Todas las afirmaciones.",
-        "Sólo 1 y 2.",
-        "Sólo 2 y 3."
+        "Sólo 3 y 4.",
+        "Sólo 2, 3 y 4.",
+        "Todas las afirmaciones."
       ],
       "key": 0,
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3.",
-        "Incluye indebidamente 2.",
-        "Incluye indebidamente 2; omite 3, 4.",
-        "Incluye indebidamente 2; omite 1, 4."
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2."
       ],
       "negative": false,
       "number": 380,
@@ -14293,17 +14293,17 @@
       ],
       "options": [
         "Todas las afirmaciones.",
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 3.",
-        "Sólo 1 y 2.",
-        "Sólo 1 y 2.",
         "Sólo 1 y 2."
       ],
       "key": 4,
       "option_reasons": [
         "Incluye indebidamente 3.",
+        "Omite 2.",
+        "Omite 1.",
         "Incluye indebidamente 3; omite 1, 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "negative": false,
@@ -14338,17 +14338,17 @@
         "Es el requisito de nacionalidad expresamente descrito. No se sustituye por una referencia genérica a cualquier forma de adquirir nacionalidad."
       ],
       "options": [
+        "Sólo 2.",
+        "Sólo 1 y 2.",
         "Sólo 3.",
-        "Todas las afirmaciones.",
-        "Todas las afirmaciones.",
         "Todas las afirmaciones.",
         "Sólo 1."
       ],
       "key": 3,
       "option_reasons": [
+        "Omite 1, 3.",
+        "Omite 3.",
         "Omite 1, 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2, 3."
       ],
@@ -14387,19 +14387,19 @@
         "Así se describe la actuación del juez durante la etapa de conciliación."
       ],
       "options": [
-        "Sólo 1, 2 y 3.",
-        "Sólo 2 y 4.",
+        "Sólo 1 y 2.",
+        "Sólo 3.",
         "Sólo 2.",
         "Todas las afirmaciones son falsas.",
-        "Sólo 3."
+        "Sólo 1."
       ],
       "key": 2,
       "option_reasons": [
-        "Incluye indebidamente 1, 3.",
-        "Incluye indebidamente 4.",
+        "Incluye indebidamente 1.",
+        "Incluye indebidamente 3; omite 2.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 1, 3, 4.",
-        "Incluye indebidamente 3; omite 2."
+        "Incluye indebidamente 1; omite 2."
       ],
       "negative": true,
       "number": 383,
@@ -14436,19 +14436,19 @@
         "La regla general señalada es de veinte días."
       ],
       "options": [
-        "Sólo 2 y 4.",
+        "Sólo 3.",
         "Sólo 1, 2 y 4.",
         "Sólo 1.",
-        "Sólo 3.",
-        "Sólo 1, 2 y 3."
+        "Sólo 2.",
+        "Sólo 1 y 2."
       ],
       "key": 1,
       "option_reasons": [
-        "Omite 1.",
+        "Incluye indebidamente 3; omite 1, 2, 4.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2, 4.",
-        "Incluye indebidamente 3; omite 1, 2, 4.",
-        "Incluye indebidamente 3; omite 4."
+        "Omite 1, 4.",
+        "Omite 4."
       ],
       "negative": false,
       "number": 384,
@@ -14487,17 +14487,17 @@
       "options": [
         "Sólo 1, 3 y 4.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 4.",
-        "Sólo 1, 2 y 4."
+        "Sólo 1 y 2.",
+        "Sólo 3.",
+        "Sólo 1 y 3."
       ],
       "key": 0,
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1, 3, 4.",
-        "Omite 4.",
-        "Omite 1, 3.",
-        "Incluye indebidamente 2; omite 3."
+        "Incluye indebidamente 2; omite 3, 4.",
+        "Omite 1, 4.",
+        "Omite 4."
       ],
       "negative": false,
       "number": 385,
@@ -14535,17 +14535,17 @@
       ],
       "options": [
         "Sólo 1 y 2.",
+        "Sólo 3.",
+        "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 1 y 4.",
-        "Sólo 1, 3 y 4.",
         "Sólo 1, 2 y 4."
       ],
       "key": 4,
       "option_reasons": [
         "Omite 4.",
+        "Incluye indebidamente 3; omite 1, 2, 4.",
+        "Incluye indebidamente 3; omite 2, 4.",
         "Incluye indebidamente 3; omite 1, 4.",
-        "Omite 2.",
-        "Incluye indebidamente 3; omite 2.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "negative": false,
@@ -14581,17 +14581,17 @@
         "Esta posibilidad distingue a las resoluciones que causan ejecutoria de las que están firmes."
       ],
       "options": [
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3.",
         "Todas las afirmaciones."
       ],
       "key": 3,
       "option_reasons": [
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
         "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1."
       ],
@@ -14630,19 +14630,19 @@
         "La objetividad impide limitar la investigación a los antecedentes incriminatorios."
       ],
       "options": [
-        "Sólo 3 y 4.",
-        "Todas las afirmaciones.",
+        "Sólo 1, 2 y 3.",
+        "Sólo 4.",
         "Sólo 1, 2 y 4.",
         "Sólo 1 y 3.",
-        "Sólo 4."
+        "Sólo 2 y 3."
       ],
       "key": 2,
       "option_reasons": [
-        "Incluye indebidamente 3; omite 1, 2.",
-        "Incluye indebidamente 3.",
+        "Incluye indebidamente 3; omite 4.",
+        "Omite 1, 2.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 3; omite 2, 4.",
-        "Omite 1, 2."
+        "Incluye indebidamente 3; omite 1, 4."
       ],
       "negative": false,
       "number": 388,
@@ -14676,19 +14676,19 @@
         "Éste es el sentido de su carácter supletorio."
       ],
       "options": [
-        "Sólo 1.",
+        "Sólo 2 y 3.",
         "Sólo 1.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 1."
+        "Sólo 3.",
+        "Sólo 1 y 3."
       ],
       "key": 1,
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones falsas.",
+        "Incluye indebidamente 2, 3; omite 1.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3."
       ],
       "negative": true,
       "number": 389,
@@ -14727,17 +14727,17 @@
       "options": [
         "Sólo 1, 2 y 4.",
         "Sólo 1, 2 y 3.",
-        "Sólo 2 y 4.",
-        "Sólo 2, 3 y 4.",
-        "Sólo 2."
+        "Sólo 4.",
+        "Sólo 1 y 4.",
+        "Sólo 2 y 4."
       ],
       "key": 0,
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 3; omite 4.",
-        "Omite 1.",
-        "Incluye indebidamente 3; omite 1.",
-        "Omite 1, 4."
+        "Omite 1, 2.",
+        "Omite 2.",
+        "Omite 1."
       ],
       "negative": false,
       "number": 390,
@@ -14775,17 +14775,17 @@
       ],
       "options": [
         "Sólo 4.",
+        "Sólo 2 y 4.",
+        "Sólo 1, 2 y 4.",
         "Sólo 3 y 4.",
-        "Todas las afirmaciones son falsas.",
-        "Sólo 1 y 2.",
         "Sólo 1 y 4."
       ],
       "key": 4,
       "option_reasons": [
         "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2.",
         "Incluye indebidamente 3; omite 1.",
-        "Incluye indebidamente 2, 3.",
-        "Incluye indebidamente 2; omite 4.",
         "Selecciona exactamente las afirmaciones falsas."
       ],
       "negative": true,
@@ -14821,18 +14821,18 @@
         "La enumeración aparece al explicar la separación de funciones."
       ],
       "options": [
+        "Todas las afirmaciones.",
+        "Sólo 1.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 2.",
+        "Omite 3.",
         "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1."
       ],
@@ -14869,20 +14869,20 @@
         "El manual indica cinco días desde la tramitación del decreto promulgatorio."
       ],
       "options": [
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
+        "Sólo 2.",
+        "Sólo 1 y 2.",
         "Sólo 1 y 3.",
         "Todas las afirmaciones son falsas.",
-        "Sólo 1 y 2."
+        "Sólo 1."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2; omite 3."
+        "Omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 393,
@@ -14915,20 +14915,20 @@
         "El manual la define como órgano superior de fiscalización de la Administración del Estado."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Sólo 3.",
         "Sólo 1 y 3.",
         "Sólo 1.",
-        "Sólo 3.",
-        "Sólo 1 y 3."
+        "Sólo 2.",
+        "Sólo 1 y 2."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Omite 1.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3.",
-        "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 394,
@@ -14965,18 +14965,18 @@
       "options": [
         "Sólo 1.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 1.",
-        "Sólo 1."
+        "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
+        "Incluye indebidamente 2, 3; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 395,
@@ -15014,18 +15014,18 @@
       ],
       "options": [
         "Sólo 2, 3 y 4.",
+        "Todas las afirmaciones.",
+        "Sólo 1.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 4.",
         "Sólo 1, 2 y 4."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
+        "Omite 2, 4.",
         "Omite 1, 4.",
-        "Incluye indebidamente 3; omite 2, 4.",
-        "Omite 1, 2.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -15060,18 +15060,18 @@
         "La edad de 35 años aparece junto con ciudadanía y enseñanza media o equivalente."
       ],
       "options": [
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3.",
         "Sólo 3."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1.",
         "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2."
       ],
@@ -15106,20 +15106,20 @@
         "El Senado conoce las acusaciones; la Cámara las inicia."
       ],
       "options": [
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 2."
+        "Todas las afirmaciones."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Omite 3.",
+        "Incluye indebidamente 2; omite 1, 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1.",
-        "Incluye indebidamente 2; omite 1, 3."
+        "Incluye indebidamente 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 398,
@@ -15153,20 +15153,20 @@
         "El plazo de promulgación indicado es de diez días."
       ],
       "options": [
-        "Sólo 2 y 3.",
+        "Sólo 1 y 2.",
         "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 2.",
-        "Sólo 2 y 3."
+        "Sólo 1.",
+        "Sólo 2."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 1; omite 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1.",
-        "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 399,
@@ -15203,18 +15203,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 1.",
-        "Sólo 3.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Sólo 2.",
+        "Sólo 1 y 2.",
+        "Sólo 3."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3.",
-        "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3.",
+        "Omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 400,
@@ -15254,18 +15254,18 @@
       ],
       "options": [
         "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3.",
         "Sólo 1, 2 y 3.",
-        "Sólo 2 y 4.",
-        "Sólo 2, 3 y 4.",
         "Sólo 1, 2 y 4."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 3; omite 1, 2, 4.",
+        "Incluye indebidamente 3; omite 2, 4.",
+        "Incluye indebidamente 3; omite 1, 4.",
         "Incluye indebidamente 3; omite 4.",
-        "Omite 1.",
-        "Incluye indebidamente 3; omite 1.",
         "Selecciona exactamente las afirmaciones falsas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -15301,18 +15301,18 @@
         "La edad mínima indicada en la enumeración de requisitos presidenciales es 35 años."
       ],
       "options": [
+        "Sólo 3.",
+        "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 1 y 2."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
         "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3."
       ],
@@ -15348,20 +15348,20 @@
         "Ésa es la caracterización institucional expresamente utilizada."
       ],
       "options": [
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
+        "Todas las afirmaciones.",
+        "Sólo 1.",
         "Sólo 2 y 3.",
         "Sólo 3.",
-        "Sólo 1."
+        "Sólo 1 y 3."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 1.",
+        "Incluye indebidamente 1; omite 2, 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2.",
-        "Incluye indebidamente 1; omite 2, 3."
+        "Incluye indebidamente 1; omite 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 403,
@@ -15394,20 +15394,20 @@
         "La cifra indicada por el manual es 155 diputados."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Sólo 2.",
         "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 2.",
-        "Sólo 1 y 3."
+        "Todas las afirmaciones.",
+        "Sólo 1."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 2; omite 1, 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1.",
-        "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2.",
+        "Omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 404,
@@ -15444,18 +15444,18 @@
       "options": [
         "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3."
+        "Sólo 1.",
+        "Sólo 2.",
+        "Sólo 1 y 2."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1.",
-        "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
+        "Incluye indebidamente 1; omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 405,
@@ -15493,18 +15493,18 @@
       ],
       "options": [
         "Sólo 1 y 4.",
+        "Sólo 2 y 4.",
+        "Sólo 3 y 4.",
         "Sólo 1, 3 y 4.",
-        "Sólo 1.",
-        "Sólo 3.",
         "Sólo 1, 2 y 4."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Omite 2.",
+        "Omite 1.",
+        "Incluye indebidamente 3; omite 1, 2.",
         "Incluye indebidamente 3; omite 2.",
-        "Omite 2, 4.",
-        "Incluye indebidamente 3; omite 1, 2, 4.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -15539,18 +15539,18 @@
         "La iniciativa puede comenzar en cualquiera de las cámaras mediante mensaje o moción, con las reglas especiales de cada materia."
       ],
       "options": [
+        "Sólo 3.",
+        "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 1.",
-        "Sólo 1.",
         "Sólo 1.",
         "Sólo 1 y 2."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
         "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2."
       ],
@@ -15586,20 +15586,20 @@
         "La sanción es la aprobación o rechazo presidencial del proyecto ya aprobado por ambas cámaras."
       ],
       "options": [
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
+        "Sólo 2 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1 y 3.",
         "Sólo 1 y 2.",
-        "Todas las afirmaciones."
+        "Sólo 3."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3.",
-        "Incluye indebidamente 2."
+        "Omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 408,
@@ -15634,20 +15634,20 @@
         "Es una mezcla de la composición y duración de la Cámara de Diputados."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Sólo 1.",
         "Sólo 1 y 3.",
         "Sólo 3.",
-        "Sólo 1.",
-        "Sólo 1 y 3."
+        "Sólo 2 y 3.",
+        "Todas las afirmaciones son falsas."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones falsas.",
+        "Omite 3.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Omite 1.",
-        "Omite 3.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 409,
@@ -15683,18 +15683,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Todas las afirmaciones.",
+        "Sólo 1.",
+        "Sólo 2."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1.",
-        "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2.",
+        "Omite 3.",
+        "Incluye indebidamente 2; omite 1, 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 410,
@@ -15733,18 +15733,18 @@
       ],
       "options": [
         "Todas las afirmaciones.",
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 1 y 4.",
         "Sólo 1, 3 y 4."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 2.",
+        "Omite 3, 4.",
+        "Incluye indebidamente 2; omite 1, 3, 4.",
         "Incluye indebidamente 2; omite 3, 4.",
-        "Incluye indebidamente 2; omite 1, 4.",
-        "Omite 3.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -15779,18 +15779,18 @@
         "El manual la define como órgano superior de fiscalización de la Administración del Estado."
       ],
       "options": [
+        "Sólo 2.",
+        "Sólo 1 y 2.",
         "Sólo 3.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 1."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3.",
         "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3."
       ],
@@ -15826,20 +15826,20 @@
         "El manual señala cuatro años y posibilidad de reelección."
       ],
       "options": [
-        "Sólo 1.",
-        "Sólo 1.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3.",
         "Sólo 1.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3."
+        "Sólo 3."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
+        "Incluye indebidamente 3.",
+        "Incluye indebidamente 2, 3; omite 1.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2, 3; omite 1."
+        "Incluye indebidamente 3; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 413,
@@ -15873,20 +15873,20 @@
         "Ésa es la regla general descrita para tribunales con más de cinco jueces."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1 y 3.",
         "Sólo 1 y 2.",
-        "Todas las afirmaciones.",
-        "Sólo 1 y 3."
+        "Sólo 3.",
+        "Sólo 2 y 3."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 2.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3.",
-        "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 414,
@@ -15922,18 +15922,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 3.",
-        "Sólo 1.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Sólo 2 y 3.",
+        "Todas las afirmaciones son falsas.",
+        "Sólo 1."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones falsas.",
         "Omite 1.",
-        "Omite 3.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2.",
+        "Omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 415,
@@ -15968,18 +15968,18 @@
       ],
       "options": [
         "Sólo 2 y 3.",
+        "Todas las afirmaciones.",
+        "Sólo 1.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2.",
+        "Omite 3.",
         "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -16015,18 +16015,18 @@
         "Ésa es la regla general descrita para tribunales con más de cinco jueces."
       ],
       "options": [
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3.",
         "Todas las afirmaciones."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
         "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1."
       ],
@@ -16065,20 +16065,20 @@
         "La propuesta presupuestaria se vincula a la Corporación Administrativa."
       ],
       "options": [
-        "Sólo 2, 3 y 4.",
-        "Sólo 2.",
+        "Sólo 1 y 4.",
+        "Sólo 2 y 4.",
         "Sólo 1, 2 y 4.",
         "Sólo 1, 2 y 3.",
-        "Sólo 2 y 4."
+        "Sólo 4."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Incluye indebidamente 3; omite 1.",
-        "Omite 1, 4.",
+        "Omite 2.",
+        "Omite 1.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 3; omite 4.",
-        "Omite 1."
+        "Omite 1, 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 418,
@@ -16112,20 +16112,20 @@
         "El manual fija dos años y permite una reelección por un nuevo período."
       ],
       "options": [
-        "Sólo 1.",
+        "Sólo 2 y 3.",
         "Sólo 1.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 1."
+        "Sólo 3.",
+        "Sólo 1 y 3."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones falsas.",
+        "Incluye indebidamente 2, 3; omite 1.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 419,
@@ -16161,18 +16161,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 1 y 2.",
-        "Todas las afirmaciones.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Sólo 3.",
+        "Sólo 2 y 3.",
+        "Todas las afirmaciones."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3.",
-        "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 420,
@@ -16207,18 +16207,18 @@
       ],
       "options": [
         "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Omite 2.",
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1.",
         "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -16253,18 +16253,18 @@
         "La página 27 distribuye las atribuciones entre el Presidente de Corte y el juez presidente."
       ],
       "options": [
+        "Todas las afirmaciones.",
+        "Sólo 1.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 2.",
+        "Omite 3.",
         "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1."
       ],
@@ -16303,20 +16303,20 @@
         "La regla general es mayoría y el juez presidente dirime empates."
       ],
       "options": [
-        "Sólo 3.",
-        "Sólo 1, 2 y 3.",
+        "Todas las afirmaciones son falsas.",
+        "Sólo 1.",
         "Sólo 1, 2 y 4.",
         "Sólo 1, 3 y 4.",
-        "Sólo 1."
+        "Sólo 2, 3 y 4."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Incluye indebidamente 3; omite 1, 2, 4.",
-        "Incluye indebidamente 3; omite 4.",
+        "Incluye indebidamente 3.",
+        "Omite 2, 4.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 3; omite 2.",
-        "Omite 2, 4."
+        "Incluye indebidamente 3; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 423,
@@ -16351,20 +16351,20 @@
         "Es la capacidad inherente a toda persona física y viva, sucesión o persona jurídica para ser sujeto procesal."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Sólo 3.",
         "Sólo 1 y 3.",
         "Sólo 1.",
-        "Sólo 3.",
-        "Sólo 1 y 3."
+        "Sólo 2.",
+        "Sólo 1 y 2."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Omite 1.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3.",
-        "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 424,
@@ -16401,18 +16401,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 2.",
-        "Sólo 2 y 3.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Sólo 1 y 2.",
+        "Sólo 3.",
+        "Sólo 2 y 3."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2; omite 1, 3.",
-        "Incluye indebidamente 2; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 2; omite 3.",
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 425,
@@ -16448,18 +16448,18 @@
       ],
       "options": [
         "Sólo 1 y 2.",
+        "Sólo 3.",
+        "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 2; omite 3.",
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
         "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -16494,18 +16494,18 @@
         "La página 37 lo establece para resoluciones y actuaciones."
       ],
       "options": [
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3.",
         "Sólo 3."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1.",
         "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2."
       ],
@@ -16547,20 +16547,20 @@
         "Son los dos principios generales indicados."
       ],
       "options": [
-        "Sólo 1 y 4.",
-        "Sólo 1, 3 y 4.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3.",
         "Sólo 1, 2 y 4.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3."
+        "Sólo 3."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Omite 2.",
-        "Incluye indebidamente 3; omite 2.",
+        "Incluye indebidamente 3; omite 2, 4.",
+        "Incluye indebidamente 3; omite 1, 4.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 4.",
-        "Incluye indebidamente 3; omite 1, 4."
+        "Incluye indebidamente 3; omite 1, 2, 4."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 428,
@@ -16594,20 +16594,20 @@
         "Ésa es la definición del manual."
       ],
       "options": [
-        "Sólo 2 y 3.",
+        "Sólo 1 y 2.",
         "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 2.",
-        "Sólo 2 y 3."
+        "Sólo 1.",
+        "Sólo 2."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 1; omite 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1.",
-        "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 429,
@@ -16643,18 +16643,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 1.",
-        "Sólo 3.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Sólo 2.",
+        "Sólo 1 y 2.",
+        "Sólo 3."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3.",
-        "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3.",
+        "Omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 430,
@@ -16689,18 +16689,18 @@
       ],
       "options": [
         "Sólo 1 y 2.",
+        "Sólo 3.",
+        "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 1.",
-        "Sólo 1.",
         "Sólo 1."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 2.",
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
         "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -16737,18 +16737,18 @@
         "La ley prohíbe registros paralelos y usa el sistema informático."
       ],
       "options": [
+        "Sólo 3.",
+        "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 1 y 2."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
         "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3."
       ],
@@ -16789,20 +16789,20 @@
         "Puede utilizarse con ratificación ante ministro de fe."
       ],
       "options": [
-        "Todas las afirmaciones son falsas.",
-        "Sólo 1 y 2.",
+        "Sólo 2 y 4.",
+        "Sólo 3 y 4.",
         "Sólo 1, 2 y 4.",
         "Sólo 4.",
-        "Sólo 3 y 4."
+        "Sólo 1 y 4."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Incluye indebidamente 3.",
-        "Omite 4.",
+        "Omite 1.",
+        "Incluye indebidamente 3; omite 1, 2.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Omite 1, 2.",
-        "Incluye indebidamente 3; omite 1, 2."
+        "Omite 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 433,
@@ -16836,20 +16836,20 @@
         "Es la capacidad inherente a toda persona física y viva, sucesión o persona jurídica para ser sujeto procesal."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Sólo 2.",
         "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 2.",
-        "Sólo 1 y 3."
+        "Todas las afirmaciones.",
+        "Sólo 1."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 2; omite 1, 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1.",
-        "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2.",
+        "Omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 434,
@@ -16885,18 +16885,18 @@
       "options": [
         "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3."
+        "Sólo 1.",
+        "Sólo 2.",
+        "Sólo 1 y 2."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1.",
-        "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
+        "Incluye indebidamente 1; omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 435,
@@ -16932,18 +16932,18 @@
       ],
       "options": [
         "Sólo 1.",
+        "Sólo 2.",
+        "Sólo 1 y 2.",
         "Sólo 3.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Omite 3.",
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3.",
         "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -16979,18 +16979,18 @@
         "La página 37 lo establece para resoluciones y actuaciones."
       ],
       "options": [
+        "Sólo 3.",
+        "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 1.",
-        "Sólo 1.",
         "Sólo 1.",
         "Sólo 1 y 2."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
         "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2."
       ],
@@ -17031,20 +17031,20 @@
         "Son los dos principios generales indicados."
       ],
       "options": [
-        "Sólo 1 y 3.",
-        "Sólo 4.",
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1, 2 y 4.",
         "Sólo 2, 3 y 4.",
-        "Sólo 2."
+        "Todas las afirmaciones."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Incluye indebidamente 3; omite 2, 4.",
-        "Omite 1, 2.",
+        "Omite 2, 4.",
+        "Omite 1, 4.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 3; omite 1.",
-        "Omite 1, 4."
+        "Incluye indebidamente 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 438,
@@ -17078,20 +17078,20 @@
         "Es la noción definida al describir un procedimiento desconcentrado."
       ],
       "options": [
-        "Sólo 2 y 3.",
+        "Sólo 1.",
         "Sólo 2 y 3.",
         "Sólo 3.",
-        "Sólo 1.",
-        "Sólo 2 y 3."
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 1; omite 2, 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2.",
-        "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 439,
@@ -17128,18 +17128,18 @@
       "options": [
         "Sólo 1 y 2.",
         "Sólo 2 y 3.",
-        "Sólo 2.",
-        "Sólo 1 y 2.",
-        "Sólo 1 y 2."
+        "Todas las afirmaciones son falsas.",
+        "Sólo 1.",
+        "Sólo 2."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 3; omite 1.",
-        "Omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 3.",
+        "Omite 2.",
+        "Omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 440,
@@ -17175,18 +17175,18 @@
       ],
       "options": [
         "Todas las afirmaciones.",
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 1.",
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
         "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -17221,18 +17221,18 @@
         "El manual las distingue de las perentorias y mixtas."
       ],
       "options": [
+        "Sólo 2.",
+        "Sólo 1 y 2.",
         "Sólo 3.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 1."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3.",
         "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3."
       ],
@@ -17273,20 +17273,20 @@
         "El manual diferencia la conciliación del avenimiento y del desistimiento."
       ],
       "options": [
-        "Sólo 1, 2 y 4.",
-        "Sólo 2, 3 y 4.",
+        "Sólo 1, 2 y 3.",
+        "Sólo 4.",
         "Sólo 2.",
         "Sólo 1 y 3.",
-        "Sólo 4."
+        "Sólo 2 y 3."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Incluye indebidamente 1, 4.",
-        "Incluye indebidamente 3, 4.",
+        "Incluye indebidamente 1, 3.",
+        "Incluye indebidamente 4; omite 2.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 1, 3; omite 2.",
-        "Incluye indebidamente 4; omite 2."
+        "Incluye indebidamente 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 443,
@@ -17321,20 +17321,20 @@
         "Es el trámite indicado para preparar la prueba de testigos."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1 y 3.",
         "Sólo 1 y 2.",
-        "Todas las afirmaciones.",
-        "Sólo 1 y 3."
+        "Sólo 3.",
+        "Sólo 2 y 3."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 2.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3.",
-        "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 444,
@@ -17370,18 +17370,18 @@
       "options": [
         "Sólo 2 y 3.",
         "Sólo 3.",
-        "Sólo 1.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3."
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
+        "Sólo 1."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2.",
-        "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1.",
+        "Incluye indebidamente 1; omite 2, 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 445,
@@ -17416,18 +17416,18 @@
       ],
       "options": [
         "Sólo 2 y 3.",
+        "Todas las afirmaciones.",
+        "Sólo 1.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2.",
+        "Omite 3.",
         "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -17462,18 +17462,18 @@
         "Se decretan para acreditar o esclarecer hechos dentro del plazo para sentenciar."
       ],
       "options": [
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3.",
         "Todas las afirmaciones."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
         "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1."
       ],
@@ -17514,20 +17514,20 @@
         "El manual distingue el avenimiento de la conciliación, que usa bases propuestas por el juez."
       ],
       "options": [
-        "Sólo 1.",
-        "Sólo 3.",
+        "Sólo 3 y 4.",
+        "Sólo 1, 3 y 4.",
         "Sólo 1, 2 y 3.",
         "Sólo 2 y 4.",
-        "Sólo 1, 3 y 4."
+        "Sólo 1, 2 y 4."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Omite 2, 3.",
-        "Omite 1, 2.",
+        "Incluye indebidamente 4; omite 1, 2.",
+        "Incluye indebidamente 4; omite 2.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 4; omite 1, 3.",
-        "Incluye indebidamente 4; omite 2."
+        "Incluye indebidamente 4; omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 448,
@@ -17561,20 +17561,20 @@
         "Es la noción definida al describir un procedimiento desconcentrado."
       ],
       "options": [
-        "Sólo 1.",
+        "Sólo 2 y 3.",
         "Sólo 1.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 1."
+        "Sólo 3.",
+        "Sólo 1 y 3."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones falsas.",
+        "Incluye indebidamente 2, 3; omite 1.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 449,
@@ -17611,18 +17611,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 1 y 2.",
-        "Todas las afirmaciones.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Sólo 3.",
+        "Sólo 2 y 3.",
+        "Todas las afirmaciones."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3.",
-        "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 450,
@@ -17658,18 +17658,18 @@
       ],
       "options": [
         "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Omite 2.",
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1.",
         "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -17704,18 +17704,18 @@
         "El manual las distingue de las perentorias y mixtas."
       ],
       "options": [
+        "Todas las afirmaciones.",
+        "Sólo 1.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 2.",
+        "Omite 3.",
         "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1."
       ],
@@ -17756,20 +17756,20 @@
         "El manual diferencia la conciliación del avenimiento y del desistimiento."
       ],
       "options": [
-        "Sólo 2 y 3.",
-        "Sólo 1 y 4.",
+        "Sólo 2.",
+        "Sólo 1 y 2.",
         "Sólo 1, 3 y 4.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 2."
+        "Sólo 1."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Incluye indebidamente 2; omite 1, 4.",
-        "Omite 3.",
+        "Incluye indebidamente 2; omite 1, 3, 4.",
+        "Incluye indebidamente 2; omite 3, 4.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2; omite 3, 4."
+        "Omite 3, 4."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 453,
@@ -17804,20 +17804,20 @@
         "Es el trámite indicado para preparar la prueba de testigos."
       ],
       "options": [
-        "Sólo 1 y 3.",
+        "Sólo 3.",
         "Sólo 1 y 3.",
         "Sólo 1.",
-        "Sólo 3.",
-        "Sólo 1 y 3."
+        "Sólo 2.",
+        "Sólo 1 y 2."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Omite 1.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3.",
-        "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 454,
@@ -17853,18 +17853,18 @@
       "options": [
         "Sólo 1.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 1.",
-        "Sólo 1."
+        "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
+        "Incluye indebidamente 2, 3; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 455,
@@ -17899,18 +17899,18 @@
       ],
       "options": [
         "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3.",
         "Todas las afirmaciones son falsas.",
-        "Sólo 1 y 2.",
-        "Sólo 1 y 2.",
         "Sólo 1 y 2."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 3; omite 1, 2.",
+        "Incluye indebidamente 3; omite 2.",
+        "Incluye indebidamente 3; omite 1.",
         "Incluye indebidamente 3.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -17946,18 +17946,18 @@
         "Se decretan para acreditar o esclarecer hechos dentro del plazo para sentenciar."
       ],
       "options": [
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3.",
         "Sólo 3."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1.",
         "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2."
       ],
@@ -17996,20 +17996,20 @@
         "El manual distingue el avenimiento de la conciliación, que usa bases propuestas por el juez."
       ],
       "options": [
-        "Sólo 3 y 4.",
-        "Todas las afirmaciones.",
+        "Sólo 1, 2 y 3.",
+        "Sólo 4.",
         "Sólo 1, 2 y 4.",
         "Sólo 1 y 3.",
-        "Sólo 4."
+        "Sólo 2 y 3."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Incluye indebidamente 3; omite 1, 2.",
-        "Incluye indebidamente 3.",
+        "Incluye indebidamente 3; omite 4.",
+        "Omite 1, 2.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 3; omite 2, 4.",
-        "Omite 1, 2."
+        "Incluye indebidamente 3; omite 1, 4."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 458,
@@ -18043,20 +18043,20 @@
         "Es la noción definida al describir un procedimiento desconcentrado."
       ],
       "options": [
-        "Sólo 2 y 3.",
+        "Sólo 1 y 2.",
         "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 2.",
-        "Sólo 2 y 3."
+        "Sólo 1.",
+        "Sólo 2."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 1; omite 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1.",
-        "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 459,
@@ -18093,18 +18093,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 1.",
-        "Sólo 3.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Sólo 2.",
+        "Sólo 1 y 2.",
+        "Sólo 3."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3.",
-        "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3.",
+        "Omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 460,
@@ -18140,18 +18140,18 @@
       ],
       "options": [
         "Sólo 1 y 2.",
+        "Sólo 3.",
+        "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 1.",
-        "Sólo 1.",
         "Sólo 1."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 2.",
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
         "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -18186,18 +18186,18 @@
         "El manual las distingue de las perentorias y mixtas."
       ],
       "options": [
+        "Sólo 3.",
+        "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 1 y 2."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
         "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3."
       ],
@@ -18238,20 +18238,20 @@
         "El manual diferencia la conciliación del avenimiento y del desistimiento."
       ],
       "options": [
-        "Sólo 2.",
-        "Sólo 1 y 3.",
+        "Sólo 3 y 4.",
+        "Sólo 2, 3 y 4.",
         "Sólo 1, 3 y 4.",
         "Sólo 2 y 4.",
-        "Sólo 2, 3 y 4."
+        "Sólo 1, 2 y 4."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Incluye indebidamente 2; omite 1, 3, 4.",
-        "Omite 4.",
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1, 3.",
-        "Incluye indebidamente 2; omite 1."
+        "Incluye indebidamente 2; omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 463,
@@ -18286,20 +18286,20 @@
         "Es el trámite indicado para preparar la prueba de testigos."
       ],
       "options": [
-        "Sólo 1 y 2.",
+        "Sólo 2.",
         "Sólo 1 y 2.",
         "Sólo 2 y 3.",
-        "Sólo 2.",
-        "Sólo 1 y 2."
+        "Todas las afirmaciones son falsas.",
+        "Sólo 1."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones falsas.",
+        "Omite 1.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 3; omite 1.",
-        "Omite 1.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 3.",
+        "Omite 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 464,
@@ -18335,18 +18335,18 @@
       "options": [
         "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3."
+        "Sólo 1.",
+        "Sólo 2.",
+        "Sólo 1 y 2."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1.",
-        "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
+        "Incluye indebidamente 1; omite 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 465,
@@ -18382,18 +18382,18 @@
       ],
       "options": [
         "Sólo 1.",
+        "Sólo 2.",
+        "Sólo 3.",
         "Sólo 1 y 3.",
-        "Sólo 1 y 2.",
-        "Sólo 1 y 2.",
         "Sólo 1 y 2."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Omite 2.",
+        "Omite 1.",
+        "Incluye indebidamente 3; omite 1, 2.",
         "Incluye indebidamente 3; omite 2.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -18428,18 +18428,18 @@
         "La página 74 define la audiencia como la principal actividad procesal."
       ],
       "options": [
+        "Sólo 3.",
+        "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 1.",
-        "Sólo 1.",
         "Sólo 1.",
         "Sólo 1 y 2."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
         "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2."
       ],
@@ -18475,20 +18475,20 @@
         "La ley permite adoptarlas en cualquier momento, incluso antes de iniciar el procedimiento."
       ],
       "options": [
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
+        "Sólo 2 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1 y 3.",
         "Sólo 1 y 2.",
-        "Todas las afirmaciones."
+        "Sólo 3."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3.",
-        "Incluye indebidamente 2."
+        "Omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 468,
@@ -18526,20 +18526,20 @@
         "Es el carácter general del procedimiento ordinario de familia."
       ],
       "options": [
-        "Sólo 1, 2 y 4.",
+        "Sólo 1 y 3.",
         "Sólo 1, 3 y 4.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 4."
+        "Sólo 1 y 2.",
+        "Sólo 3."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Incluye indebidamente 2; omite 3.",
+        "Omite 4.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1, 3, 4.",
-        "Omite 4.",
-        "Omite 1, 3."
+        "Incluye indebidamente 2; omite 3, 4.",
+        "Omite 1, 4."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 469,
@@ -18576,18 +18576,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 2 y 3.",
-        "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Todas las afirmaciones.",
+        "Sólo 1.",
+        "Sólo 2."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1.",
-        "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 2.",
+        "Omite 3.",
+        "Incluye indebidamente 2; omite 1, 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 470,
@@ -18622,18 +18622,18 @@
       ],
       "options": [
         "Todas las afirmaciones.",
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 1.",
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
         "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -18670,18 +18670,18 @@
         "La página 74 define la audiencia como la principal actividad procesal."
       ],
       "options": [
+        "Sólo 2.",
+        "Sólo 1 y 2.",
         "Sólo 3.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 1."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 2; omite 1, 3.",
+        "Incluye indebidamente 2; omite 3.",
         "Omite 1.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3."
       ],
@@ -18718,20 +18718,20 @@
         "Es la secuencia descrita para el archivo en VIF."
       ],
       "options": [
-        "Sólo 1.",
-        "Sólo 1.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3.",
         "Sólo 1.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3."
+        "Sólo 3."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
+        "Incluye indebidamente 3.",
+        "Incluye indebidamente 2, 3; omite 1.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2, 3; omite 1."
+        "Incluye indebidamente 3; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 473,
@@ -18770,20 +18770,20 @@
         "Es el carácter general del procedimiento ordinario de familia."
       ],
       "options": [
-        "Sólo 2.",
+        "Sólo 1, 2 y 4.",
         "Sólo 1, 2 y 3.",
         "Sólo 4.",
-        "Sólo 1, 2 y 4.",
-        "Sólo 2, 3 y 4."
+        "Sólo 1 y 4.",
+        "Sólo 2 y 4."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Omite 1, 3.",
+        "Incluye indebidamente 4; omite 3.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 4; omite 1, 2, 3.",
-        "Incluye indebidamente 4; omite 3.",
-        "Incluye indebidamente 4; omite 1."
+        "Incluye indebidamente 4; omite 2, 3.",
+        "Incluye indebidamente 4; omite 1, 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 474,
@@ -18820,18 +18820,18 @@
       "options": [
         "Sólo 2 y 3.",
         "Sólo 3.",
-        "Sólo 1.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3."
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
+        "Sólo 1."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 2.",
-        "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1.",
+        "Incluye indebidamente 1; omite 2, 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 475,
@@ -18867,18 +18867,18 @@
       ],
       "options": [
         "Sólo 2 y 3.",
+        "Todas las afirmaciones son falsas.",
+        "Sólo 1.",
         "Sólo 2.",
-        "Sólo 1 y 2.",
-        "Sólo 1 y 2.",
         "Sólo 1 y 2."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
+        "Omite 2.",
         "Omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -18914,18 +18914,18 @@
         "Es la secuencia enumerada en la página 85."
       ],
       "options": [
+        "Sólo 1.",
+        "Sólo 2.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3.",
         "Todas las afirmaciones."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 1; omite 2, 3.",
+        "Omite 3.",
         "Incluye indebidamente 1; omite 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1."
       ],
@@ -18961,20 +18961,20 @@
         "La página 86 fija quince días, aunque puede pronunciarse al término de la audiencia."
       ],
       "options": [
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
+        "Sólo 1 y 2.",
+        "Sólo 3.",
         "Sólo 1 y 3.",
         "Sólo 1.",
-        "Sólo 3."
+        "Sólo 2."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Incluye indebidamente 2; omite 3.",
+        "Omite 1.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Omite 3.",
-        "Omite 1."
+        "Incluye indebidamente 2; omite 1, 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 478,
@@ -19013,20 +19013,20 @@
         "La página 82 define la competencia laboral en torno a normas y contratos de trabajo."
       ],
       "options": [
-        "Sólo 4.",
+        "Sólo 1.",
         "Sólo 2.",
         "Sólo 1, 3 y 4.",
-        "Sólo 1.",
-        "Sólo 1 y 3."
+        "Sólo 2, 3 y 4.",
+        "Todas las afirmaciones son falsas."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Incluye indebidamente 4; omite 2.",
+        "Incluye indebidamente 1; omite 2.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 1, 3, 4; omite 2.",
-        "Incluye indebidamente 1; omite 2.",
-        "Incluye indebidamente 1, 3; omite 2."
+        "Incluye indebidamente 3, 4.",
+        "Incluye indebidamente 1, 3, 4."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 479,
@@ -19063,18 +19063,18 @@
       "options": [
         "Sólo 1 y 3.",
         "Sólo 1 y 2.",
-        "Todas las afirmaciones.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3."
+        "Sólo 3.",
+        "Sólo 2 y 3.",
+        "Todas las afirmaciones."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 3.",
-        "Incluye indebidamente 2.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas."
+        "Omite 1.",
+        "Incluye indebidamente 2; omite 1.",
+        "Incluye indebidamente 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 480,
@@ -19110,18 +19110,18 @@
       ],
       "options": [
         "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Todas las afirmaciones.",
         "Sólo 1.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Omite 2.",
+        "Incluye indebidamente 1; omite 2.",
+        "Incluye indebidamente 1.",
         "Incluye indebidamente 1; omite 2, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
@@ -19156,18 +19156,18 @@
         "Es la secuencia enumerada en la página 85."
       ],
       "options": [
+        "Todas las afirmaciones.",
+        "Sólo 1.",
         "Sólo 2.",
-        "Sólo 1 y 3.",
-        "Sólo 1 y 3.",
         "Sólo 1 y 3.",
         "Sólo 2 y 3."
       ],
       "key": 3,
       "answer": "d",
       "option_reasons": [
+        "Incluye indebidamente 2.",
+        "Omite 3.",
         "Incluye indebidamente 2; omite 1, 3.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 2; omite 1."
       ],
@@ -19204,20 +19204,20 @@
         "Ésa es la condición de procedencia descrita."
       ],
       "options": [
-        "Sólo 2 y 3.",
-        "Sólo 2 y 3.",
+        "Sólo 2.",
+        "Sólo 1 y 2.",
         "Sólo 2 y 3.",
         "Todas las afirmaciones.",
-        "Sólo 1 y 2."
+        "Sólo 1."
       ],
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "Selecciona exactamente las afirmaciones verdaderas.",
-        "Selecciona exactamente las afirmaciones verdaderas.",
+        "Omite 3.",
+        "Incluye indebidamente 1; omite 3.",
         "Selecciona exactamente las afirmaciones verdaderas.",
         "Incluye indebidamente 1.",
-        "Incluye indebidamente 1; omite 3."
+        "Incluye indebidamente 1; omite 2, 3."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 483,
@@ -19256,20 +19256,20 @@
         "La página 82 define la competencia laboral en torno a normas y contratos de trabajo."
       ],
       "options": [
-        "Sólo 1, 3 y 4.",
+        "Sólo 2 y 3.",
         "Sólo 1, 2 y 3.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 2 y 4."
+        "Sólo 3.",
+        "Sólo 1 y 3."
       ],
       "key": 1,
       "answer": "b",
       "option_reasons": [
-        "Incluye indebidamente 4; omite 2.",
+        "Omite 1.",
         "Selecciona exactamente las afirmaciones falsas.",
         "Omite 3.",
-        "Omite 1.",
-        "Incluye indebidamente 4; omite 1, 3."
+        "Omite 1, 2.",
+        "Omite 2."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 484,
@@ -19304,18 +19304,18 @@
       "options": [
         "Sólo 1.",
         "Sólo 1 y 2.",
-        "Sólo 2 y 3.",
-        "Sólo 1.",
-        "Sólo 1."
+        "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3."
       ],
       "key": 0,
       "answer": "a",
       "option_reasons": [
         "Selecciona exactamente las afirmaciones falsas.",
         "Incluye indebidamente 2.",
-        "Incluye indebidamente 2, 3; omite 1.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas."
+        "Incluye indebidamente 3; omite 1.",
+        "Incluye indebidamente 3.",
+        "Incluye indebidamente 2, 3; omite 1."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 485,
@@ -19350,18 +19350,18 @@
       ],
       "options": [
         "Sólo 3.",
+        "Sólo 1 y 3.",
+        "Sólo 2 y 3.",
         "Todas las afirmaciones son falsas.",
-        "Sólo 1 y 2.",
-        "Sólo 1 y 2.",
         "Sólo 1 y 2."
       ],
       "key": 4,
       "answer": "e",
       "option_reasons": [
         "Incluye indebidamente 3; omite 1, 2.",
+        "Incluye indebidamente 3; omite 2.",
+        "Incluye indebidamente 3; omite 1.",
         "Incluye indebidamente 3.",
-        "Selecciona exactamente las afirmaciones falsas.",
-        "Selecciona exactamente las afirmaciones falsas.",
         "Selecciona exactamente las afirmaciones falsas."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
