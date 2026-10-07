@@ -40,7 +40,7 @@ function shuffle(list) {
 }
 
 function sampleAttempt() {
-  const targets = [5, 2, 4, 7, 3, 3, 4, 1, 1];
+  const targets = [6, 2, 3, 3, 2, 2, 7, 3, 2];
   const selected = [];
   for (let chapter = 1; chapter <= 9; chapter += 1) {
     const group = shuffle(state.bank.filter(q => q.chapter === chapter));
@@ -216,9 +216,9 @@ function calculateResult(auto) {
 
 function saveHistory(result) {
   try {
-    const history = JSON.parse(localStorage.getItem('b250-history') || '[]');
+    const history = JSON.parse(localStorage.getItem('b500-history') || '[]');
     history.unshift({ correct: result.correct, wrong: result.wrong, omitted: result.omitted, elapsed: result.elapsed, date: result.finishedAt });
-    localStorage.setItem('b250-history', JSON.stringify(history.slice(0, 8)));
+    localStorage.setItem('b500-history', JSON.stringify(history.slice(0, 8)));
   } catch (error) { /* storage can be unavailable in private browser contexts */ }
 }
 
@@ -331,7 +331,7 @@ function renderHistory() {
   const section = $('#history-section');
   const list = $('#history-list');
   try {
-    const history = JSON.parse(localStorage.getItem('b250-history') || '[]');
+    const history = JSON.parse(localStorage.getItem('b500-history') || '[]');
     section.hidden = history.length === 0;
     list.replaceChildren();
     history.forEach(entry => {
@@ -371,14 +371,14 @@ function bindEvents() {
     cards.forEach(card => card.classList.toggle('open', shouldOpen));
     $('#collapse-review').textContent = shouldOpen ? 'Contraer todo' : 'Expandir todo';
   });
-  $('#clear-history').addEventListener('click', () => { localStorage.removeItem('b250-history'); renderHistory(); });
+  $('#clear-history').addEventListener('click', () => { localStorage.removeItem('b500-history'); renderHistory(); });
 }
 
 async function init() {
   bindEvents();
   renderHistory();
   try {
-    const response = await fetch('banco_B250.json');
+    const response = await fetch('banco_B500.json');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];

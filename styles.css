@@ -20,3 +20,33 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:lin
 .results-hero{padding-top:35px}.results-hero h1{font-size:70px}.result-score{border-radius:20px;background:linear-gradient(145deg,#133d40,#0c292f);box-shadow:0 18px 34px rgba(16,47,52,.2);min-width:185px}.result-summary{gap:14px}.result-summary>div{border:1px solid #d6e4db;border-radius:15px;background:rgba(255,255,255,.72);padding:18px 20px;box-shadow:0 8px 20px rgba(38,74,63,.04)}.chapter-results,.review-section{background:rgba(255,255,255,.25);border-radius:20px;padding:6px 0}.chapter-bar{border:1px solid #d6e4db;border-radius:12px;background:rgba(255,255,255,.7);padding:14px 15px}.bar-track{height:8px;background:#e0eae3}.bar-fill{background:linear-gradient(90deg,#2d806b,#d8953f);border-radius:99px}.review-card{border-color:#d6e4db;border-radius:14px;background:rgba(255,255,255,.8);overflow:hidden;box-shadow:0 7px 18px rgba(38,74,63,.035)}.review-summary{padding:17px 19px}.review-card.open{box-shadow:0 12px 24px rgba(38,74,63,.07)}.review-body{padding:23px 24px 25px}.answer-box{border-radius:11px}.results-actions{border-top-color:#d6e4db;padding-top:31px}
 @media(max-width:850px){.hero-copy:before{left:-25px}.how-section{padding-top:76px}.question-card{padding:28px 28px 30px}}
 @media(max-width:560px){.shell{padding-top:42px}.hero-copy h1{font-size:52px}.hero-card{border-radius:21px;padding:25px 23px}.hero-orbit{right:21px;top:59px;transform:scale(.78);transform-origin:top right}.score-number{font-size:88px}.hero-proof{gap:9px 13px;font-size:11px}.how-grid article{min-height:0}.question-card{border-radius:17px;padding:24px 19px 26px}.results-hero h1{font-size:53px}.result-summary>div{padding:15px 14px}}
+
+/* Ajuste móvil oficial: lectura cómoda, botones amplios y jerarquía clara. */
+@media(max-width:560px){
+  body{background:#f3f8f3}
+  .noise{opacity:.018}
+  .topbar{height:72px;padding:0 16px;position:sticky;top:0;box-shadow:0 8px 22px rgba(14,41,45,.16)}
+  .brand{gap:9px;min-width:0}.brand-mark{width:35px;height:35px;border-radius:10px;font-size:11px}.brand strong{font-size:11px;white-space:nowrap}.brand small{font-size:9px;white-space:nowrap}
+  .top-status{max-width:145px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding:7px 9px;font-size:8px}
+  .shell{padding:24px 14px 58px}
+  .hero-grid{display:flex;flex-direction:column;gap:23px;padding:12px 0 34px}
+  .hero-copy{width:100%}.hero-copy:before{left:auto;right:-30px;top:-42px;width:90px;height:90px}
+  .eyebrow{font-size:9px;letter-spacing:.16em;margin-bottom:14px}
+  .hero-copy h1{font-size:clamp(41px,13vw,57px);line-height:.97;max-width:11ch;margin-bottom:18px}
+  .hero-lead{font-size:16px;line-height:1.48;margin-bottom:22px}
+  .hero-actions{display:grid;grid-template-columns:1fr;gap:10px}.button-primary{min-height:52px;width:100%;font-size:15px}.text-link{justify-self:center;font-size:13px}
+  .provisional-note{align-items:flex-start;font-size:11px;line-height:1.4;margin-top:22px}.hero-proof{gap:8px 12px;font-size:10px;margin-top:15px}
+  .hero-card{width:100%;max-width:none;min-height:255px;border-radius:23px;padding:23px 21px}.card-topline{font-size:9px}.hero-orbit{right:12px;top:53px;transform:scale(.66)}.score-preview{margin-top:47px}.score-number{font-size:82px}.score-denom{font-size:20px}.score-caption{margin-top:15px;font-size:12px}.mini-stats{justify-content:space-between;gap:8px}.mini-stats strong{font-size:16px}.mini-stats span{font-size:9px}
+  .setup-panel{margin-top:2px;padding:20px 18px;border-radius:18px;display:grid;gap:18px}.setup-copy{gap:12px}.setup-panel h2{font-size:22px}.setup-panel p{font-size:12px;line-height:1.45}.duration-control{display:grid;grid-template-columns:1fr;gap:8px;align-items:start;font-size:10px}.duration-control select{width:100%;min-height:47px;font-size:14px}
+  .how-section{padding-top:57px}.how-section h2{font-size:34px;line-height:1.05;margin-bottom:22px;max-width:12ch}.how-grid{gap:11px}.how-grid article{padding:18px;border-radius:16px;min-height:0}.how-grid h3{font-size:18px;margin:13px 0 5px}.how-grid p{font-size:13px;line-height:1.5}
+  .history-section{margin-top:27px;padding-top:30px}.section-heading{align-items:flex-start;flex-direction:column;gap:9px}.section-heading h2{font-size:26px}.footer{padding:0 14px 18px;font-size:9px;line-height:1.45}
+  .exam-header{align-items:flex-start;flex-direction:column;gap:14px;margin-bottom:21px}.exam-header h1{font-size:34px}.timer{align-self:stretch;min-width:0;text-align:center;padding:12px;font-size:15px}
+  .progress-row{gap:9px;margin-bottom:19px}.progress-row #progress-label,.progress-row #answered-label{font-size:10px}.progress-row #answered-label{min-width:0}.progress-track{height:7px}
+  .question-nav{padding:14px;border-radius:15px}.nav-heading{padding-bottom:11px}.question-palette{grid-template-columns:repeat(6,1fr);gap:6px}.palette-button{border-radius:7px;font-size:10px}.legend{font-size:9px}
+  .question-meta{font-size:9px;margin-bottom:8px}.mark-button{font-size:10px}.question-card{padding:23px 17px 24px;border-radius:19px;min-height:0}.question-card h2{font-size:22px;line-height:1.3;margin-bottom:21px}.statements{padding-left:2px;font-size:13px;margin-bottom:21px}.statements p{margin:8px 0}.option-label{padding:14px 12px;gap:9px;border-radius:11px}.option-text{font-size:13.5px;line-height:1.42}.option-letter{min-width:16px;font-size:11px}
+  .exam-controls{margin:15px 0 21px}.exam-controls .button{min-height:46px;padding:11px 10px;font-size:12px}.submit-row{padding-top:16px}.omission-hint{font-size:10px;line-height:1.4}.finish-button{width:100%;min-height:46px;font-size:13px}
+  .results-hero{padding-top:12px}.results-hero h1{font-size:55px;line-height:.98}.results-hero .hero-lead{font-size:15px}.result-score{margin-top:21px;min-height:100px}.result-score span{font-size:57px}.result-summary{gap:8px;margin-bottom:34px}.result-summary>div{padding:14px 12px;border-radius:12px}.summary-label{font-size:9px}.result-summary strong{font-size:22px}.chapter-results,.review-section{border-radius:16px}.chapter-bar{padding:13px;border-radius:11px}.review-body{padding:19px 16px}.review-question{font-size:16px}.review-answer-row{gap:8px}.results-actions{gap:9px;margin-top:35px;padding-top:23px}
+}
+@media(max-width:380px){
+  .brand small{display:none}.brand strong{font-size:10px}.top-status{max-width:102px}.hero-copy h1{font-size:43px}.hero-card{min-height:242px}.score-number{font-size:76px}.mini-stats span{font-size:8px}.mini-stats strong{font-size:15px}.question-palette{grid-template-columns:repeat(5,1fr)}
+}

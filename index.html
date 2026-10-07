@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#112b2f">
+  <meta name="theme-color" content="#102f34">
   <meta name="description" content="Simulador de prueba de conocimientos para tribunales: intentos de 30 preguntas, cronómetro y corrección razonada.">
   <title>Prueba de conocimientos · Tribunales</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="styles.css?v=20261006-2">
+  <script defer src="app.js?v=20261006-2"></script>
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -26,7 +26,7 @@
     <section id="home-screen" class="screen active" aria-labelledby="home-title">
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">BANCO B250 · EDICIÓN OCTUBRE 2025</p>
+          <p class="eyebrow">BANCO B500 · EDICIÓN OCTUBRE 2025</p>
           <h1 id="home-title">Entrena para responder con precisión.</h1>
           <p class="hero-lead">Simula una prueba de 30 preguntas, administra tu tiempo y revisa cada error con la página exacta del manual.</p>
           <div class="hero-actions">
@@ -45,12 +45,12 @@
           <div class="score-preview"><span class="score-number">20</span><span class="score-denom">/20</span></div>
           <p class="score-caption">La meta</p>
           <div class="mini-rule"></div>
-          <div class="mini-stats"><div><strong>250</strong><span>preguntas</span></div><div><strong>9</strong><span>capítulos</span></div><div><strong>5</strong><span>alternativas</span></div></div>
+          <div class="mini-stats"><div><strong>500</strong><span>preguntas</span></div><div><strong>9</strong><span>capítulos</span></div><div><strong>5</strong><span>alternativas</span></div></div>
         </div>
       </div>
 
       <div class="setup-panel">
-        <div class="setup-copy"><span class="step-number">01</span><div><h2>Configura el intento</h2><p>Siempre serán 30 preguntas seleccionadas del banco. La distribución cubre los nueve capítulos.</p></div></div>
+        <div class="setup-copy"><span class="step-number">01</span><div><h2>Configura el intento</h2><p>Siempre serán 30 preguntas seleccionadas del banco. La selección conserva la proporción de los modelos: 6 / 2 / 3 / 3 / 2 / 2 / 7 / 3 / 2 por capítulo.</p></div></div>
         <label class="duration-control" for="duration-select"><span>Tiempo</span><select id="duration-select"><option value="1800">30 minutos</option><option value="2700" selected>45 minutos</option><option value="3600">60 minutos</option><option value="0">Sin cronómetro</option></select></label>
       </div>
 
@@ -79,6 +79,6 @@
       <div class="results-actions"><button class="button button-primary" id="retry-button">Nuevo intento <span>↗</span></button><button class="button button-ghost" id="results-home-button">Volver al inicio</button></div>
     </section>
   </main>
-  <footer class="footer"><span>Banco B250 · Práctica personal</span><span>El tiempo y la escala de nota son provisionales hasta contar con las bases oficiales.</span></footer>
+  <footer class="footer"><span>Banco B500 · Práctica personal</span><span>El tiempo y la escala de nota son provisionales hasta contar con las bases oficiales.</span></footer>
 </body>
 </html>
