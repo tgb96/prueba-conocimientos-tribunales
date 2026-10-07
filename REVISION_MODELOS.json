@@ -1,0 +1,2583 @@
+{
+  "version": "20261007-modelos",
+  "pdf_items": 61,
+  "distinct_model_questions": 60,
+  "duplicate_appearances": 1,
+  "original_keys_are_official": false,
+  "source_documents": [
+    "Prueba general 20-5.pdf",
+    "Prueba general 23-4.pdf"
+  ],
+  "adjusted_items": [
+    "M-20-5-P07",
+    "M-20-5-P17",
+    "M-20-5-P22",
+    "M-20-5-P24",
+    "M-20-5-P29",
+    "M-20-5-P31",
+    "M-23-4-P05",
+    "M-23-4-P08",
+    "M-23-4-P18",
+    "M-23-4-P19",
+    "M-23-4-P20",
+    "M-23-4-P22",
+    "M-23-4-P23"
+  ],
+  "supplemented_items": [
+    "M-23-4-P20",
+    "M-23-4-P24",
+    "M-23-4-P31",
+    "M-23-4-P32"
+  ],
+  "items": [
+    {
+      "id": "M-20-5-P02",
+      "topic": "Comités de la Corte Suprema",
+      "chapter": 9,
+      "format": "Directa",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        117
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P02",
+            "file": "Prueba general 20-5.pdf",
+            "question": 2,
+            "pdf_page": 1,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "Con el objeto de asesorar al Pleno de la Corte Suprema y entregar a éste proposiciones para que instruya a las unidades técnicas la ejecución de proyectos o acciones concretas, se ha dispuesto la creación de 3 comités estratégicos y propositivos, integrados por miembros de la Corte Suprema. Los comités son:",
+            "original_statements": [],
+            "original_options": [
+              "Modernización, comunicación y personas.",
+              "Modernización, innovación y transparencia.",
+              "Modernización, ciudadanía e inclusión.",
+              "Probidad, innovación y personas.",
+              "Personas, probidad e innovación."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": "B250-120"
+    },
+    {
+      "id": "M-20-5-P03",
+      "topic": "Rendición de cuentas de los comités",
+      "chapter": 9,
+      "format": "Directa",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        117
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P03",
+            "file": "Prueba general 20-5.pdf",
+            "question": 3,
+            "pdf_page": 1,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "Los comités estratégicos de la Corte Suprema tendrán una agenda mensual de trabajo y rendirán cuenta informativa a:",
+            "original_statements": [],
+            "original_options": [
+              "Tribunal Pleno.",
+              "Comisión mixta.",
+              "Fiscalía Judicial.",
+              "Comisión del Congreso Nacional.",
+              "Cortes de Apelaciones."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P04",
+      "topic": "Subrogación del presidente de la Corte Suprema",
+      "chapter": 9,
+      "format": "Directa",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        114
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P04",
+            "file": "Prueba general 20-5.pdf",
+            "question": 4,
+            "pdf_page": 2,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "El Presidente de la Corte Suprema, en caso de licencia, imposibilidad u otra causa accidental, será reemplazado por:",
+            "original_statements": [],
+            "original_options": [
+              "Miembro más antiguo del Escalafón Judicial.",
+              "Ministro más antiguo del mismo tribunal que se halle presente.",
+              "Fiscal Judicial.",
+              "Presidente de la Corte de Santiago.",
+              "Ministro más antiguo de todas las Cortes de Apelaciones."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": "B250-237"
+    },
+    {
+      "id": "M-20-5-P05",
+      "topic": "Retardo en una Corte de Apelaciones",
+      "chapter": 8,
+      "format": "Directa",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        108
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P05",
+            "file": "Prueba general 20-5.pdf",
+            "question": 5,
+            "pdf_page": 2,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Se puede aplicar funcionamiento extraordinario en las Cortes de Apelaciones cuando exista retardo. Se entenderá por retardo cuando:",
+            "original_statements": [],
+            "original_options": [
+              "Al dividir el total de las causas en estado de tabla, inclusive las criminales, por el número de salas, implica un atraso importante, conforme a la regla del art. 62 COT.",
+              "Si dividido el total de los atrasos en estado de tabla y de las apelaciones, por el número de salas, el cociente es superior a doscientos, conforme a la regla del art. 62 COT.",
+              "Si el total de las causas de todas las materias multiplicado por el número de salas, el cociente es superior a ciento, conforme a la regla del art. 62 COT.",
+              "Si dividido el total de las causas en estado de tabla y de las apelaciones que deben conocerse en cuenta, inclusive las criminales, por el número de salas, el cociente es superior a ciento, conforme a la regla del art. 62 COT.",
+              "Si el total de las apelaciones que deben conocerse en la sala penal, dividido por el número de salas, el cociente es superior al promedio diario, conforme a la regla del art. 62 COT."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": "B250-117"
+    },
+    {
+      "id": "M-20-5-P06",
+      "topic": "Funcionamiento extraordinario de las Cortes",
+      "chapter": 8,
+      "format": "Directa",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        108
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P06",
+            "file": "Prueba general 20-5.pdf",
+            "question": 6,
+            "pdf_page": 2,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "En el funcionamiento extraordinario, las Cortes de Apelaciones sesionan dividiéndose en salas, conformándose de la siguiente manera:",
+            "original_statements": [],
+            "original_options": [
+              "Dependiendo de la cantidad de miembros en las salas ordinarias.",
+              "Cinco miembros cada una.",
+              "Un fiscal y 3 miembros cada una.",
+              "Tres miembros cada una.",
+              "Ninguna de las alternativas es correcta."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P07",
+      "topic": "Características de las Cortes de Apelaciones",
+      "chapter": 8,
+      "format": "Directa",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        13,
+        106,
+        108
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P07",
+            "file": "Prueba general 20-5.pdf",
+            "question": 7,
+            "pdf_page": 3,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Las Cortes de Apelaciones presentan las siguientes características:",
+            "original_statements": [],
+            "original_options": [
+              "Sus miembros no están afectos a responsabilidad criminal, civil, disciplinaria y política.",
+              "No pueden considerarse tribunales letrados y de derecho, dadas sus características.",
+              "Sus miembros, llamados ministros, son inamovibles.",
+              "Son tribunales de competencia común, pues conocen indistintamente de causas civiles, laborales, de menores, policía local y criminales.",
+              "Son tribunales de primera instancia."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se acota el enunciado a la competencia: la inamovilidad también era verdadera en el original."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P08",
+      "topic": "Administrador de una Corte de Apelaciones",
+      "chapter": 8,
+      "format": "Directa",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        107
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P08",
+            "file": "Prueba general 20-5.pdf",
+            "question": 8,
+            "pdf_page": 3,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "Los Administradores de Corte de Apelaciones son los encargados de:",
+            "original_statements": [],
+            "original_options": [
+              "Exponer de manera detallada, a los miembros de la Corte, el asunto que es entregado a su conocimiento.",
+              "Ejercer labores de apoyo de la función jurisdiccional y de orientación a los usuarios.",
+              "Elaborar e implementar y tutelar operativamente el Plan Plurianual de la Jurisdicción.",
+              "Tener bajo su radicación las áreas estratégicas de Asuntos Administrativos.",
+              "Son funcionarios que ejercen el Ministerio Público judicial ante el tribunal."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P09",
+      "topic": "Finalidad del recurso de nulidad penal",
+      "chapter": 7,
+      "format": "Directa",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        105
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P09",
+            "file": "Prueba general 20-5.pdf",
+            "question": 9,
+            "pdf_page": 3,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "«Tiene como objeto invalidar el juicio oral y la sentencia definitiva, o solamente la sentencia definitiva, por las causales expresamente señaladas en la ley». Esta definición corresponde al siguiente recurso:",
+            "original_statements": [],
+            "original_options": [
+              "La definición no corresponde a un recurso como tal.",
+              "Recurso de casación.",
+              "Recurso de reposición.",
+              "Recurso de hecho.",
+              "Recurso de nulidad."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P10",
+      "topic": "Inicio de la audiencia de juicio oral",
+      "chapter": 7,
+      "format": "Directa",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        103
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P10",
+            "file": "Prueba general 20-5.pdf",
+            "question": 10,
+            "pdf_page": 4,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "El juicio oral comienza con:",
+            "original_statements": [],
+            "original_options": [
+              "La lectura de las acusaciones, demandas civiles si las hubiere y las convenciones probatorias aprobadas por las partes.",
+              "La declaración del imputado si decide declarar, en cuyo caso puede ser interrogado.",
+              "Los alegatos de apertura de las partes en que darán a conocer su teoría del caso.",
+              "Recepción de las pruebas de la defensa y luego del querellante.",
+              "Debate acerca de circunstancias relevantes para la determinación de la pena."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P11",
+      "topic": "Tutela laboral",
+      "chapter": 6,
+      "format": "Directa",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        89
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P11",
+            "file": "Prueba general 20-5.pdf",
+            "question": 11,
+            "pdf_page": 4,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "El procedimiento de tutela laboral es:",
+            "original_statements": [],
+            "original_options": [
+              "Un procedimiento para abarcar problemáticas de clima laboral, acoso laboral y darle una solución.",
+              "Un recurso de protección.",
+              "Un procedimiento especial que se aplica para las cuestiones que afecten a los derechos fundamentales de los trabajadores en sus relaciones con el empleador.",
+              "Un procedimiento para poder abordar problemáticas de clima laboral.",
+              "Un procedimiento que tiene por objeto que el trabajador pueda obtener indemnización por los años de servicio más las vacaciones proporcionales."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P12",
+      "topic": "Quiénes no son auxiliares de la administración de justicia",
+      "chapter": 2,
+      "format": "Combinación",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P12",
+            "file": "Prueba general 20-5.pdf",
+            "question": 12,
+            "pdf_page": 4,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "No son auxiliares de la administración de justicia:",
+            "original_statements": [
+              "Jueces.",
+              "Defensores Públicos.",
+              "Relatores.",
+              "Funcionarios del escalafón de empleados.",
+              "Receptores.",
+              "Procuradores del número.",
+              "Notarios."
+            ],
+            "original_options": [
+              "Sólo 4.",
+              "1 y 4.",
+              "Sólo 7.",
+              "5, 6 y 7.",
+              "1 y 7."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P13",
+      "topic": "Personas habilitadas como mandatarios judiciales",
+      "chapter": 3,
+      "format": "Combinación",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        35
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P13",
+            "file": "Prueba general 20-5.pdf",
+            "question": 13,
+            "pdf_page": 5,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Pueden ser mandatarios judiciales las siguientes personas:",
+            "original_statements": [
+              "Abogado habilitado para el ejercicio de la profesión.",
+              "Procurador del número.",
+              "Egresados de la carrera de derecho que se encuentren realizando su práctica profesional.",
+              "Estudiantes actualmente inscritos en 3°, 4° o 5° año de las Escuelas de Derecho.",
+              "Egresados de la carrera de derecho que hubieren cursado 5° año, y hasta tres años después de haber rendido los exámenes correspondientes."
+            ],
+            "original_options": [
+              "1, 3, 4 y 5.",
+              "Sólo 1.",
+              "1 y 3.",
+              "1, 2, 3, 4 y 5.",
+              "1, 3 y 5."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P14",
+      "topic": "Equivalencia funcional del soporte electrónico",
+      "chapter": 3,
+      "format": "Directa",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        36
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P14",
+            "file": "Prueba general 20-5.pdf",
+            "question": 14,
+            "pdf_page": 5,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "«Los actos jurisdiccionales y demás actos procesales suscritos por medio de firma electrónica serán válidos y producirán los mismos efectos que si se hubieren llevado a cabo en soporte papel». Esta definición corresponde a:",
+            "original_statements": [],
+            "original_options": [
+              "Principio de equidad.",
+              "Principio de publicidad.",
+              "Principio de buena fe.",
+              "Principio de actualización de los sistemas informáticos.",
+              "Principio de equivalencia funcional del soporte electrónico."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": "B250-153"
+    },
+    {
+      "id": "M-20-5-P15",
+      "topic": "Medios de prueba",
+      "chapter": 4,
+      "format": "Combinación",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P15",
+            "file": "Prueba general 20-5.pdf",
+            "question": 15,
+            "pdf_page": 5,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Son medios de prueba:",
+            "original_statements": [
+              "Confesión de parte.",
+              "Inspección personal del tribunal.",
+              "Instrumentos.",
+              "Testigos.",
+              "Presunciones.",
+              "Informe de peritos."
+            ],
+            "original_options": [
+              "1, 2, 4 y 6.",
+              "1 y 4.",
+              "1, 4 y 6.",
+              "1, 2, 3, 4, 5 y 6.",
+              "1, 2, 3, 4 y 6."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P16",
+      "topic": "Término del juicio ordinario",
+      "chapter": 4,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        54
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P16",
+            "file": "Prueba general 20-5.pdf",
+            "question": 16,
+            "pdf_page": 6,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "Un juicio ordinario de primera instancia puede llegar a su fin por los siguientes medios:",
+            "original_statements": [
+              "Conciliación.",
+              "Avenimiento.",
+              "Desistimiento.",
+              "Anulación.",
+              "Sentencia definitiva."
+            ],
+            "original_options": [
+              "1, 2, 3, 4 y 5.",
+              "Sólo 5.",
+              "1, 2, 3 y 5.",
+              "1, 2, 3 y 4.",
+              "1, 2 y 3."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P17",
+      "topic": "Recurso de hecho",
+      "chapter": 4,
+      "format": "Combinación",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        55
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P17",
+            "file": "Prueba general 20-5.pdf",
+            "question": 17,
+            "pdf_page": 6,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "Respecto al recurso de hecho se puede afirmar que:",
+            "original_statements": [
+              "El falso recurso de hecho es aquel que se interpone ante el tribunal superior jerárquico en contra de la resolución del tribunal de primera instancia que deniega una apelación procedente, en el plazo establecido en el art. 200 CPC, desde notificada la inadmisibilidad por el estado diario.",
+              "Se interpone por escrito ante el Tribunal Constitucional.",
+              "Es un recurso ordinario que tiene por objeto obtener del Tribunal Superior respectivo que enmiende, con arreglo a Derecho, la resolución del inferior."
+            ],
+            "original_options": [
+              "Sólo 1.",
+              "Sólo 3.",
+              "1 y 2.",
+              "Sólo 2.",
+              "Ninguna de las alternativas es correcta."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se corrige la clave marcada en la captura: la respuesta es ninguna, no sólo 3."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P18",
+      "topic": "Características del procedimiento ejecutivo",
+      "chapter": 4,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P18",
+            "file": "Prueba general 20-5.pdf",
+            "question": 18,
+            "pdf_page": 6,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Cuál de las siguientes afirmaciones es falsa respecto al procedimiento ejecutivo?",
+            "original_statements": [
+              "Se persigue el cumplimiento forzado de una obligación que consta de un título fehaciente e indubitado.",
+              "Es un procedimiento contencioso.",
+              "Existen 3 tipos de juicio ejecutivo.",
+              "La tramitación del juicio ejecutivo se lleva en dos cuadernos: el cuaderno principal y el de apremio, que se conservan juntos en la causa y se tramitan en paralelo."
+            ],
+            "original_options": [
+              "Sólo 1.",
+              "1 y 2.",
+              "Ninguna de las alternativas es falsa.",
+              "Sólo 3.",
+              "1 y 3."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P19",
+      "topic": "Funciones del relator",
+      "chapter": 2,
+      "format": "Combinación",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        31,
+        32
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P19",
+            "file": "Prueba general 20-5.pdf",
+            "question": 19,
+            "pdf_page": 7,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Cuáles de las siguientes funciones cumplen los relatores?",
+            "original_statements": [
+              "Son los encargados de dar cuenta diaria de las solicitudes que se presenten en calidad de urgentes, de las que no pudieren ser despachadas por la sola indicación de la suma y de los negocios que la Corte mandare pasar a ellos.",
+              "Son los encargados de autorizar, salvo las excepciones legales, todas las providencias, despachos y actos emanados de aquella autoridad, y de custodiar los procesos y todos los documentos y papeles que sean presentados a la Corte o juzgado en que cada uno de ellos debe prestar sus servicios.",
+              "Son los encargados de hacer saber a las partes, fuera de las oficinas de los secretarios, los decretos y resoluciones de los Tribunales de Justicia, y de evacuar todas aquellas diligencias que los mismos tribunales les cometieren."
+            ],
+            "original_options": [
+              "2 y 3.",
+              "Sólo 2.",
+              "Sólo 3.",
+              "1 y 2.",
+              "Sólo 1."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P20",
+      "topic": "Partes de la sentencia",
+      "chapter": 3,
+      "format": "Combinación",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        43
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P20",
+            "file": "Prueba general 20-5.pdf",
+            "question": 20,
+            "pdf_page": 7,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "En las resoluciones judiciales, los requisitos de sentencia constan de:",
+            "original_statements": [
+              "Parte expositiva.",
+              "Parte considerativa.",
+              "Parte indicativa.",
+              "Parte resolutiva."
+            ],
+            "original_options": [
+              "3 y 4.",
+              "1, 2 y 4.",
+              "1, 2, 3 y 4.",
+              "2 y 4.",
+              "1 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P21",
+      "topic": "Embargo",
+      "chapter": 4,
+      "format": "Combinación",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        63,
+        64
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P21",
+            "file": "Prueba general 20-5.pdf",
+            "question": 21,
+            "pdf_page": 7,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "En relación a los embargos es correcto afirmar:",
+            "original_statements": [
+              "La ampliación del embargo consiste en trabar embargo sobre nuevos bienes, luego de haberse efectuado un embargo previo, ante la insuficiencia de los bienes para cubrir el total adeudado.",
+              "En la cesación de embargo se alza íntegramente el embargo, lo que se puede decretar cuando el embargo se ha sustituido íntegramente por dinero, lo que equivale al pago total de la deuda y las costas.",
+              "No es posible reembargar un mismo bien.",
+              "El depositario es el encargado de la custodia y administración de los bienes embargados. Puede ser provisional y depositario definitivo."
+            ],
+            "original_options": [
+              "2, 3 y 4.",
+              "1 y 2.",
+              "1, 2, 3 y 4.",
+              "1, 2 y 3.",
+              "1, 2 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P22",
+      "topic": "Etapas de formación de la ley",
+      "chapter": 1,
+      "format": "Ordenación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        9,
+        10
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P22",
+            "file": "Prueba general 20-5.pdf",
+            "question": 22,
+            "pdf_page": 8,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "En cuanto al Congreso Pleno, el proceso legislativo está conformado por etapas sucesivas, indique el orden correcto.",
+            "original_statements": [],
+            "original_options": [
+              "La discusión, la iniciativa, la sanción, la promulgación, la publicación.",
+              "La iniciativa, la discusión, la promulgación, la publicación.",
+              "La iniciativa, la discusión, la sanción, la promulgación, la publicación.",
+              "La iniciativa, la sanción, la promulgación, la publicación.",
+              "Ninguna es correcta."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se elimina la referencia imprecisa al Congreso Pleno."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": "B250-241"
+    },
+    {
+      "id": "M-20-5-P23",
+      "topic": "Principios de la función jurisdiccional",
+      "chapter": 1,
+      "format": "Directa",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        13
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P23",
+            "file": "Prueba general 20-5.pdf",
+            "question": 23,
+            "pdf_page": 8,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "La actuación de los tribunales de justicia está formada por los principios de:",
+            "original_statements": [],
+            "original_options": [
+              "Independencia, legalidad, territorialidad, actividad, inamovilidad, inexcusabilidad, responsabilidad.",
+              "Independencia, legalidad, territorialidad, pasividad, inamovilidad, inexcusabilidad, responsabilidad y publicidad.",
+              "Dependencia, legalidad, territorialidad, actividad, inamovilidad, inexcusabilidad.",
+              "Legalidad, transparencia, excelencia, servicio público.",
+              "Ninguna es correcta."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P24",
+      "topic": "Cortes de Apelaciones: afirmación incorrecta",
+      "chapter": 8,
+      "format": "Directa",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        6,
+        14,
+        106
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P24",
+            "file": "Prueba general 20-5.pdf",
+            "question": 24,
+            "pdf_page": 8,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "Seleccione la respuesta incorrecta en relación a las Ilustrísimas Cortes de Apelaciones:",
+            "original_statements": [],
+            "original_options": [
+              "Cada Corte de Apelaciones tiene su propio territorio jurisdiccional y el número de miembros que les designa la ley. Los miembros de las Cortes de Apelaciones reciben el nombre de ministros.",
+              "Cada Corte ejerce su jurisdicción sobre un cierto territorio compuesto por un conjunto de provincias o una región.",
+              "Nombrar a magistrados, ministros y fiscales judiciales de su jurisdicción.",
+              "Al igual que la Corte Suprema, las Cortes de Apelaciones funcionan en salas o como tribunal pleno. En general, las materias entregadas al conocimiento de una Corte de Apelaciones son los recursos de apelación deducidos en contra de las resoluciones pronunciadas en primera instancia, por lo que reciben el nombre de Tribunal de Apelación o de Segunda Instancia.",
+              "Actualmente sólo la Octava Región y la Metropolitana poseen dos Cortes de Apelaciones."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se actualiza la alternativa e a la distribución territorial del manual de octubre de 2025 para que c sea la única incorrecta."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P25",
+      "topic": "Competencia del Juzgado de Garantía",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        15
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P25",
+            "file": "Prueba general 20-5.pdf",
+            "question": 25,
+            "pdf_page": 9,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "A los Juzgados de Garantía les corresponde:",
+            "original_statements": [
+              "Asegurar los derechos del imputado y demás intervinientes en el proceso penal, de acuerdo a la ley procesal penal.",
+              "Dirigir personalmente las audiencias que procedan, de conformidad a la ley procesal penal.",
+              "Dictar sentencia, cuando corresponda, en los procedimientos simplificado y abreviado que contempla la ley procesal penal.",
+              "Conocer y fallar las faltas penales de conformidad con el procedimiento contenido en la ley procesal penal.",
+              "Conocer y fallar, conforme a los procedimientos regulados en el Título I del Libro IV del Código Procesal Penal, las faltas e infracciones contempladas en la Ley de Alcoholes, cualquiera sea la pena que ella les asigne."
+            ],
+            "original_options": [
+              "Sólo 1.",
+              "Sólo 2.",
+              "1, 2, 4 y 5 son correctas.",
+              "1, 2, 3, 4 y 5 son correctas.",
+              "Ninguna es correcta."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P26",
+      "topic": "Competencia del Tribunal de Juicio Oral en lo Penal",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        15,
+        16
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P26",
+            "file": "Prueba general 20-5.pdf",
+            "question": 26,
+            "pdf_page": 9,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "A los Tribunales de Juicio Oral en lo Penal les corresponde:",
+            "original_statements": [
+              "Conocer las causas relativas a simples delitos cuyo fallo corresponda a un juez de garantía.",
+              "Resolver, en su caso, sobre la libertad o prisión preventiva de los acusados puestos a su disposición.",
+              "Resolver todos los incidentes que se promuevan durante el juicio oral.",
+              "Conocer y resolver los demás asuntos que la ley procesal penal y el sistema de justicia militar les encomiende."
+            ],
+            "original_options": [
+              "Sólo 1 y 2.",
+              "Sólo 2 y 3.",
+              "2, 3 y 4 son correctas.",
+              "Ninguna es correcta.",
+              "Sólo 1, 3 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P27",
+      "topic": "Competencia de los juzgados laborales",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        17
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P27",
+            "file": "Prueba general 20-5.pdf",
+            "question": 27,
+            "pdf_page": 10,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "Los juzgados laborales son competentes en las siguientes materias:",
+            "original_statements": [
+              "Las cuestiones suscitadas entre trabajadores y empleadores por aplicación de las normas laborales o derivadas de la interpretación y aplicación de los contratos individuales o colectivos del trabajo o de las convenciones y fallos arbitrales en materia del trabajo.",
+              "Las cuestiones derivadas de la aplicación de las normas sobre organización sindical y negociación colectiva que la ley entrega al conocimiento de los juzgados de letras del trabajo.",
+              "Las cuestiones derivadas de la aplicación de las normas de previsión o seguridad social, planteadas por pensionados, trabajadores activos o empleadores, salvo en lo referido a la revisión de las resoluciones sobre declaración de invalidez o del pronunciamiento sobre el otorgamiento de licencias médicas.",
+              "Los juicios en que se demande el cumplimiento de obligaciones que emanen de títulos a los cuales las leyes laborales y de previsión o seguridad social otorguen mérito ejecutivo, salvo que existan dentro de la jurisdicción juzgados de cobranza laboral y previsional, en cuyo caso a estos les corresponde su conocimiento.",
+              "Las reclamaciones que procedan contra resoluciones dictadas por autoridades administrativas en materias laborales, previsionales o de seguridad social."
+            ],
+            "original_options": [
+              "Sólo 3 y 4.",
+              "Sólo 1, 2, 3 y 4.",
+              "Todas son correctas.",
+              "Sólo 1 y 5.",
+              "Sólo 1, 3 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P28",
+      "topic": "Consejos técnicos",
+      "chapter": 2,
+      "format": "Combinación",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        29,
+        32
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P28",
+            "file": "Prueba general 20-5.pdf",
+            "question": 28,
+            "pdf_page": 10,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "En cuanto a los Consejos Técnicos, seleccione la alternativa correcta:",
+            "original_statements": [
+              "Pueden asesorar en materia penal.",
+              "Según el Código Orgánico de Tribunales, son organismos auxiliares de la administración de justicia.",
+              "Esta unidad es responsable de desarrollar toda la labor relativa al manejo de causas y registros.",
+              "Están compuestos por profesionales cuya función es asesorar individual o colectivamente a los jueces con competencia en asuntos de familia."
+            ],
+            "original_options": [
+              "Sólo 4.",
+              "1 y 2 son correctas.",
+              "Sólo 2.",
+              "2 y 4 son correctas.",
+              "Ninguna de las anteriores."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P29",
+      "topic": "Audiencia preparatoria de familia",
+      "chapter": 5,
+      "format": "Combinación",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        73,
+        74
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P29",
+            "file": "Prueba general 20-5.pdf",
+            "question": 29,
+            "pdf_page": 10,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Respecto a la audiencia preparatoria en materia de familia es posible afirmar:",
+            "original_statements": [
+              "Es una audiencia en la que el tribunal puede decretar medidas cautelares en caso de ser necesarias.",
+              "Es una audiencia cuyo objetivo es que en ella se rinda íntegramente la prueba, se formulen alegaciones por las partes y se dicte sentencia.",
+              "Es una audiencia de carácter preliminar que tiene por objeto preparar adecuadamente el juicio y provocar la conciliación entre las partes.",
+              "Es una audiencia en la que se debe determinar el objeto del juicio."
+            ],
+            "original_options": [
+              "Sólo 3.",
+              "Sólo 3.",
+              "2, 3 y 4.",
+              "1, 3 y 4.",
+              "1, 2, 3 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se sustituye el distractor b repetido por sólo 1 y 3; la clave d se conserva."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P30",
+      "topic": "Audiencia de juicio de familia",
+      "chapter": 5,
+      "format": "Directa",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        74
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P30",
+            "file": "Prueba general 20-5.pdf",
+            "question": 30,
+            "pdf_page": 11,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Respecto a la audiencia de juicio en materia de familia es posible afirmar:",
+            "original_statements": [],
+            "original_options": [
+              "Previo a la prueba, el juez podrá solicitar a un miembro del Consejo Técnico que emita su opinión en el ámbito de su especialidad.",
+              "Respecto a la prueba, se rinde de acuerdo al orden que fijen las partes, comenzando por el demandado.",
+              "Ninguna de las alternativas es correcta.",
+              "La audiencia se lleva a cabo en un solo acto, pudiendo prorrogarse en sesiones sucesivas si fuere necesario.",
+              "El juez podrá efectuar preguntas al testigo o perito, así como a las partes que declaren, haciéndolo en forma previa a los litigantes."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-20-5-P31",
+      "topic": "Formas de término del proceso de familia",
+      "chapter": 5,
+      "format": "Directa",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        79,
+        80
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "20-5-P31",
+            "file": "Prueba general 20-5.pdf",
+            "question": 31,
+            "pdf_page": 11,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "El término de un proceso en materia de familia puede finalizar de las siguientes formas:",
+            "original_statements": [],
+            "original_options": [
+              "Por sentencia, o bien, por suspensión condicional de la dictación de la sentencia.",
+              "Por requerimiento de la víctima; por sentencia; por suspensión condicional de la dictación de la sentencia, o bien, por archivo.",
+              "Por requerimiento de las partes, por sentencia, o bien, por archivo.",
+              "Por requerimiento de la víctima; por sentencia, o bien, por suspensión condicional de la dictación de la sentencia.",
+              "Ninguna de las alternativas es correcta."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se precisa que la enumeración corresponde al procedimiento de violencia intrafamiliar, no a todo proceso de familia."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P02",
+      "topic": "Firma electrónica",
+      "chapter": 3,
+      "format": "Directa",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        36,
+        37,
+        38
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P02",
+            "file": "Prueba general 23-4.pdf",
+            "question": 2,
+            "pdf_page": 1,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Cuál de las siguientes afirmaciones es falsa respecto de la tramitación digital de los procedimientos judiciales?",
+            "original_statements": [],
+            "original_options": [
+              "Las resoluciones y actuaciones del juez, del secretario, del administrador del tribunal y de los auxiliares de la administración de justicia serán suscritas mediante firma electrónica simple.",
+              "Los jueces, auxiliares de la administración de justicia y funcionarios de cada tribunal estarán obligados a utilizar y a registrar en el sistema informático todas las resoluciones y actuaciones procesales.",
+              "Ninguna de las alternativas es correcta.",
+              "La ley establece obligaciones para los receptores judiciales en relación a su registro en el sistema de tramitación electrónica del Poder Judicial y registros georreferenciados (lugar, fecha y horario).",
+              "El ingreso de las demandas y de todos los escritos se hará por vía electrónica a través del sistema de tramitación electrónica del Poder Judicial."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P03",
+      "topic": "Principios de tramitación electrónica",
+      "chapter": 3,
+      "format": "Combinación",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        36,
+        37
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P03",
+            "file": "Prueba general 23-4.pdf",
+            "question": 3,
+            "pdf_page": 2,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "Indique los principios generales en la tramitación digital de los procedimientos judiciales:",
+            "original_statements": [
+              "Equivalencia funcional del soporte electrónico.",
+              "Fidelidad.",
+              "Publicidad.",
+              "Buena fe."
+            ],
+            "original_options": [
+              "2, 3 y 4.",
+              "1 y 2.",
+              "Ninguna de las alternativas es correcta.",
+              "1, 2 y 4.",
+              "1, 2, 3 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P04",
+      "topic": "Acceso a información pública",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        23
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P04",
+            "file": "Prueba general 23-4.pdf",
+            "question": 4,
+            "pdf_page": 3,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "Con respecto a una solicitud de acceso a la información pública es correcto afirmar que:",
+            "original_statements": [
+              "No es necesario que el solicitante se identifique ya que la solicitud es anónima.",
+              "El plazo máximo para contestar el requerimiento es de 25 días hábiles.",
+              "Se puede extender el plazo en 15 días hábiles previa información al solicitante.",
+              "Si le es denegada la información, el solicitante puede presentar un reclamo ante el Consejo de Transparencia dentro de los 20 días siguientes.",
+              "El Consejo de Transparencia informa al organismo correspondiente, el cual tiene 15 días hábiles para formular sus observaciones."
+            ],
+            "original_options": [
+              "Sólo 1.",
+              "1 y 2.",
+              "Ninguna de las alternativas es correcta.",
+              "2, 3, 4 y 5.",
+              "2, 3 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P05",
+      "topic": "Orden de los acuerdos en las Cortes",
+      "chapter": 8,
+      "format": "Ordenación",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        110
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P05",
+            "file": "Prueba general 23-4.pdf",
+            "question": 5,
+            "pdf_page": 4,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Indique el orden correcto de los acuerdos de una causa en las Cortes de Apelaciones:",
+            "original_statements": [
+              "Resoluciones parciales se toman como base para dictar la resolución final.",
+              "Se resuelven las cuestiones de derecho.",
+              "Se resuelven las cuestiones de hecho.",
+              "Votación en orden inverso a la antigüedad. El último voto será siempre el del Presidente."
+            ],
+            "original_options": [
+              "2, 3, 1 y 4.",
+              "Ninguna de las alternativas es correcta.",
+              "1, 2, 3 y 4.",
+              "3, 2, 1 y 4.",
+              "2, 3 y 4."
+            ],
+            "duplicate": false
+          },
+          {
+            "id": "23-4-P06",
+            "file": "Prueba general 23-4.pdf",
+            "question": 6,
+            "pdf_page": 5,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "Indique el orden correcto de los acuerdos de una causa en las Cortes de Apelaciones:",
+            "original_statements": [
+              "Resoluciones parciales se toman como base para dictar la resolución final.",
+              "Se resuelven las cuestiones de derecho.",
+              "Se resuelven las cuestiones de hecho.",
+              "Votación en orden inverso a la antigüedad. El último voto será siempre el del Presidente."
+            ],
+            "original_options": [
+              "1, 2, 3 y 4.",
+              "3, 2, 1 y 4.",
+              "2, 3, 1 y 4.",
+              "Ninguna de las alternativas es correcta.",
+              "2, 3 y 4."
+            ],
+            "duplicate": true
+          }
+        ],
+        "adjustments": [
+          "La regla sobre quién vota primero no es una etapa posterior independiente. Se precisa la última etapa como adopción de la resolución final; se conserva la secuencia 3, 2, 1, 4."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": "B250-249"
+    },
+    {
+      "id": "M-23-4-P07",
+      "topic": "Etapa de discusión del juicio ordinario",
+      "chapter": 4,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        46,
+        47,
+        48
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P07",
+            "file": "Prueba general 23-4.pdf",
+            "question": 7,
+            "pdf_page": 6,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "Son escritos propios del período de discusión:",
+            "original_statements": [
+              "Demanda.",
+              "Contestación.",
+              "Réplica.",
+              "Dúplica.",
+              "Reposición."
+            ],
+            "original_options": [
+              "1, 2, 3, 4 y 5.",
+              "1, 2 y 3.",
+              "1, 2, 3 y 4.",
+              "1 y 2.",
+              "2, 3 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P08",
+      "topic": "Causales de nulidad penal",
+      "chapter": 7,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        105
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P08",
+            "file": "Prueba general 23-4.pdf",
+            "question": 8,
+            "pdf_page": 7,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "Son causales del Recurso de Nulidad:",
+            "original_statements": [
+              "Cuando la resolución produce un agravio a la parte que lo presenta.",
+              "Cuando en cualquier etapa del procedimiento o en la dictación de sentencia se infringen sustancialmente derechos o garantías constitucionales o consagradas en Tratados Internacionales vigentes.",
+              "Cuando en el pronunciamiento del fallo se hubiese hecho una errónea aplicación del derecho que hubiera influido sustancialmente en lo dispositivo del fallo."
+            ],
+            "original_options": [
+              "1, 2 y 3.",
+              "1 y 3.",
+              "2 y 3.",
+              "Ninguna de las alternativas es correcta.",
+              "Sólo 1."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se precisa la materia penal para distinguirla de la nulidad laboral."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P09",
+      "topic": "Plazo de apelación penal",
+      "chapter": 7,
+      "format": "Directa",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        104
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P09",
+            "file": "Prueba general 23-4.pdf",
+            "question": 9,
+            "pdf_page": 8,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Cuál es el plazo para apelar en el proceso penal?",
+            "original_statements": [],
+            "original_options": [
+              "5 días desde la notificación de la resolución.",
+              "3 días desde la notificación de la resolución.",
+              "10 días desde la notificación de la resolución.",
+              "15 días desde la notificación de la resolución.",
+              "Ninguna de las alternativas es correcta."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": "B250-109"
+    },
+    {
+      "id": "M-23-4-P10",
+      "topic": "Impugnación de la sentencia del juicio oral",
+      "chapter": 7,
+      "format": "Directa",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        104,
+        105
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P10",
+            "file": "Prueba general 23-4.pdf",
+            "question": 10,
+            "pdf_page": 8,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "La sentencia definitiva dictada en juicio oral en el proceso penal es impugnable a través de:",
+            "original_statements": [],
+            "original_options": [
+              "Recurso de apelación.",
+              "Todas las alternativas son correctas.",
+              "Recurso de casación en el fondo.",
+              "Recurso de nulidad.",
+              "Recurso de casación en la forma."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P11",
+      "topic": "Audiencia de preparación del juicio oral",
+      "chapter": 7,
+      "format": "Combinación",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        102
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P11",
+            "file": "Prueba general 23-4.pdf",
+            "question": 11,
+            "pdf_page": 9,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "Respecto a la audiencia de preparación de juicio oral en el proceso penal es efectivo que:",
+            "original_statements": [
+              "Permite fijar el contenido del juicio oral.",
+              "Es la oportunidad para rendir la prueba.",
+              "Permite resolver incidencias previas."
+            ],
+            "original_options": [
+              "Sólo 2.",
+              "1 y 3.",
+              "1, 2 y 3.",
+              "Sólo 1.",
+              "1 y 2."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P12",
+      "topic": "Decisiones tras el cierre de la investigación",
+      "chapter": 7,
+      "format": "Combinación",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        101
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P12",
+            "file": "Prueba general 23-4.pdf",
+            "question": 12,
+            "pdf_page": 10,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "Una vez cerrada la investigación, el fiscal en el proceso penal puede:",
+            "original_statements": [
+              "Volver a abrir la investigación porque no alcanzó a realizar todas las diligencias investigativas.",
+              "Formular acusación.",
+              "Comunicar la decisión de no perseverar en el procedimiento o solicitar el sobreseimiento definitivo o temporal de la causa."
+            ],
+            "original_options": [
+              "Sólo 1.",
+              "2 y 3.",
+              "Todas las afirmaciones son correctas.",
+              "Sólo 2.",
+              "Sólo 3."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P13",
+      "topic": "Acuerdos reparatorios",
+      "chapter": 7,
+      "format": "Directa",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        99,
+        100,
+        101
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P13",
+            "file": "Prueba general 23-4.pdf",
+            "question": 13,
+            "pdf_page": 11,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "Respecto de los acuerdos reparatorios en el proceso penal es falso señalar:",
+            "original_statements": [],
+            "original_options": [
+              "Sólo pueden consistir en un pago de dinero.",
+              "Son una salida alternativa junto con la suspensión condicional del procedimiento.",
+              "Cumplidas las obligaciones en que consiste, se extingue la responsabilidad penal, previa resolución judicial que la decrete.",
+              "Es un acuerdo entre víctima e imputado.",
+              "El juez debe verificar que las partes del acuerdo prestaron su consentimiento en forma libre y con pleno conocimiento de sus derechos."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P14",
+      "topic": "Condiciones de suspensión condicional del procedimiento",
+      "chapter": 7,
+      "format": "Combinación",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        100
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P14",
+            "file": "Prueba general 23-4.pdf",
+            "question": 14,
+            "pdf_page": 11,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Pueden decretarse como condiciones de una suspensión condicional del procedimiento:",
+            "original_statements": [
+              "Residir en un lugar determinado.",
+              "Abstenerse de frecuentar determinados lugares.",
+              "Cualquiera que resulte adecuada a las circunstancias del caso y fuere propuesta fundadamente por el Ministerio Público."
+            ],
+            "original_options": [
+              "Sólo 3.",
+              "1 y 2.",
+              "Sólo 1.",
+              "Todas las afirmaciones son correctas.",
+              "1 y 3."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P15",
+      "topic": "Término de la prisión preventiva",
+      "chapter": 7,
+      "format": "Combinación",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        98
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P15",
+            "file": "Prueba general 23-4.pdf",
+            "question": 15,
+            "pdf_page": 12,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "La prisión preventiva termina:",
+            "original_statements": [
+              "Cuando no subsisten los motivos que la hubieren justificado.",
+              "Cuando se dicta sobreseimiento definitivo.",
+              "Cuando se dicta sentencia absolutoria."
+            ],
+            "original_options": [
+              "Sólo 3.",
+              "1 y 3.",
+              "2 y 3.",
+              "Sólo 1.",
+              "Todas las afirmaciones son correctas."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P16",
+      "topic": "Derechos del detenido",
+      "chapter": 7,
+      "format": "Directa",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        97
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P16",
+            "file": "Prueba general 23-4.pdf",
+            "question": 16,
+            "pdf_page": 13,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "Indique la alternativa correcta: el funcionario policial que practique la detención debe informar al afectado:",
+            "original_statements": [],
+            "original_options": [
+              "Motivo de su detención.",
+              "Derecho a entrevistarse privadamente con abogado.",
+              "Derecho a ser asistido por abogado.",
+              "Derecho a guardar silencio.",
+              "Todas las alternativas son correctas."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P17",
+      "topic": "Quién puede detener en flagrancia",
+      "chapter": 7,
+      "format": "Combinación",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        95,
+        96
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P17",
+            "file": "Prueba general 23-4.pdf",
+            "question": 17,
+            "pdf_page": 14,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "Están autorizados a efectuar detenciones:",
+            "original_statements": [
+              "Los Carabineros.",
+              "Funcionarios de la PDI.",
+              "Cualquier persona en caso de flagrancia."
+            ],
+            "original_options": [
+              "1, 2 y 3.",
+              "1 y 3.",
+              "Sólo 1.",
+              "Sólo 2.",
+              "1 y 2."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P18",
+      "topic": "Principio de oportunidad",
+      "chapter": 7,
+      "format": "Directa",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        95
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P18",
+            "file": "Prueba general 23-4.pdf",
+            "question": 18,
+            "pdf_page": 15,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Cuál de las siguientes alternativas es falsa respecto a la aplicación del llamado principio de oportunidad (art. 170 CPP)?",
+            "original_statements": [],
+            "original_options": [
+              "Puede ejercerse luego de la formalización.",
+              "No puede aplicarse en casos de delitos cometidos por funcionarios públicos.",
+              "La ejerce el fiscal autónomamente sin comunicación al juez de garantía.",
+              "Todas las alternativas son correctas.",
+              "No puede ejercerse si la pena mínima asignada al delito excede los 541 días."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se incorpora en b la condición de que el delito sea cometido en ejercicio de sus funciones, omitida en el original."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P19",
+      "topic": "Dirección de la investigación penal",
+      "chapter": 7,
+      "format": "Directa",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        92,
+        95
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P19",
+            "file": "Prueba general 23-4.pdf",
+            "question": 19,
+            "pdf_page": 16,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "La función de investigar un delito le corresponde:",
+            "original_statements": [],
+            "original_options": [
+              "Al Ministerio Público.",
+              "A ambos de manera coordinada.",
+              "Al tribunal.",
+              "A la defensa del imputado.",
+              "Ninguna de las alternativas es correcta."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se precisa la dirección de la investigación y se explicita el referente de ambos en b."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P20",
+      "topic": "Plazo de denuncia de tutela laboral",
+      "chapter": 6,
+      "format": "Directa",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        90
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P20",
+            "file": "Prueba general 23-4.pdf",
+            "question": 20,
+            "pdf_page": 17,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Qué plazo hay para deducir una acción en un procedimiento de Tutela Laboral?",
+            "original_statements": [],
+            "original_options": [
+              "Por la naturaleza de la acción deducida, no existe plazo para accionar en un procedimiento de tutela laboral.",
+              "En un plazo de 60 días hábiles desde que se produjo la vulneración de un derecho fundamental.",
+              "En un plazo de 90 días desde que se produjo la violación del derecho fundamental.",
+              "En un plazo de 30 días hábiles desde que se produjo la vulneración de un derecho fundamental.",
+              "En un plazo de 10 días corridos desde que se produjo la vulneración de un derecho fundamental."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se precisa la vulneración durante la relación laboral, para distinguir el supuesto de despido."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [
+        {
+          "title": "Dirección del Trabajo · ORD. 515/21 (2025)",
+          "url": "https://dt.gob.cl/legislacion/1624/w3-article-128099.html"
+        }
+      ],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P21",
+      "topic": "Exhibición de instrumentos en el proceso laboral",
+      "chapter": 6,
+      "format": "Directa",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        84,
+        85
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P21",
+            "file": "Prueba general 23-4.pdf",
+            "question": 21,
+            "pdf_page": 18,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "¿En qué audiencia se exhiben los instrumentos que ordena el tribunal en el procedimiento ordinario laboral que se sigue ante los Juzgados de Letras del Trabajo?",
+            "original_statements": [],
+            "original_options": [
+              "En la audiencia preparatoria y en la audiencia de juicio.",
+              "En la audiencia especial de contestación.",
+              "En la audiencia preparatoria.",
+              "En la audiencia de juicio.",
+              "No está regulado en la ley."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P22",
+      "topic": "Comparecencia a la audiencia preparatoria laboral",
+      "chapter": 6,
+      "format": "Directa",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        84
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P22",
+            "file": "Prueba general 23-4.pdf",
+            "question": 22,
+            "pdf_page": 19,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Cómo deben comparecer las partes a la audiencia preparatoria?",
+            "original_statements": [],
+            "original_options": [
+              "Ninguna de las alternativas es correcta.",
+              "Debe comparecer a través de un defensor laboral.",
+              "Sólo es necesaria la comparecencia personal.",
+              "Con patrocinio de abogado y representada por persona legalmente habilitada para actuar en juicio.",
+              "Debe comparecer a través de un procurador del número."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se explicita que se trata del procedimiento ordinario laboral."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P23",
+      "topic": "Anticipación de la notificación laboral",
+      "chapter": 6,
+      "format": "Directa",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        83
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P23",
+            "file": "Prueba general 23-4.pdf",
+            "question": 23,
+            "pdf_page": 20,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Cuál es la anticipación con que se debe notificar la resolución que cita a las partes a la audiencia preparatoria en un procedimiento ordinario laboral?",
+            "original_statements": [],
+            "original_options": [
+              "10 días de haber sido legalmente notificada.",
+              "15 días antes de la audiencia preparatoria.",
+              "10 días antes de la audiencia preparatoria.",
+              "5 días antes de la audiencia preparatoria.",
+              "3 días antes de la audiencia preparatoria."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [
+          "Se explicita que quince días es la anticipación mínima."
+        ],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": "B250-098"
+    },
+    {
+      "id": "M-23-4-P24",
+      "topic": "Violencia intrafamiliar",
+      "chapter": 5,
+      "format": "Directa",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        77,
+        78
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P24",
+            "file": "Prueba general 23-4.pdf",
+            "question": 24,
+            "pdf_page": 20,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "En relación con el procedimiento aplicable para la sanción de los actos de violencia intrafamiliar, señale cuál de las siguientes afirmaciones es verdadera respecto de su contenido:",
+            "original_statements": [],
+            "original_options": [
+              "Todas las alternativas son correctas.",
+              "El Juzgado de Garantía será siempre competente para conocer y juzgar la violencia intrafamiliar. Sólo hay violencia intrafamiliar cuando se causan lesiones a una persona relacionada con parentesco.",
+              "El juez de familia podrá decretar la prisión preventiva del agresor.",
+              "La violencia intrafamiliar se refiere a maltrato físico o psicológico de la víctima.",
+              "Sólo existirá violencia intrafamiliar si existe matrimonio entre el ofensor y la víctima."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [
+        {
+          "title": "Ley 20.066 · artículo 5 (BCN)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=242648&idVersion=2024-06-14"
+        }
+      ],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P25",
+      "topic": "Legitimación para denunciar VIF",
+      "chapter": 5,
+      "format": "Combinación",
+      "answer": "b",
+      "key": 1,
+      "pages": [
+        77
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P25",
+            "file": "Prueba general 23-4.pdf",
+            "question": 25,
+            "pdf_page": 21,
+            "marked_answer": "b",
+            "marked_answer_is_official": false,
+            "original_stem": "En relación con el procedimiento aplicable para la sanción de los actos de violencia intrafamiliar, señale quiénes pueden presentar una denuncia para iniciar este procedimiento:",
+            "original_statements": [
+              "La propia víctima.",
+              "Ascendientes.",
+              "Personas que tienen bajo su cuidado a la víctima.",
+              "Cualquier persona que tenga conocimiento directo de los hechos que la motiven."
+            ],
+            "original_options": [
+              "1 y 4.",
+              "1, 2, 3 y 4.",
+              "1, 2 y 3.",
+              "1 y 2.",
+              "2, 3 y 4."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P26",
+      "topic": "Ciudadanía y derechos políticos",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        20
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P26",
+            "file": "Prueba general 23-4.pdf",
+            "question": 26,
+            "pdf_page": 22,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "Con respecto a la subcategoría de derechos políticos dentro de los derechos fundamentales, es correcto afirmar:",
+            "original_statements": [
+              "Son ciudadanos los chilenos que hayan cumplido dieciocho años de edad y que no hayan sido condenados a pena aflictiva.",
+              "La calidad de ciudadano otorga el derecho a sufragio.",
+              "La calidad de ciudadano otorga el derecho a optar a cargos de elección popular.",
+              "Los ciudadanos no poseen el derecho a participar en la aprobación o rechazo de reformas constitucionales.",
+              "Los ciudadanos con derecho a sufragio que se encuentren fuera del país pueden sufragar desde el extranjero."
+            ],
+            "original_options": [
+              "Sólo 1.",
+              "1, 2, 3, 4 y 5.",
+              "1, 2, 3 y 5.",
+              "2, 3 y 4.",
+              "1, 3, 4 y 5."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P27",
+      "topic": "Finalidad de la protección constitucional",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "c",
+      "key": 2,
+      "pages": [
+        21
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P27",
+            "file": "Prueba general 23-4.pdf",
+            "question": 27,
+            "pdf_page": 23,
+            "marked_answer": "c",
+            "marked_answer_is_official": false,
+            "original_stem": "La Constitución contempla un sistema de protección de los derechos fundamentales con la finalidad de:",
+            "original_statements": [
+              "Restablecer el imperio del derecho.",
+              "Indemnizar a las víctimas.",
+              "Sancionar a los culpables.",
+              "Que un tribunal de letras se pronuncie sobre la vulneración.",
+              "Que el Estado se haga cargo de retrotraer a la víctima a su estado anterior a la vulneración."
+            ],
+            "original_options": [
+              "1, 4 y 5.",
+              "1 y 2.",
+              "Sólo 1.",
+              "1, 2 y 3.",
+              "1, 2, 3, 4 y 5."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P28",
+      "topic": "Principios de ética judicial",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        25,
+        26
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P28",
+            "file": "Prueba general 23-4.pdf",
+            "question": 28,
+            "pdf_page": 24,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "Son principios de la ética judicial:",
+            "original_statements": [
+              "La dignidad.",
+              "La independencia.",
+              "La celeridad.",
+              "La continuidad.",
+              "La publicidad."
+            ],
+            "original_options": [
+              "1 y 2.",
+              "Sólo 1.",
+              "1, 2 y 3.",
+              "Ninguna de las afirmaciones es correcta.",
+              "1, 3, 4 y 5."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P29",
+      "topic": "Independencia e inamovilidad",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "d",
+      "key": 3,
+      "pages": [
+        13
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P29",
+            "file": "Prueba general 23-4.pdf",
+            "question": 29,
+            "pdf_page": 25,
+            "marked_answer": "d",
+            "marked_answer_is_official": false,
+            "original_stem": "Con respecto al principio de inamovilidad, es correcto afirmar que:",
+            "original_statements": [
+              "Está relacionado estrechamente con el principio de independencia de las funciones judiciales.",
+              "Busca que los tribunales puedan actuar con libertad e imparcialidad.",
+              "Busca otorgar estabilidad a los jueces en su desempeño de funciones.",
+              "La inamovilidad de los jueces no es absoluta.",
+              "La cesación de los jueces en sus funciones tiene lugar por haber cumplido los 75 años de edad."
+            ],
+            "original_options": [
+              "2, 3, 4 y 5.",
+              "1, 3 y 4.",
+              "1 y 2.",
+              "1, 2, 3, 4 y 5.",
+              "Sólo 1."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P30",
+      "topic": "Inexcusabilidad",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        13
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P30",
+            "file": "Prueba general 23-4.pdf",
+            "question": 30,
+            "pdf_page": 26,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "Con respecto al principio de inexcusabilidad, es falso afirmar que:",
+            "original_statements": [
+              "Los jueces deben resolver los asuntos sometidos a su consideración, aun ante ausencia de ley al respecto.",
+              "Los jueces deben resolver en los casos de ausencia de ley aplicando, entre otros mecanismos, el espíritu general de la legislación.",
+              "Los jueces deben resolver en los casos de ausencia de ley aplicando, entre otros mecanismos, la equidad natural.",
+              "Los jueces no podrán excusarse de ejercer su autoridad, salvo en ausencia de ley al respecto.",
+              "Los jueces sólo pueden aplicar la ley; en ningún caso pueden referirse al espíritu general de la legislación o a la equidad natural."
+            ],
+            "original_options": [
+              "1, 2 y 3.",
+              "Sólo 1.",
+              "2 y 3.",
+              "2 y 4.",
+              "4 y 5."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P31",
+      "topic": "Jurisdicción constitucional",
+      "chapter": 1,
+      "format": "Combinación",
+      "answer": "a",
+      "key": 0,
+      "pages": [
+        8,
+        115,
+        116
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P31",
+            "file": "Prueba general 23-4.pdf",
+            "question": 31,
+            "pdf_page": 27,
+            "marked_answer": "a",
+            "marked_answer_is_official": false,
+            "original_stem": "Ejercen jurisdicción constitucional las siguientes instituciones:",
+            "original_statements": [
+              "Tribunal Constitucional.",
+              "Contraloría General de la República.",
+              "Tribunal de Juicio Oral en lo Penal.",
+              "Juzgados de Letras en lo Civil.",
+              "Corte Suprema de Justicia."
+            ],
+            "original_options": [
+              "1 y 5.",
+              "1, 2 y 3.",
+              "1 y 2.",
+              "Sólo 1.",
+              "1, 2, 3, 4 y 5."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [
+        {
+          "title": "Tribunal Constitucional · atribuciones",
+          "url": "https://www1.tribunalconstitucional.cl/atribuciones/"
+        }
+      ],
+      "equivalent_base_id": null
+    },
+    {
+      "id": "M-23-4-P32",
+      "topic": "Excepciones del juicio ejecutivo",
+      "chapter": 4,
+      "format": "Directa",
+      "answer": "e",
+      "key": 4,
+      "pages": [
+        60
+      ],
+      "origin": {
+        "kind": "previous_exam",
+        "sources": [
+          {
+            "id": "23-4-P32",
+            "file": "Prueba general 23-4.pdf",
+            "question": 32,
+            "pdf_page": 28,
+            "marked_answer": "e",
+            "marked_answer_is_official": false,
+            "original_stem": "¿Cuál de las siguientes alternativas no resulta una oposición válida del ejecutado?",
+            "original_statements": [],
+            "original_options": [
+              "El pago de la deuda.",
+              "La nulidad de la obligación.",
+              "La falsedad del título.",
+              "Ineptitud del libelo.",
+              "Todas son oposiciones válidas."
+            ],
+            "duplicate": false
+          }
+        ],
+        "adjustments": [],
+        "transcription": "Cotejo visual de las páginas PDF; normalización ortográfica y de puntuación."
+      },
+      "official_sources": [
+        {
+          "title": "Código de Procedimiento Civil · artículo 464 (BCN)",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=22740&idVersion=2022-09-15"
+        }
+      ],
+      "equivalent_base_id": null
+    }
+  ]
+}

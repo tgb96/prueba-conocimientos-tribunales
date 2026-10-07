@@ -440,6 +440,33 @@ function renderReview(rows) {
     const source = document.createElement('div');
     source.className = 'source-line';
     source.textContent = `Manual · capítulo ${q.chapter} · página${q.pages.length > 1 ? 's' : ''} ${q.pages.join(', ')}`;
+    if (q.origin?.kind === 'previous_exam') {
+      const origin = document.createElement('p');
+      origin.className = 'model-origin';
+      origin.textContent = q.origin.sources.map(s => `${s.file} · pregunta ${s.question} · página PDF ${s.pdf_page}`).join(' / ');
+      source.appendChild(origin);
+      if (q.origin.adjustments.length) {
+        const note = document.createElement('p');
+        note.className = 'model-adjustment';
+        note.textContent = `Ajuste respecto del modelo: ${q.origin.adjustments.join(' ')}`;
+        source.appendChild(note);
+      }
+    }
+    if (q.official_sources?.length) {
+      const label = document.createElement('p');
+      label.className = 'official-sources';
+      label.textContent = 'Respaldo oficial complementario: ';
+      q.official_sources.forEach((reference, index) => {
+        if (index) label.appendChild(document.createTextNode(' · '));
+        const link = document.createElement('a');
+        link.href = reference.url;
+        link.textContent = reference.title;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        label.appendChild(link);
+      });
+      source.appendChild(label);
+    }
     body.appendChild(stem);
     if (q.statements.length) body.appendChild(statements);
     body.append(answers, explanation, source);
@@ -508,7 +535,7 @@ async function init() {
   bindEvents();
   renderHistory();
   try {
-    const response = await fetch('banco_B250.json?v=20261007-explicaciones');
+    const response = await fetch('banco_B310.json?v=20261007-modelos');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];

@@ -57,3 +57,6 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:lin
 .explanation-label{display:block;margin-bottom:7px;font-size:13px;line-height:1.4;color:var(--deep)}
 .error-explanation .explanation-label{color:#8e3f35}
 .review-explanation .explanation{margin:0;color:var(--ink)}
+.model-origin,.model-adjustment,.official-sources{margin:10px 0 0;font:400 12px/1.55 'DM Sans',system-ui,sans-serif;overflow-wrap:anywhere}
+.model-adjustment{color:var(--muted)}
+.official-sources a{color:var(--green);text-underline-offset:3px}

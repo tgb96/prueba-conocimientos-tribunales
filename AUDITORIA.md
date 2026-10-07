@@ -1,6 +1,22 @@
-# Revisión editorial del banco B250
+# Banco activo: 310 preguntas
 
-**Banco activo: 250 preguntas. Versión 20261007-lenguaje-normativo.** La web oficial es [GitHub Pages](https://tgb96.github.io/prueba-conocimientos-tribunales/?v=20261007-lenguaje-normativo).
+Versión **20261007-modelos**, disponible en la [web oficial](https://tgb96.github.io/prueba-conocimientos-tribunales/?v=20261007-modelos). Se incorporan **60 preguntas distintas de los dos modelos** a las 250 base revisadas, que permanecen intactas. Las 61 apariciones visibles están representadas: abril 5 y 6 repiten la misma pregunta con alternativas reordenadas.
+
+La transcripción se cotejó con las 39 páginas PDF. Se conservaron enunciados y alternativas, con normalización ortográfica y de puntuación; trece ítems tienen ajustes documentados de alcance, ambigüedad, distractor duplicado, secuencia o clave. Cuatro ítems mantienen un complemento oficial indicado expresamente en su corrección. Las marcas de las capturas no son pauta oficial. No se afirma que estas preguntas vayan a reutilizarse en un examen futuro.
+
+El banco contiene 302 familias: ocho preguntas de los modelos son variantes del mismo conocimiento evaluado por una pregunta base y comparten familia para evitar que aparezcan juntas. La pregunta duplicada entre abril 5 y 6 se incorpora una vez y conserva ambos orígenes.
+
+Se mantienen intentos de 30 preguntas, cuotas por capítulo **6 / 2 / 3 / 3 / 2 / 2 / 7 / 3 / 2**, catorce directas, una o dos ordenaciones y quince o catorce combinaciones. Los modelos participan en la selección aleatoria. Las 5000 simulaciones cubrieron las 310 preguntas, respetaron las cuotas y no repitieron familias; se verificaron 1240 explicaciones para respuestas incorrectas.
+
+La comprobación de navegador cubre computador y celular, banco idéntico al publicado, procedencia de los modelos, clave corregida de mayo 17, preguntas negativas, secuencias verbales, fuentes oficiales, finalización y revisión de errores.
+
+[Preguntas incorporadas y ajustes](MODELOS.md) · [Registro individual](REVISION_MODELOS.json) · [Banco activo](banco_B310.json).
+
+---
+
+# Antecedente: revisión editorial de las 250 preguntas base
+
+**Base revisada: 250 preguntas. Versión 20261007-lenguaje-normativo.** La web oficial es [GitHub Pages](https://tgb96.github.io/prueba-conocimientos-tribunales/?v=20261007-lenguaje-normativo).
 
 Se revisaron las 250 preguntas base respecto de su contenido, enunciado, alternativas, clave y explicación, contrastándolas con las páginas del Manual Único para Tribunales de octubre de 2025. Los dos exámenes proporcionados orientan el estilo; las alternativas marcadas en esos documentos no se tomaron como pauta oficial.
 
@@ -59,6 +75,6 @@ Se simularon **5000 intentos**, todos con las cuotas y sin duplicados. Se obtuvi
 
 ## Trazabilidad y alcance
 
-[REVISION_B250.json](REVISION_B250.json) registra cada ítem, su clave, páginas, fundamento y referencia de formato. El banco activo es [banco_B250.json](banco_B250.json). El antiguo nombre banco_B500.json se conserva como alias de compatibilidad que entrega estas mismas 250 preguntas; no representa otras 250 preguntas ni amplía el banco.
+[REVISION_B250.json](REVISION_B250.json) registra cada ítem, su clave, páginas, fundamento y referencia de formato. Las 250 preguntas base se conservan en [banco_B250.json](banco_B250.json); el banco activo actual es [banco_B310.json](banco_B310.json). El antiguo nombre banco_B500.json se conserva como alias de compatibilidad que entrega estas mismas 250 preguntas; no representa otras 250 preguntas ni amplía el banco.
 
 La pauta se reconstruye desde la edición del manual proporcionada. Es material de práctica revisado, sin pretensión de ser una pauta oficial. La duración y fórmula de nota siguen siendo provisionales hasta contar con las bases de la evaluación.
