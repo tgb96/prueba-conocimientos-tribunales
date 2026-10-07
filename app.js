@@ -42,15 +42,23 @@ function shuffle(list) {
 function sampleAttempt() {
   const targets = [6, 2, 3, 3, 2, 2, 7, 3, 2];
   const selected = [];
+  const families = new Set();
   for (let chapter = 1; chapter <= 9; chapter += 1) {
-    const group = shuffle(state.bank.filter(q => q.chapter === chapter));
-    selected.push(...group.slice(0, targets[chapter - 1]));
+    const groups = new Map();
+    for (const question of state.bank.filter(q => q.chapter === chapter)) {
+      const family = question.family_id || question.bank_id;
+      if (!groups.has(family)) groups.set(family, []);
+      groups.get(family).push(question);
+    }
+    const group = shuffle([...groups.entries()]).slice(0, targets[chapter - 1]);
+    if (group.length !== targets[chapter - 1]) throw new Error(`Faltan preguntas distintas para el capítulo ${chapter}.`);
+    for (const [family, variants] of group) {
+      selected.push(variants[Math.floor(Math.random() * variants.length)]);
+      families.add(family);
+    }
   }
-  if (selected.length < 30) {
-    const selectedIds = new Set(selected.map(q => q.bank_id));
-    selected.push(...shuffle(state.bank.filter(q => !selectedIds.has(q.bank_id))).slice(0, 30 - selected.length));
-  }
-  return shuffle(selected).slice(0, 30);
+  if (selected.length !== 30 || families.size !== 30) throw new Error('La selección del intento no es válida.');
+  return shuffle(selected);
 }
 
 function formatTime(total) {
@@ -378,11 +386,11 @@ async function init() {
   bindEvents();
   renderHistory();
   try {
-    const response = await fetch('banco_B500.json?v=20261007-cssfix');
+    const response = await fetch('banco_B500.json?v=20261007-contexto1');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];
-    $('#bank-status').textContent = `${state.bank.length} preguntas disponibles`;
+    $('#bank-status').textContent = `${state.bank.length} preguntas y variantes`;
     $('#start-button').disabled = state.bank.length < 30;
   } catch (error) {
     $('#bank-status').textContent = 'No se pudo cargar el banco';
