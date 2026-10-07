@@ -117,13 +117,6 @@ function sampleAttempt(total = 30) {
   return shuffle(selected);
 }
 
-function updateDurationNote() {
-  const seconds = Number($('#duration-select').value);
-  $('#duration-note').textContent = seconds > 0
-    ? `Duración provisional: ${seconds / 60} minutos. Puedes cambiarla antes de comenzar.`
-    : 'Sin límite de tiempo. Puedes activar el cronómetro antes de comenzar.';
-}
-
 function configureAttempt() {
   const total = Number($('#attempt-select').value);
   const quick = total === 10;
@@ -136,11 +129,9 @@ function configureAttempt() {
     option.selected = minutes === (quick ? 15 : 45);
     duration.appendChild(option);
   }
-  $('#attempt-preview').textContent = `${total} Q`;
   $('#setup-description').textContent = quick
     ? '10 preguntas distintas para practicar en menos tiempo. Los temas rotan entre intentos para aproximar la proporción de las pruebas completas.'
     : '30 preguntas distintas, con la distribución de temas y la mezcla de formatos de tus pruebas de ejemplo.';
-  updateDurationNote();
 }
 
 function formatTime(total) {
@@ -545,8 +536,7 @@ function goHome() {
 
 function bindEvents() {
   $('#attempt-select').addEventListener('change', configureAttempt);
-  $('#duration-select').addEventListener('change', updateDurationNote);
-  $('#start-button').addEventListener('click', startAttempt);
+  $('#start-button').addEventListener('click', () => state.bank.length ? startAttempt() : loadBank());
   $('#prev-button').addEventListener('click', () => changeQuestion(-1));
   $('#next-button').addEventListener('click', () => changeQuestion(1));
   $('#finish-button').addEventListener('click', () => finishAttempt(false));
@@ -571,23 +561,30 @@ function bindEvents() {
   $('#clear-history').addEventListener('click', () => { localStorage.removeItem('b500-history'); renderHistory(); });
 }
 
+async function loadBank() {
+  const button = $('#start-button');
+  button.disabled = true;
+  button.textContent = 'Cargando preguntas…';
+  try {
+    const response = await fetch('banco_B310.json?v=20261007-inicio-simple');
+    if (!response.ok) throw new Error('No se pudo cargar el banco');
+    const payload = await response.json();
+    state.bank = payload.items || [];
+    if (state.bank.length < 30) throw new Error('El banco no tiene suficientes preguntas');
+    button.innerHTML = 'Iniciar intento <span aria-hidden="true">↗</span>';
+    button.disabled = false;
+  } catch (error) {
+    state.bank = [];
+    button.textContent = 'Reintentar carga';
+    button.disabled = false;
+  }
+}
+
 async function init() {
   bindEvents();
   configureAttempt();
   renderHistory();
-  try {
-    const response = await fetch('banco_B310.json?v=20261007-intentos10');
-    if (!response.ok) throw new Error('No se pudo cargar el banco');
-    const payload = await response.json();
-    state.bank = payload.items || [];
-    $('#bank-status').textContent = `${state.bank.length} preguntas revisadas`;
-    $('#start-button').disabled = state.bank.length < 30;
-  } catch (error) {
-    $('#bank-status').textContent = 'No se pudo cargar el banco';
-    $('#start-button').textContent = 'Reintentar carga';
-    $('#start-button').disabled = false;
-    $('#start-button').addEventListener('click', init, { once: true });
-  }
+  await loadBank();
 }
 
 document.addEventListener('DOMContentLoaded', init);

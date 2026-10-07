@@ -1,5 +1,7 @@
 # Banco activo: 310 preguntas
 
+La interfaz **20261007-inicio-simple** elimina los elementos señalados por el usuario: marca PJ, indicador superior del banco, texto sobre el título, encabezado de la tarjeta, enlace «¿Cómo funciona?», notas bajo el botón, bloque del método y pie de página. Se mantienen la configuración, los intentos de 10 y 30 preguntas, el historial y la corrección.
+
 ## Intentos rápidos de 10 preguntas
 
 La aplicación **20261007-intentos10** permite elegir un intento completo de 30 preguntas o uno rápido de 10. El rápido ofrece 15 minutos por defecto, opciones de 5 o 10 minutos y práctica sin cronómetro. La corrección, los porcentajes y el historial usan el total del intento; los registros anteriores conservan su denominador de 30.
