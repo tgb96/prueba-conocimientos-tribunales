@@ -1,5 +1,15 @@
 # Banco activo: 310 preguntas
 
+## Intentos rápidos de 10 preguntas
+
+La aplicación **20261007-intentos10** permite elegir un intento completo de 30 preguntas o uno rápido de 10. El rápido ofrece 15 minutos por defecto, opciones de 5 o 10 minutos y práctica sin cronómetro. La corrección, los porcentajes y el historial usan el total del intento; los registros anteriores conservan su denominador de 30.
+
+Los intentos rápidos mezclan siete u ocho capítulos. La cuota de cada capítulo se aproxima a un tercio de la pauta completa mediante redondeo aleatorio: los temas con cuotas menores rotan entre intentos. Incluyen cuatro o cinco preguntas directas, cero o una de ordenación y las restantes de combinaciones. Se conserva la exclusión de preguntas de la misma familia dentro de un intento.
+
+La validación cubrió 5000 intentos rápidos distintos, las 310 preguntas disponibles y 250 intentos completos con sus cuotas habituales. Los promedios por capítulo coincidieron con la proporción esperada dentro de una tolerancia de 0,04 preguntas. Se comprueban en navegador selección de modalidad, navegación, corrección, historial anterior, repetición, cambio de duración y cierre automático, con pantallas de computador, tablet y celular.
+
+## Incorporación de preguntas de los modelos
+
 Versión **20261007-modelos**, disponible en la [web oficial](https://tgb96.github.io/prueba-conocimientos-tribunales/?v=20261007-modelos). Se incorporan **60 preguntas distintas de los dos modelos** a las 250 base revisadas, que permanecen intactas. Las 61 apariciones visibles están representadas: abril 5 y 6 repiten la misma pregunta con alternativas reordenadas.
 
 La transcripción se cotejó con las 39 páginas PDF. Se conservaron enunciados y alternativas, con normalización ortográfica y de puntuación; trece ítems tienen ajustes documentados de alcance, ambigüedad, distractor duplicado, secuencia o clave. Cuatro ítems mantienen un complemento oficial indicado expresamente en su corrección. Las marcas de las capturas no son pauta oficial. No se afirma que estas preguntas vayan a reutilizarse en un examen futuro.

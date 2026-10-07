@@ -39,11 +39,20 @@ function shuffle(list) {
   return copy;
 }
 
-function sampleAttempt() {
-  const targets = [6, 2, 3, 3, 2, 2, 7, 3, 2];
+function sampleAttempt(total = 30) {
+  if (![10, 30].includes(total)) throw new Error('Elige un intento de 10 o 30 preguntas.');
+  let targets = [6, 2, 3, 3, 2, 2, 7, 3, 2];
+  if (total === 10) {
+    // Redondeo aleatorio: cada cuota promedia un tercio de la pauta completa.
+    // Rotan los capítulos de menor cuota para no excluir siempre el mismo tema.
+    targets = targets.map(quota => Math.floor(quota / 3));
+    const extraPenal = Math.random() < 1 / 3;
+    if (extraPenal) targets[6] += 1;
+    for (const chapter of shuffle([1, 4, 5, 8]).slice(0, extraPenal ? 2 : 3)) targets[chapter] += 1;
+  }
   // 28 directas, 30 combinaciones y 3 ordenaciones entre 61 ítems de los modelos.
-  // Treinta preguntas: 14 directas; una o dos ordenaciones; el resto combinaciones.
-  const orderTarget = Math.random() < (30 * 3 / 61 - 1) ? 2 : 1;
+  const directTarget = total === 10 ? 4 + (Math.random() < (10 * 28 / 61 - 4) ? 1 : 0) : 14;
+  const orderTarget = total === 10 ? (Math.random() < 10 * 3 / 61 ? 1 : 0) : (Math.random() < (30 * 3 / 61 - 1) ? 2 : 1);
   const pools = [];
   for (let chapter = 1; chapter <= 9; chapter += 1) {
     const groups = new Map();
@@ -84,9 +93,9 @@ function sampleAttempt() {
     if (!memo.has(key)) memo.set(key, allocations(chapter, directLeft, orderLeft).reduce((sum, a) => sum + a.weight, 0));
     return memo.get(key);
   }
-  if (!ways(0, 14, orderTarget)) throw new Error('No hay suficientes preguntas para mantener la pauta del intento.');
+  if (!ways(0, directTarget, orderTarget)) throw new Error('No hay suficientes preguntas para mantener la pauta del intento.');
   const selected = [];
-  let directLeft = 14;
+  let directLeft = directTarget;
   let orderLeft = orderTarget;
   for (let chapter = 0; chapter < 9; chapter += 1) {
     const options = allocations(chapter, directLeft, orderLeft);
@@ -104,8 +113,34 @@ function sampleAttempt() {
     directLeft -= allocation.d;
     orderLeft -= allocation.o;
   }
-  if (selected.length !== 30 || new Set(selected.map(q => q.family_id || q.bank_id)).size !== 30) throw new Error('La selección del intento no es válida.');
+  if (selected.length !== total || new Set(selected.map(q => q.family_id || q.bank_id)).size !== total) throw new Error('La selección del intento no es válida.');
   return shuffle(selected);
+}
+
+function updateDurationNote() {
+  const seconds = Number($('#duration-select').value);
+  $('#duration-note').textContent = seconds > 0
+    ? `Duración provisional: ${seconds / 60} minutos. Puedes cambiarla antes de comenzar.`
+    : 'Sin límite de tiempo. Puedes activar el cronómetro antes de comenzar.';
+}
+
+function configureAttempt() {
+  const total = Number($('#attempt-select').value);
+  const quick = total === 10;
+  const duration = $('#duration-select');
+  duration.replaceChildren();
+  for (const minutes of quick ? [5, 10, 15, 0] : [30, 45, 60, 0]) {
+    const option = document.createElement('option');
+    option.value = minutes * 60;
+    option.textContent = minutes ? `${minutes} minutos` : 'Sin cronómetro';
+    option.selected = minutes === (quick ? 15 : 45);
+    duration.appendChild(option);
+  }
+  $('#attempt-preview').textContent = `${total} Q`;
+  $('#setup-description').textContent = quick
+    ? '10 preguntas distintas para practicar en menos tiempo. Los temas rotan entre intentos para aproximar la proporción de las pruebas completas.'
+    : '30 preguntas distintas, con la distribución de temas y la mezcla de formatos de tus pruebas de ejemplo.';
+  updateDurationNote();
 }
 
 function formatTime(total) {
@@ -116,7 +151,7 @@ function formatTime(total) {
 }
 
 function startAttempt() {
-  state.attempt = sampleAttempt();
+  state.attempt = sampleAttempt(Number($('#attempt-select').value));
   state.current = 0;
   state.answers = {};
   state.marked = new Set();
@@ -127,6 +162,7 @@ function startAttempt() {
   state.elapsed = 0;
   if (state.timerId) window.clearInterval(state.timerId);
   if (selectedDuration > 0) state.timerId = window.setInterval(tick, 1000);
+  $('#exam-title').textContent = state.attempt.length === 10 ? 'Intento rápido' : 'Prueba de conocimientos';
   setScreen('exam');
   renderExam();
 }
@@ -266,20 +302,21 @@ function calculateResult(auto) {
     if (isCorrect) correct += 1;
     return { question, selected, isOmitted, isCorrect };
   });
-  return { correct, omitted, wrong: state.attempt.length - correct - omitted, rows, auto, elapsed: state.elapsed, finishedAt: new Date().toISOString() };
+  return { correct, omitted, wrong: state.attempt.length - correct - omitted, total: state.attempt.length, rows, auto, elapsed: state.elapsed, finishedAt: new Date().toISOString() };
 }
 
 function saveHistory(result) {
   try {
     const history = JSON.parse(localStorage.getItem('b500-history') || '[]');
-    history.unshift({ correct: result.correct, wrong: result.wrong, omitted: result.omitted, elapsed: result.elapsed, date: result.finishedAt });
+    history.unshift({ correct: result.correct, wrong: result.wrong, omitted: result.omitted, total: result.total, elapsed: result.elapsed, date: result.finishedAt });
     localStorage.setItem('b500-history', JSON.stringify(history.slice(0, 8)));
   } catch (error) { /* storage can be unavailable in private browser contexts */ }
 }
 
 function renderResults(result) {
-  const total = state.attempt.length;
+  const total = result.total;
   $('#result-score').textContent = result.correct;
+  $('#result-total').textContent = `/ ${total}`;
   $('#result-percent').textContent = `${Math.round((result.correct / total) * 100)}%`;
   $('#result-correct').textContent = result.correct;
   $('#result-wrong').textContent = result.wrong;
@@ -492,7 +529,8 @@ function renderHistory() {
       const row = document.createElement('div');
       row.className = 'history-row';
       const date = new Date(entry.date);
-      row.innerHTML = `<strong>${entry.correct}/30 · ${Math.round(entry.correct / 30 * 100)}%</strong><span>${date.toLocaleDateString('es-CL')} · ${formatTime(entry.elapsed)} · ${entry.wrong} errores · ${entry.omitted} omitidas</span>`;
+      const total = entry.total || 30;
+      row.innerHTML = `<strong>${entry.correct}/${total} · ${Math.round(entry.correct / total * 100)}%</strong><span>${date.toLocaleDateString('es-CL')} · ${formatTime(entry.elapsed)} · ${entry.wrong} errores · ${entry.omitted} omitidas</span>`;
       list.appendChild(row);
     });
   } catch (error) { section.hidden = true; }
@@ -506,6 +544,8 @@ function goHome() {
 }
 
 function bindEvents() {
+  $('#attempt-select').addEventListener('change', configureAttempt);
+  $('#duration-select').addEventListener('change', updateDurationNote);
   $('#start-button').addEventListener('click', startAttempt);
   $('#prev-button').addEventListener('click', () => changeQuestion(-1));
   $('#next-button').addEventListener('click', () => changeQuestion(1));
@@ -533,9 +573,10 @@ function bindEvents() {
 
 async function init() {
   bindEvents();
+  configureAttempt();
   renderHistory();
   try {
-    const response = await fetch('banco_B310.json?v=20261007-modelos');
+    const response = await fetch('banco_B310.json?v=20261007-intentos10');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];
