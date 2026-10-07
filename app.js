@@ -41,8 +41,10 @@ function shuffle(list) {
 
 function sampleAttempt() {
   const targets = [6, 2, 3, 3, 2, 2, 7, 3, 2];
-  const selected = [];
-  const families = new Set();
+  // 28 directas, 30 combinaciones y 3 ordenaciones entre 61 ítems de los modelos.
+  // Treinta preguntas: 14 directas; una o dos ordenaciones; el resto combinaciones.
+  const orderTarget = Math.random() < (30 * 3 / 61 - 1) ? 2 : 1;
+  const pools = [];
   for (let chapter = 1; chapter <= 9; chapter += 1) {
     const groups = new Map();
     for (const question of state.bank.filter(q => q.chapter === chapter)) {
@@ -50,14 +52,59 @@ function sampleAttempt() {
       if (!groups.has(family)) groups.set(family, []);
       groups.get(family).push(question);
     }
-    const group = shuffle([...groups.entries()]).slice(0, targets[chapter - 1]);
-    if (group.length !== targets[chapter - 1]) throw new Error(`Faltan preguntas distintas para el capítulo ${chapter}.`);
-    for (const [family, variants] of group) {
-      selected.push(variants[Math.floor(Math.random() * variants.length)]);
-      families.add(family);
-    }
+    const byFormat = { Directa: [], Combinación: [], Ordenación: [] };
+    for (const variants of groups.values()) byFormat[variants[0].format].push(variants);
+    pools.push(byFormat);
   }
-  if (selected.length !== 30 || families.size !== 30) throw new Error('La selección del intento no es válida.');
+  function choose(n, k) {
+    if (k < 0 || k > n) return 0;
+    let ways = 1;
+    for (let i = 1; i <= k; i += 1) ways = ways * (n - i + 1) / i;
+    return ways;
+  }
+  const memo = new Map();
+  function allocations(chapter, directLeft, orderLeft) {
+    const pool = pools[chapter];
+    const quota = targets[chapter];
+    const options = [];
+    for (let d = 0; d <= Math.min(quota, directLeft, pool.Directa.length); d += 1) {
+      for (let o = 0; o <= Math.min(quota - d, orderLeft, pool.Ordenación.length); o += 1) {
+        const c = quota - d - o;
+        if (c > pool.Combinación.length) continue;
+        const future = ways(chapter + 1, directLeft - d, orderLeft - o);
+        const weight = choose(pool.Directa.length, d) * choose(pool.Combinación.length, c) * choose(pool.Ordenación.length, o) * future;
+        if (weight > 0) options.push({ d, c, o, weight });
+      }
+    }
+    return options;
+  }
+  function ways(chapter, directLeft, orderLeft) {
+    if (chapter === 9) return directLeft === 0 && orderLeft === 0 ? 1 : 0;
+    const key = `${chapter}/${directLeft}/${orderLeft}`;
+    if (!memo.has(key)) memo.set(key, allocations(chapter, directLeft, orderLeft).reduce((sum, a) => sum + a.weight, 0));
+    return memo.get(key);
+  }
+  if (!ways(0, 14, orderTarget)) throw new Error('No hay suficientes preguntas para mantener la pauta del intento.');
+  const selected = [];
+  let directLeft = 14;
+  let orderLeft = orderTarget;
+  for (let chapter = 0; chapter < 9; chapter += 1) {
+    const options = allocations(chapter, directLeft, orderLeft);
+    let ticket = Math.random() * options.reduce((sum, a) => sum + a.weight, 0);
+    let allocation = options.at(-1);
+    for (const option of options) {
+      ticket -= option.weight;
+      if (ticket <= 0) { allocation = option; break; }
+    }
+    for (const [format, amount] of [['Directa', allocation.d], ['Combinación', allocation.c], ['Ordenación', allocation.o]]) {
+      for (const variants of shuffle(pools[chapter][format]).slice(0, amount)) {
+        selected.push(variants[Math.floor(Math.random() * variants.length)]);
+      }
+    }
+    directLeft -= allocation.d;
+    orderLeft -= allocation.o;
+  }
+  if (selected.length !== 30 || new Set(selected.map(q => q.family_id || q.bank_id)).size !== 30) throw new Error('La selección del intento no es válida.');
   return shuffle(selected);
 }
 
@@ -386,11 +433,11 @@ async function init() {
   bindEvents();
   renderHistory();
   try {
-    const response = await fetch('banco_B500.json?v=20261007-contexto1');
+    const response = await fetch('banco_B250.json?v=20261007-estandar250');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];
-    $('#bank-status').textContent = `${state.bank.length} preguntas y variantes`;
+    $('#bank-status').textContent = `${state.bank.length} preguntas revisadas`;
     $('#start-button').disabled = state.bank.length < 30;
   } catch (error) {
     $('#bank-status').textContent = 'No se pudo cargar el banco';

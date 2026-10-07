@@ -1,43 +1,52 @@
-# Revisión del banco B500 — 7 de octubre de 2026
+# Revisión editorial del banco B250
 
-La revisión anterior fue insuficiente: comprobar cinco alternativas y una clave válida no detectó preguntas cuyo enunciado había perdido el objeto o las condiciones necesarias. Se retira la calificación anterior de «apta después de correcciones de redacción».
+**Banco activo: 250 preguntas. Versión 20261007-estandar250.** La web oficial es [GitHub Pages](https://tgb96.github.io/prueba-conocimientos-tribunales/?v=20261007-estandar250).
 
-Se examinaron los 500 registros y las 250 preguntas de origen para corregir la relación entre enunciados, proposiciones, alternativas y explicaciones. El contenido se contrasta con el Manual Único para Tribunales de octubre de 2025; las pruebas anteriores orientan el formato y no se usan como una pauta oficial de respuestas.
+Se revisaron las 250 preguntas base respecto de su contenido, enunciado, alternativas, clave y explicación, contrastándolas con las páginas del Manual Único para Tribunales de octubre de 2025. Los dos exámenes proporcionados orientan el estilo; las alternativas marcadas en esos documentos no se tomaron como pauta oficial.
 
-## Correcciones
+## Criterio de estudio aplicado
 
-- Los 126 registros de variantes directas conservan ahora el enunciado completo de su pregunta de origen. Ya no se transforma una pregunta sobre un plazo en «seleccione la afirmación sobre [tema]».
-- Las variantes de ordenación conservan las condiciones originales. Se eliminó la numeración duplicada de sus actuaciones.
-- Las combinaciones piloto recuperaron el ámbito de su enunciado original. En las generadas, el ámbito abarca todas las afirmaciones y las proposiciones incompletas identifican ahora el procedimiento, el hito temporal y las excepciones pertinentes.
-- Se revisaron y reformularon las alternativas de las 90 preguntas directas añadidas al piloto. Las preguntas sobre plazos usan el hito en el enunciado y períodos comparables en las alternativas. Se sustituyeron distractores de materias ajenas por opciones sobre el mismo objeto.
-- Se sustituyeron siete conjuntos repetidos por combinaciones sobre presunciones judiciales, presentación de la demanda civil, modos de término del juicio, medidas para mejor resolver, facultad de no iniciar investigación, suspensión condicional e integración de Cortes.
-- Se reemplazaron las secuencias defectuosas de administrador, patrocinio y mandato, investigación penal y enumeración de términos de VIF. Las nuevas secuencias describen actuaciones distintas respaldadas por las páginas 27, 35, 80 y 102–104. Se precisaron además las secuencias ordinaria civil, ejecutiva, familiar y laboral.
-- **Sentencia definitiva civil (B500-082 y su variante B500-316):** el enunciado pregunta el plazo desde la notificación de la citación a oír sentencia o desde el cumplimiento de una medida para mejor resolver. Respuesta: **60 días**, página 54.
-- **Archivo de VIF:** se incorporó la nueva audiencia que el juez debe citar tras la primera incomparecencia. El archivo provisional exige que tampoco concurra ninguna parte a esa nueva audiencia. Un año sin requerir reanudación conduce al abandono; página 80.
-- **Incumplimiento de cautelares de VIF:** el manual indica remitir al Ministerio Público e imponer arresto hasta por quince días como apremio; página 79.
-- **Atención de público:** se corrigió la referencia a la página 30.
+- Preguntar información explícita del manual, con el procedimiento, cargo, hito o condición necesarios para resolverla.
+- Usar cinco alternativas distintas y una única respuesta seleccionable.
+- Mantener las tareas de los ejemplos: reconocer definiciones y funciones, distinguir cifras, plazos y condiciones, evaluar enumeraciones o afirmaciones de un mismo subtema y ordenar etapas descritas.
+- Evitar enunciados genéricos acompañados de respuestas incompletas, mezclas de materias sin relación y distractores ajenos al objeto de la pregunta.
+- Explicar cada proposición y el fundamento de la clave, con páginas del manual. Las preguntas negativas piden expresamente las falsas o incorrectas.
 
-Se modificaron 485 registros, de los cuales 415 cambiaron de enunciado. Esto incluye las variantes afectadas por cada corrección.
+## Cambios de contenido
 
-## Cantidad y selección
+Se sustituyeron las 120 combinaciones genéricas de la base anterior por preguntas redactadas sobre subtemas concretos. Algunas se convirtieron en directas y una en ordenación. Se revisaron también el piloto, las preguntas directas restantes y todas las secuencias.
 
-El banco contiene **250 preguntas base y 250 variantes de práctica**. No son 500 preguntas independientes. Esta limitación está indicada en la portada y en los datos del banco. Las siete repeticiones dentro de la base se sustituyeron, por lo que hay 250 familias distintas.
+Se corrigieron enunciados y alternativas con discordancias gramaticales; se precisó la autorización de actuaciones cuando la ley la exige; se mejoraron los distractores de inspección, peritos, archivo provisional, unificación laboral y condiciones de suspensión penal; se sustituyeron repeticiones por tutela laboral, excepciones civiles y recursos penales. La secuencia de acuerdos de Corte distingue hechos, derecho y resolución final, sin tratar la regla sobre quién vota primero como una etapa posterior independiente.
 
-Cada intento elige 30 familias distintas y luego una variante por familia. Una pregunta y su variante no aparecen juntas. La selección mantiene la pauta provisional inferida de los dos modelos: **6 / 2 / 3 / 3 / 2 / 2 / 7 / 3 / 2** preguntas por los capítulos 1 a 9. Incluye cinco preguntas sobre Cortes: tres de Apelaciones y dos de Suprema.
+Las combinaciones ya no repiten siempre dos verdaderas y una falsa. Contienen entre tres y seis proposiciones, patrones variados, casos de todas o ninguna correctas y preguntas negativas. Las alternativas cercanas a la clave incluyen u omiten proposiciones plausibles. Se distribuyeron las claves sin una secuencia fija de letras: cincuenta de cada letra en el banco.
 
-| Formato | Registros |
-|---|---:|
-| Directas | 230 |
-| Combinaciones | 245 |
-| Ordenación | 25 |
-| Total | 500 |
+Los ejemplos observados por el usuario permanecen corregidos: sentencia civil pregunta explícitamente el plazo y su hito (sesenta días, página 54); el archivo provisional de VIF exige la incomparecencia también a la nueva audiencia (página 80).
 
-## Comprobaciones y límites
+## Comparación de formatos
 
-La validación automática comprobó los 500 registros: cinco alternativas distintas, claves válidas, páginas entre 1 y 118, correspondencia exacta de cada clave de combinación con las afirmaciones verdaderas o falsas, opciones de ordenación que usan cada actuación una vez y conservación del contexto de las variantes directas y de ordenación. No detectó errores en esas comprobaciones.
+Se identifican 61 ítems visibles en los dos modelos; uno repite una pregunta de ordenación. La proporción usa todos los ítems visibles como referencia del formato de las pruebas.
 
-Se simularon 5.000 intentos: todos tuvieron 30 preguntas, las cuotas indicadas y ninguna familia repetida. Se verificaron en Chrome a 1366 y 390 píxeles la carga del banco, la pregunta corregida, la respuesta, la navegación, la finalización y la corrección de las 30 preguntas.
+| Formato | Modelos | Banco revisado |
+|---|---:|---:|
+| Directas | 28 de 61 (45,9 %) | 115 de 250 (46,0 %) |
+| Combinaciones | 30 de 61 (49,2 %) | 123 de 250 (49,2 %) |
+| Ordenación | 3 de 61 (4,9 %) | 12 de 250 (4,8 %) |
+| Preguntas negativas | 8 de 61 (13,1 %) | 35 de 250 (14,0 %) |
 
-Estas pruebas técnicas no certifican por sí solas la exactitud jurídica ni la dificultad de una pregunta. La revisión de contenido realizada corrige los problemas descritos; no constituye una pauta oficial. Para alcanzar 500 preguntas independientes hay que redactar y revisar nuevas preguntas, y para calibrar con más precisión la dificultad y los subtemas se podrán incorporar los nuevos modelos ofrecidos por el usuario. La fórmula de nota y la duración siguen pendientes de las bases oficiales.
+La dificultad se aproxima editorialmente a las tareas de recuerdo y discriminación de los modelos. No hay casos largos, jurisprudencia ni contenido externo que deba conocerse para resolver las preguntas. Dos modelos permiten esta aproximación; no permiten demostrar que el resultado reproduzca estadísticamente la dificultad de un examen futuro.
 
-La versión oficial es [GitHub Pages](https://tgb96.github.io/prueba-conocimientos-tribunales/?v=20261007-contexto1).
+## Intentos y comprobaciones
+
+Cada intento conserva 30 preguntas distintas y la cuota provisional de temas inferida de los modelos: **6 / 2 / 3 / 3 / 2 / 2 / 7 / 3 / 2**, para capítulos 1 a 9. Esto incluye tres de Cortes de Apelaciones y dos de Corte Suprema.
+
+El intento tiene **14 directas**, **una o dos ordenaciones** y **15 o 14 combinaciones**, respectivamente. La proporción media de ordenaciones se aproxima a los modelos. La selección distribuye aleatoriamente estos formatos entre capítulos manteniendo simultáneamente ambas cuotas.
+
+La verificación automática pasó en los 250 registros: alternativas distintas, claves válidas, correspondencia exacta de cada combinación con las verdades y la instrucción negativa, integridad de las permutaciones de ordenación, citas de páginas y registros de revisión. Estas comprobaciones técnicas son distintas de la revisión de contenido descrita arriba.
+
+Se simularon **5000 intentos**, todos con las cuotas y sin duplicados. Se obtuvieron 5000 conjuntos diferentes y aparecieron las 250 preguntas del banco. Se comprobó el flujo completo en Chrome con anchos de 1366 y 390 píxeles: carga, respuesta, navegación, finalización y treinta correcciones; sin errores de JavaScript ni desbordamiento horizontal.
+
+## Trazabilidad y alcance
+
+[REVISION_B250.json](REVISION_B250.json) registra cada ítem, su clave, páginas, fundamento y referencia de formato. El banco activo es [banco_B250.json](banco_B250.json). El antiguo nombre banco_B500.json se conserva como alias de compatibilidad que entrega estas mismas 250 preguntas; no representa otras 250 preguntas ni amplía el banco.
+
+La pauta se reconstruye desde la edición del manual proporcionada. Es material de práctica revisado, sin pretensión de ser una pauta oficial. La duración y fórmula de nota siguen siendo provisionales hasta contar con las bases de la evaluación.
