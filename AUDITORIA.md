@@ -43,6 +43,12 @@ La dificultad se aproxima editorialmente a las tareas de recuerdo y discriminaci
 
 ## Intentos y comprobaciones
 
+### Explicaciones en la revisión del intento
+
+La interfaz de revisión (versión 20261007-explicaciones) abre las preguntas incorrectas y muestra «Por qué tu respuesta es incorrecta». En las directas distingue la alternativa elegida y el fundamento de la regla correcta. En las combinaciones identifica las afirmaciones incluidas u omitidas, respeta si se pidieron las verdaderas o las falsas y explica hasta dos discrepancias para mantener el texto breve. En las ordenaciones señala el error de secuencia y el orden correcto. Las afirmaciones y etapas originales se muestran también en la revisión, junto con las páginas de respaldo.
+
+Se comprobó la generación de texto para las cuatro alternativas incorrectas de cada una de las 250 preguntas (1000 respuestas). Se verificaron casos de pregunta negativa, combinaciones, selección de todas las afirmaciones, secuencias y respuestas directas. La prueba de navegador cubre errores de esos formatos, respuestas correctas y omitidas, visibilidad inicial de la explicación y controles para expandir o contraer. Las claves del banco y las cuotas de selección no cambian.
+
 Cada intento conserva 30 preguntas distintas y la cuota provisional de temas inferida de los modelos: **6 / 2 / 3 / 3 / 2 / 2 / 7 / 3 / 2**, para capítulos 1 a 9. Esto incluye tres de Cortes de Apelaciones y dos de Corte Suprema.
 
 El intento tiene **14 directas**, **una o dos ordenaciones** y **15 o 14 combinaciones**, respectivamente. La proporción media de ordenaciones se aproxima a los modelos. La selección distribuye aleatoriamente estos formatos entre capítulos manteniendo simultáneamente ambas cuotas.

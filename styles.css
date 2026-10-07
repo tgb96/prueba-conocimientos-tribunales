@@ -50,3 +50,10 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:lin
 @media(max-width:380px){
   .brand small{display:none}.brand strong{font-size:10px}.top-status{max-width:102px}.hero-copy h1{font-size:43px}.hero-card{min-height:242px}.score-number{font-size:76px}.mini-stats span{font-size:8px}.mini-stats strong{font-size:15px}.question-palette{grid-template-columns:repeat(5,1fr)}
 }
+.review-statements{margin:0 0 18px;padding-left:22px;font-size:13px;line-height:1.55;color:var(--ink)}
+.review-statements li{padding-left:3px;margin:7px 0}
+.review-explanation{margin:0 0 16px;padding:14px 16px;background:#eef5f1;border:1px solid #d6e4db;border-radius:11px}
+.review-explanation.error-explanation{background:#fff6f1;border-color:#edc8c1}
+.explanation-label{display:block;margin-bottom:7px;font-size:13px;line-height:1.4;color:var(--deep)}
+.error-explanation .explanation-label{color:#8e3f35}
+.review-explanation .explanation{margin:0;color:var(--ink)}

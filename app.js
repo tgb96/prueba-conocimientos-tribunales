@@ -322,16 +322,67 @@ function renderChapterBreakdown(rows) {
   });
 }
 
+function reviewExplanation(row) {
+  const q = row.question;
+  const correctReason = q.option_reasons?.[q.key] || '';
+  if (row.isCorrect || row.isOmitted) return correctReason;
+
+  if (q.format === 'Combinación') {
+    const choice = q.options[row.selected];
+    const selected = new Set(/^Todas\b/i.test(choice)
+      ? q.statements.map((_, index) => index + 1)
+      : /^Ninguna\b/i.test(choice) ? [] : (choice.match(/\d+/g) || []).map(Number));
+    const mismatches = q.truth.flatMap((truth, index) =>
+      selected.has(index + 1) !== (q.negative ? !truth : truth) ? [index] : []);
+    const extra = mismatches.filter(index => selected.has(index + 1)).map(index => index + 1);
+    const missing = mismatches.filter(index => !selected.has(index + 1)).map(index => index + 1);
+    const error = [];
+    if (extra.length) error.push(`Tu respuesta incluye indebidamente ${extra.length === 1 ? 'la afirmación' : 'las afirmaciones'} ${extra.join(', ')}.`);
+    if (missing.length) error.push(`${missing.length === 1 ? 'Falta incluir la afirmación' : 'Faltan las afirmaciones'} ${missing.join(', ')}.`);
+    const details = mismatches.slice(0, 2).map(index => {
+      if (q.truth[index]) return `La afirmación ${index + 1} es verdadera: «${q.statements[index].replace(/\.$/, '')}».`;
+      return `La afirmación ${index + 1} es falsa: ${q.statement_reasons[index]}`;
+    });
+    const task = q.negative ? 'Se pedían las afirmaciones falsas.' : 'Se pedían las afirmaciones verdaderas.';
+    return [task, ...error, ...details].join(' ');
+  }
+
+  const selectedReason = q.option_reasons?.[row.selected] || '';
+  if (q.format === 'Ordenación') {
+    // Evitar repetir dos veces la secuencia completa en las pautas antiguas.
+    const error = selectedReason.startsWith('Invierte pasos del orden descrito:')
+      ? 'La alternativa elegida altera el orden de las etapas.' : selectedReason;
+    return [error, correctReason].filter(Boolean).join(' ');
+  }
+
+  // Las pautas antiguas de algunas directas sólo remitían a una definición.
+  // Explicitar la regla respaldada por la clave evita una corrección vacía.
+  const genericReason = /^(?:Ésa es|Es (?:la (?:definición|noción|función|secuencia|caracterización)|el (?:trámite|contenido|carácter|período|supuesto))|Son (?:los (?:dos|requisitos)|las (?:dos|tres))|Reúne|El manual (?:diferencia|identifica)|La (?:enumeración|composición)|El (?:plazo|período) está|La página \d+ (?:lo establece|contiene ese)|Ambas condiciones)/i.test(correctReason);
+  const rule = genericReason && !q.negative
+    ? `En este caso corresponde: «${q.options[q.key].replace(/\.$/, '')}».` : correctReason;
+  const specificError = !selectedReason.startsWith('La opción propone') && selectedReason !== correctReason
+    ? selectedReason : '';
+  return [specificError, rule].filter(Boolean).join(' ');
+}
+
+function updateReviewToggle() {
+  $('#collapse-review').textContent = $$('.review-card').some(card => !card.classList.contains('open'))
+    ? 'Expandir todo' : 'Contraer todo';
+}
+
 function renderReview(rows) {
   const list = $('#review-list');
   list.replaceChildren();
   rows.forEach((row, index) => {
     const q = row.question;
     const card = document.createElement('article');
-    card.className = `review-card ${row.isOmitted ? 'omitted' : row.isCorrect ? 'correct' : 'incorrect'}`;
+    card.className = `review-card ${row.isOmitted ? 'omitted' : row.isCorrect ? 'correct' : 'incorrect open'}`;
+    card.dataset.questionId = q.bank_id;
     const summary = document.createElement('button');
     summary.type = 'button';
     summary.className = 'review-summary';
+    summary.setAttribute('aria-expanded', String(card.classList.contains('open')));
+    summary.setAttribute('aria-controls', `review-body-${index}`);
     const number = document.createElement('span');
     number.className = 'review-number';
     number.textContent = String(index + 1).padStart(2, '0');
@@ -347,9 +398,17 @@ function renderReview(rows) {
     summary.append(number, icon, title, badge);
     const body = document.createElement('div');
     body.className = 'review-body';
+    body.id = `review-body-${index}`;
     const stem = document.createElement('p');
     stem.className = 'review-question';
     stem.textContent = q.stem;
+    const statements = document.createElement('ol');
+    statements.className = 'review-statements';
+    q.statements.forEach(text => {
+      const statement = document.createElement('li');
+      statement.textContent = text;
+      statements.appendChild(statement);
+    });
     const answers = document.createElement('div');
     answers.className = 'review-answer-row';
     const chosen = document.createElement('div');
@@ -369,17 +428,30 @@ function renderReview(rows) {
     correctText.textContent = `${String.fromCharCode(97 + q.key)}) ${q.options[q.key]}`;
     correct.append(correctLabel, correctText);
     answers.append(chosen, correct);
-    const explanation = document.createElement('p');
-    explanation.className = 'explanation';
-    explanation.textContent = q.option_reasons?.[q.key] || 'La alternativa correcta coincide con la regla del manual.';
+    const explanation = document.createElement('div');
+    explanation.className = `review-explanation ${!row.isCorrect && !row.isOmitted ? 'error-explanation' : ''}`;
+    const explanationLabel = document.createElement('strong');
+    explanationLabel.className = 'explanation-label';
+    explanationLabel.textContent = !row.isCorrect && !row.isOmitted ? 'Por qué tu respuesta es incorrecta' : 'Fundamento de la respuesta';
+    const explanationText = document.createElement('p');
+    explanationText.className = 'explanation';
+    explanationText.textContent = reviewExplanation(row);
+    explanation.append(explanationLabel, explanationText);
     const source = document.createElement('div');
     source.className = 'source-line';
     source.textContent = `Manual · capítulo ${q.chapter} · página${q.pages.length > 1 ? 's' : ''} ${q.pages.join(', ')}`;
-    body.append(stem, answers, explanation, source);
-    summary.addEventListener('click', () => card.classList.toggle('open'));
+    body.appendChild(stem);
+    if (q.statements.length) body.appendChild(statements);
+    body.append(answers, explanation, source);
+    summary.addEventListener('click', () => {
+      card.classList.toggle('open');
+      summary.setAttribute('aria-expanded', String(card.classList.contains('open')));
+      updateReviewToggle();
+    });
     card.append(summary, body);
     list.appendChild(card);
   });
+  updateReviewToggle();
 }
 
 function renderHistory() {
@@ -423,7 +495,10 @@ function bindEvents() {
   $('#collapse-review').addEventListener('click', () => {
     const cards = $$('.review-card');
     const shouldOpen = cards.some(card => !card.classList.contains('open'));
-    cards.forEach(card => card.classList.toggle('open', shouldOpen));
+    cards.forEach(card => {
+      card.classList.toggle('open', shouldOpen);
+      card.querySelector('.review-summary').setAttribute('aria-expanded', String(shouldOpen));
+    });
     $('#collapse-review').textContent = shouldOpen ? 'Contraer todo' : 'Expandir todo';
   });
   $('#clear-history').addEventListener('click', () => { localStorage.removeItem('b500-history'); renderHistory(); });
@@ -433,7 +508,7 @@ async function init() {
   bindEvents();
   renderHistory();
   try {
-    const response = await fetch('banco_B250.json?v=20261007-lenguaje-normativo');
+    const response = await fetch('banco_B250.json?v=20261007-explicaciones');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];
