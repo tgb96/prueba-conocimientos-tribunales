@@ -26,7 +26,7 @@
       "b": 50
     },
     "negative": 35,
-    "version": "20261007-estandar250",
+    "version": "20261007-lenguaje-normativo",
     "scope": "250 preguntas base; banco activo de estudio. Revisión editorial contra el manual de octubre de 2025 y los dos modelos proporcionados."
   },
   "items": [
@@ -62,11 +62,12 @@
       "answer": "e",
       "family_id": "F-6bd2bf1c2c1cbf0b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -119,11 +120,12 @@
       "answer": "c",
       "family_id": "F-c1eab60a91070a35",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -158,11 +160,12 @@
       "answer": "e",
       "family_id": "F-7766eebb66f7cf64",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -204,11 +207,12 @@
       "answer": "c",
       "family_id": "F-de660747531ae241",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -223,7 +227,7 @@
       "statements": [
         "Consiste en una comunicación que el fiscal efectúa al imputado en audiencia y en presencia del juez de garantía.",
         "Consiste en la sentencia mediante la cual el juez de garantía declara culpable al imputado.",
-        "Desde la formalización comienza a correr el plazo de investigación, cuyo máximo legal se indica en el manual como de dos años.",
+        "Desde la formalización comienza a correr el plazo de investigación, cuyo máximo legal es de dos años.",
         "La formalización suspende la prescripción del delito."
       ],
       "truth": [
@@ -258,13 +262,14 @@
       "bank_id": "B250-005",
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "answer": "e",
-      "family_id": "F-4df60f47a23b3587",
+      "family_id": "F-44c4e6cec87420a9",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -275,7 +280,7 @@
         76
       ],
       "format": "Directa",
-      "stem": "Para iniciar a petición de parte el procedimiento de protección de los derechos de un niño, niña o adolescente, el manual señala que:",
+      "stem": "Para iniciar a petición de parte el procedimiento de protección de los derechos de un niño, niña o adolescente, es correcto afirmar que:",
       "statements": [],
       "options": [
         "Se requiere autorización previa del Ministerio Público.",
@@ -297,13 +302,14 @@
       "bank_id": "B250-006",
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "answer": "d",
-      "family_id": "F-761a09c765c7b876",
+      "family_id": "F-521ba9812b6f1d8c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -356,11 +362,12 @@
       "answer": "e",
       "family_id": "F-bf5c4836db4a4ae6",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -371,7 +378,7 @@
         90
       ],
       "format": "Directa",
-      "stem": "Como regla general, antes de iniciar la acción judicial en el procedimiento monitorio laboral, ¿ante qué organismo debe presentarse el reclamo previo indicado en el manual?",
+      "stem": "Como regla general, antes de iniciar la acción judicial en el procedimiento monitorio laboral, ¿ante qué organismo debe presentarse el reclamo previo?",
       "statements": [],
       "options": [
         "La Inspección del Trabajo correspondiente.",
@@ -393,13 +400,14 @@
       "bank_id": "B250-008",
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "answer": "a",
-      "family_id": "F-4fe0b4ba5807b0f1",
+      "family_id": "F-5329206275449529",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -452,11 +460,12 @@
       "answer": "a",
       "family_id": "F-9aafa19479d7fcbf",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -467,7 +476,7 @@
         112
       ],
       "format": "Directa",
-      "stem": "De acuerdo con el manual, ¿qué tribunal otorga el título de abogado a los licenciados en ciencias jurídicas y sociales o en derecho, cumplidos los requisitos correspondientes?",
+      "stem": "¿Qué tribunal otorga el título de abogado a los licenciados en ciencias jurídicas y sociales o en derecho, cumplidos los requisitos correspondientes?",
       "statements": [],
       "options": [
         "El Tribunal Constitucional.",
@@ -489,13 +498,14 @@
       "bank_id": "B250-010",
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "answer": "e",
-      "family_id": "F-1ba372b84bbfb2f4",
+      "family_id": "F-c64b7da2b25c6810",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -506,7 +516,7 @@
         42
       ],
       "format": "Combinación",
-      "stem": "Respecto de las formas de notificación descritas entre las disposiciones comunes a los procedimientos, es correcto afirmar que:",
+      "stem": "Respecto de las formas de notificación reguladas entre las disposiciones comunes a los procedimientos, es correcto afirmar que:",
       "statements": [
         "Los estados diarios electrónicos deben mantenerse en la página web del Poder Judicial durante al menos tres días, de una forma que impida alteraciones.",
         "La notificación tácita sólo puede operar cuando hubo previamente una notificación válida.",
@@ -544,11 +554,12 @@
       "answer": "a",
       "family_id": "F-518ae32f335e1e6c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -559,13 +570,13 @@
         55
       ],
       "format": "Directa",
-      "stem": "Respecto del recurso de reposición civil descrito en el manual, ¿cuál de las siguientes afirmaciones es falsa?",
+      "stem": "Respecto del recurso de reposición civil, ¿cuál de las siguientes afirmaciones es falsa?",
       "statements": [],
       "options": [
         "Se interpone ante el tribunal que dictó la resolución recurrida.",
         "Puede proceder contra autos y decretos.",
         "Excepcionalmente puede proceder contra determinadas sentencias interlocutorias.",
-        "En contra de autos y decretos, el plazo señalado es de cinco días hábiles.",
+        "En contra de autos y decretos, el plazo es de cinco días hábiles.",
         "Lo resuelve el tribunal superior jerárquico del que dictó la resolución."
       ],
       "key": 4,
@@ -581,13 +592,14 @@
       "bank_id": "B250-012",
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "answer": "e",
-      "family_id": "F-76a1376f840c9444",
+      "family_id": "F-0ac32857a14fa158",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -603,7 +615,7 @@
       "options": [
         "Produce cosa juzgada y excluye toda posibilidad de reapertura.",
         "Exige siempre una sentencia absolutoria previa.",
-        "Suspende temporalmente la persecución penal y permite su reapertura en los términos descritos por el manual, mientras la acción penal no esté prescrita.",
+        "Suspende temporalmente la persecución penal y permite reabrir la investigación mientras la acción penal no esté prescrita.",
         "Extingue inmediatamente la responsabilidad penal del imputado.",
         "Sólo permite reabrir la investigación una vez prescrita la acción penal."
       ],
@@ -622,11 +634,12 @@
       "answer": "c",
       "family_id": "F-a6efc002c276b88a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -637,7 +650,7 @@
         5
       ],
       "format": "Combinación",
-      "stem": "Entre los requisitos para ser elegido Presidente de la República, el manual señala:",
+      "stem": "Son requisitos para ser elegido Presidente de la República los siguientes:",
       "statements": [
         "Tener la nacionalidad chilena conforme a los números 1.º o 2.º del artículo 10 de la Constitución.",
         "Tener cumplidos treinta y cinco años de edad.",
@@ -675,11 +688,12 @@
       "answer": "e",
       "family_id": "F-5537802402f1ff11",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -702,7 +716,7 @@
       "key": 0,
       "option_reasons": [
         "Es falsa: la Corte conoce y falla comparezcan o no las partes o sus representantes.",
-        "Es verdadera: el manual exige interponerla siempre por escrito.",
+        "Es verdadera: se exige interponerla siempre por escrito.",
         "Es verdadera: ése es el efecto descrito para el recurso en este procedimiento.",
         "Es verdadera: integra el grupo de resoluciones apelables señalado por el manual.",
         "Es verdadera: el manual incluye las decisiones sobre medidas cautelares."
@@ -714,11 +728,12 @@
       "answer": "a",
       "family_id": "F-fd2d6118a05ed259",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -770,11 +785,12 @@
       "answer": "b",
       "family_id": "F-c8014d922fb767b6",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -826,11 +842,12 @@
       "answer": "b",
       "family_id": "F-51bf94e81ec107e1",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -865,11 +882,12 @@
       "answer": "c",
       "family_id": "F-2bda0a3369460ed1",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -904,11 +922,12 @@
       "answer": "d",
       "family_id": "F-ef65dab9e5868748",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -943,11 +962,12 @@
       "answer": "e",
       "family_id": "F-3ecb2f3e128a7898",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -958,7 +978,7 @@
         23
       ],
       "format": "Directa",
-      "stem": "La obligación de los órganos señalados en el manual de mantener información actualizada en sus respectivas páginas web corresponde a:",
+      "stem": "La obligación de publicar y mantener información actualizada en los sitios web de los órganos obligados a ello corresponde a:",
       "statements": [],
       "options": [
         "La reserva de información.",
@@ -980,13 +1000,14 @@
       "bank_id": "B250-021",
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "answer": "e",
-      "family_id": "F-f949284c3a0be659",
+      "family_id": "F-3bdde1ec9d733e4e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1038,11 +1059,12 @@
       "answer": "a",
       "family_id": "F-53e940bf11e270a5",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1053,7 +1075,7 @@
         72
       ],
       "format": "Combinación",
-      "stem": "Salvo las excepciones señaladas por el manual, se exige mediación previa a la presentación de la demanda en las siguientes materias:",
+      "stem": "La mediación previa a la presentación de una demanda de familia se exige, por regla general, en las siguientes materias:",
       "statements": [
         "Derecho de alimentos.",
         "Cuidado personal.",
@@ -1094,11 +1116,12 @@
       "answer": "c",
       "family_id": "F-7bebf8ca248c816d",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1122,7 +1145,7 @@
         false
       ],
       "statement_reasons": [
-        "El manual exige tanto el tipo de resolución como su estado de firmeza o ejecutoria.",
+        "Se exige tanto el tipo de resolución como su estado de firmeza o ejecutoria.",
         "Esta posibilidad distingue a las resoluciones que causan ejecutoria de las que están firmes.",
         "Los decretos no integran los tipos de resolución a los que el manual atribuye cosa juzgada; además, dictar una resolución no equivale por sí solo a que esté firme."
       ],
@@ -1148,11 +1171,12 @@
       "answer": "d",
       "family_id": "F-5eb9f906a8ab2956",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1204,11 +1228,12 @@
       "answer": "c",
       "family_id": "F-e9280cdc89de7f3a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1257,11 +1282,12 @@
       "answer": "d",
       "family_id": "F-74a18ebd90c1680e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1272,7 +1298,7 @@
         60
       ],
       "format": "Directa",
-      "stem": "Si el deudor es requerido de pago dentro del territorio jurisdiccional del tribunal en que se interpuso la demanda ejecutiva, ¿qué plazo señala el manual para oponerse a la ejecución?",
+      "stem": "Si el deudor es requerido de pago dentro del territorio jurisdiccional del tribunal en que se interpuso la demanda ejecutiva, ¿qué plazo tiene para oponerse a la ejecución?",
       "statements": [],
       "options": [
         "Ocho días útiles, contados desde el requerimiento de pago.",
@@ -1294,13 +1320,14 @@
       "bank_id": "B250-027",
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "answer": "a",
-      "family_id": "F-43f6ed7abcc1f8d7",
+      "family_id": "F-fe63a6db6ec55e7a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1311,7 +1338,7 @@
         114
       ],
       "format": "Combinación",
-      "stem": "Entre las atribuciones del presidente de la Corte Suprema descritas en el manual se encuentran:",
+      "stem": "Entre las atribuciones del presidente de la Corte Suprema se encuentran:",
       "statements": [
         "Formar la tabla para cada sala.",
         "Vigilar la formación del rol general de las causas que ingresan al tribunal.",
@@ -1352,11 +1379,12 @@
       "answer": "b",
       "family_id": "F-e41bd19647782390",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1408,11 +1436,12 @@
       "answer": "d",
       "family_id": "F-c82de216428b458f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1447,11 +1476,12 @@
       "answer": "b",
       "family_id": "F-1d9e7a75e481eb6e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1462,7 +1492,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Cuáles son las tres funciones del Estado que distingue el manual?",
+      "stem": "¿Cuáles son las tres funciones del Estado?",
       "statements": [],
       "options": [
         "La ejecutiva, la jurisdiccional y la electoral.",
@@ -1484,13 +1514,14 @@
       "number": 31,
       "bank_id": "B250-031",
       "id": "B250-031",
-      "family_id": "F-446f80cd5dddceae",
+      "family_id": "F-562564bbf71e502b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1501,7 +1532,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Los ministros de Estado son descritos en el manual como:",
+      "stem": "Los ministros de Estado son:",
       "statements": [],
       "options": [
         "Colaboradores directos del Presidente de la República.",
@@ -1523,13 +1554,14 @@
       "number": 32,
       "bank_id": "B250-032",
       "id": "B250-032",
-      "family_id": "F-a01d3010693005da",
+      "family_id": "F-1208872399ffc406",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1540,7 +1572,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Cuál de las siguientes edades debe tener cumplida una persona para ser elegida Presidente de la República, según el manual?",
+      "stem": "¿Cuál de las siguientes edades debe tener cumplida una persona para ser elegida Presidente de la República?",
       "statements": [],
       "options": [
         "Veinticinco años.",
@@ -1562,13 +1594,14 @@
       "number": 33,
       "bank_id": "B250-033",
       "id": "B250-033",
-      "family_id": "F-9f8f85b1f35a4600",
+      "family_id": "F-fbeed46cde6a4050",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1604,11 +1637,12 @@
       "id": "B250-034",
       "family_id": "F-265a7669c39198f7",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1643,11 +1677,12 @@
       "id": "B250-035",
       "family_id": "F-9778654215638685",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1658,7 +1693,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Las municipalidades son, según el manual:",
+      "stem": "Las municipalidades son:",
       "statements": [],
       "options": [
         "Corporaciones autónomas de derecho público, con personalidad jurídica y patrimonio propio.",
@@ -1680,13 +1715,14 @@
       "number": 36,
       "bank_id": "B250-036",
       "id": "B250-036",
-      "family_id": "F-6b501861e47c07dd",
+      "family_id": "F-d4a32e0c4f9c0d6d",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1697,7 +1733,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Cuántos diputados integran la Cámara de Diputados, según la edición del manual estudiada?",
+      "stem": "¿Cuántos diputados integran la Cámara de Diputados?",
       "statements": [],
       "options": [
         "50 diputados.",
@@ -1719,13 +1755,14 @@
       "number": 37,
       "bank_id": "B250-037",
       "id": "B250-037",
-      "family_id": "F-41924c10f59949cf",
+      "family_id": "F-8a8e21b6aeb7cde9",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1760,11 +1797,12 @@
       "id": "B250-038",
       "family_id": "F-360e5e7850c86b60",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1775,7 +1813,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Para ser elegido diputado, el manual exige, entre otros requisitos:",
+      "stem": "Para ser elegido diputado, se requiere, entre otras condiciones:",
       "statements": [],
       "options": [
         "Tener cumplidos 21 años y haber cursado enseñanza media o equivalente.",
@@ -1797,13 +1835,14 @@
       "number": 39,
       "bank_id": "B250-039",
       "id": "B250-039",
-      "family_id": "F-69c6b47e83d86959",
+      "family_id": "F-04aa7d187e09ddfd",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1838,11 +1877,12 @@
       "id": "B250-040",
       "family_id": "F-98062cbbfb35c43b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1877,11 +1917,12 @@
       "id": "B250-041",
       "family_id": "F-ea1e328824572b40",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -1892,7 +1933,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Para ser elegido senador, el manual exige tener cumplidos:",
+      "stem": "Para ser elegido senador, se requiere tener cumplidos:",
       "statements": [],
       "options": [
         "30 años de edad el día de la elección.",
@@ -1914,13 +1955,14 @@
       "number": 42,
       "bank_id": "B250-042",
       "id": "B250-042",
-      "family_id": "F-7ea9f43c304bea68",
+      "family_id": "F-7b82a5245f627f4c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1931,7 +1973,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Cuál corresponde a una atribución exclusiva del Senado descrita en el manual?",
+      "stem": "¿Cuál de las siguientes es una atribución exclusiva del Senado?",
       "statements": [],
       "options": [
         "Dictar el decreto promulgatorio de las leyes.",
@@ -1953,13 +1995,14 @@
       "number": 43,
       "bank_id": "B250-043",
       "id": "B250-043",
-      "family_id": "F-d86cf1586489a72f",
+      "family_id": "F-3969e735b6b04bcd",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -1970,7 +2013,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Las leyes pueden tener origen, según el manual, en:",
+      "stem": "Las leyes pueden tener origen en:",
       "statements": [],
       "options": [
         "La Cámara de Diputados o el Senado, por mensaje presidencial o moción parlamentaria.",
@@ -1992,13 +2035,14 @@
       "number": 44,
       "bank_id": "B250-044",
       "id": "B250-044",
-      "family_id": "F-0a12943ab37727a9",
+      "family_id": "F-991c1d530e334856",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -2033,11 +2077,12 @@
       "id": "B250-045",
       "family_id": "F-63261c02e65b4f0d",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2072,11 +2117,12 @@
       "id": "B250-046",
       "family_id": "F-c9b90f86a44ff7d2",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2087,7 +2133,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Desde que queda tramitado el decreto promulgatorio, ¿qué plazo indica el manual para publicar el texto de la ley en el Diario Oficial?",
+      "stem": "Desde que queda tramitado el decreto promulgatorio, ¿qué plazo existe para publicar el texto de la ley en el Diario Oficial?",
       "statements": [],
       "options": [
         "Quince días.",
@@ -2109,13 +2155,14 @@
       "number": 47,
       "bank_id": "B250-047",
       "id": "B250-047",
-      "family_id": "F-50834dc66f7bb9e2",
+      "family_id": "F-eaef5540d8eca024",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -2150,11 +2197,12 @@
       "id": "B250-048",
       "family_id": "F-eaa174489dd4baa3",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2189,11 +2237,12 @@
       "id": "B250-049",
       "family_id": "F-03be810195706e32",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2228,11 +2277,12 @@
       "id": "B250-050",
       "family_id": "F-e2db1bce9c454fc4",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2267,11 +2317,12 @@
       "id": "B250-051",
       "family_id": "F-3dadb3a4ff77c229",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2306,11 +2357,12 @@
       "id": "B250-052",
       "family_id": "F-971cc4793a966dad",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2345,11 +2397,12 @@
       "id": "B250-053",
       "family_id": "F-e68265062d886d55",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2384,11 +2437,12 @@
       "id": "B250-054",
       "family_id": "F-3ba4c4ce44588029",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2423,11 +2477,12 @@
       "id": "B250-055",
       "family_id": "F-34e0a6834d701496",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2462,11 +2517,12 @@
       "id": "B250-056",
       "family_id": "F-8908ca70adb347d3",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2501,11 +2557,12 @@
       "id": "B250-057",
       "family_id": "F-edd0f493229b7585",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2540,11 +2597,12 @@
       "id": "B250-058",
       "family_id": "F-8a072aa3944da5b8",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2555,7 +2613,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Según la regla general de comparecencia descrita en el manual, el patrocinio se constituye:",
+      "stem": "Según la regla general de comparecencia en juicio, el patrocinio se constituye:",
       "statements": [],
       "options": [
         "En la contestación, aunque antes se haya presentado la demanda sin patrocinio.",
@@ -2577,13 +2635,14 @@
       "number": 59,
       "bank_id": "B250-059",
       "id": "B250-059",
-      "family_id": "F-bd36ada1081113f3",
+      "family_id": "F-3711ca2f90d09f90",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -2594,7 +2653,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Cuál de las siguientes personas puede ser mandataria judicial según el manual?",
+      "stem": "¿Cuál de las siguientes personas puede ser mandataria judicial?",
       "statements": [],
       "options": [
         "Un estudiante actualmente inscrito en primer año de Derecho.",
@@ -2616,13 +2675,14 @@
       "number": 60,
       "bank_id": "B250-060",
       "id": "B250-060",
-      "family_id": "F-aa5e8303df936695",
+      "family_id": "F-132e7e75259a5ec1",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -2657,11 +2717,12 @@
       "id": "B250-061",
       "family_id": "F-e17ee028b568c120",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2697,11 +2758,12 @@
       "id": "B250-062",
       "family_id": "F-6e3ae32205b4021f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2736,11 +2798,12 @@
       "id": "B250-063",
       "family_id": "F-e6af2839071a4c7b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2751,7 +2814,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Al computar los plazos, el manual señala que éstos:",
+      "stem": "Al computar los plazos procesales, es correcto afirmar que éstos:",
       "statements": [],
       "options": [
         "Deben ser completos y corren hasta la medianoche del último día.",
@@ -2773,13 +2836,14 @@
       "number": 64,
       "bank_id": "B250-064",
       "id": "B250-064",
-      "family_id": "F-09afee5cfd064440",
+      "family_id": "F-5596adef9bf86d33",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -2816,11 +2880,12 @@
       "id": "B250-065",
       "family_id": "F-29471c21e661cd97",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2855,11 +2920,12 @@
       "id": "B250-066",
       "family_id": "F-0f5a8554710bbd48",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2894,11 +2960,12 @@
       "id": "B250-067",
       "family_id": "F-c85987d45b76673d",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2935,11 +3002,12 @@
       "id": "B250-068",
       "family_id": "F-a1986321e58c78bc",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -2974,11 +3042,12 @@
       "id": "B250-069",
       "family_id": "F-c109c17ad9121696",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3013,11 +3082,12 @@
       "id": "B250-070",
       "family_id": "F-db918ca984b3ba4e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3052,11 +3122,12 @@
       "id": "B250-071",
       "family_id": "F-80ccde3f61be4617",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3091,11 +3162,12 @@
       "id": "B250-072",
       "family_id": "F-e4d353c752cd4da1",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3106,7 +3178,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Cuál de las siguientes es una excepción anómala según el manual?",
+      "stem": "¿Cuál de las siguientes es una excepción anómala del juicio ordinario civil?",
       "statements": [],
       "options": [
         "La incompetencia del tribunal.",
@@ -3128,13 +3200,14 @@
       "number": 73,
       "bank_id": "B250-073",
       "id": "B250-073",
-      "family_id": "F-72a74d46fc55f229",
+      "family_id": "F-225d15998d6fac75",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -3169,11 +3242,12 @@
       "id": "B250-074",
       "family_id": "F-72311bfe11d3384a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3208,11 +3282,12 @@
       "id": "B250-075",
       "family_id": "F-66f7ce229208697c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3247,11 +3322,12 @@
       "id": "B250-076",
       "family_id": "F-f70fe72b5c908b8a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3286,11 +3362,12 @@
       "id": "B250-077",
       "family_id": "F-accab26fc92008ff",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3326,11 +3403,12 @@
       "id": "B250-078",
       "family_id": "F-c347f1da09617b6b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3366,11 +3444,12 @@
       "id": "B250-079",
       "family_id": "F-81100cf935f21fb9",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3405,11 +3484,12 @@
       "id": "B250-080",
       "family_id": "F-caeddc33c3ce3ea3",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3444,11 +3524,12 @@
       "id": "B250-081",
       "family_id": "F-becbe238f6142760",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3483,11 +3564,12 @@
       "id": "B250-082",
       "family_id": "F-3d6658487b45fc79",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3523,11 +3605,12 @@
       "id": "B250-083",
       "family_id": "F-448fc953719a05f4",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3562,11 +3645,12 @@
       "id": "B250-084",
       "family_id": "F-3cb4a8e709160329",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3601,11 +3685,12 @@
       "id": "B250-085",
       "family_id": "F-ff408173ab9bc952",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3640,11 +3725,12 @@
       "id": "B250-086",
       "family_id": "F-6a9c0882dec34ebd",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3679,11 +3765,12 @@
       "id": "B250-087",
       "family_id": "F-a3a3c535cea65f93",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3719,11 +3806,12 @@
       "id": "B250-088",
       "family_id": "F-955efdf85b912af4",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3759,11 +3847,12 @@
       "id": "B250-089",
       "family_id": "F-b9a045a1be7e69aa",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3799,11 +3888,12 @@
       "id": "B250-090",
       "family_id": "F-95317cba43ec21ce",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3838,11 +3928,12 @@
       "id": "B250-091",
       "family_id": "F-8541e6b9d8a6f009",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3877,11 +3968,12 @@
       "id": "B250-092",
       "family_id": "F-e2b008b6dca32651",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3916,11 +4008,12 @@
       "id": "B250-093",
       "family_id": "F-9c380d05b6621290",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3955,11 +4048,12 @@
       "id": "B250-094",
       "family_id": "F-e0017c7d32854028",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -3994,11 +4088,12 @@
       "id": "B250-095",
       "family_id": "F-774e7b86a634c40d",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4034,11 +4129,12 @@
       "id": "B250-096",
       "family_id": "F-0223d8da2498403c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4073,11 +4169,12 @@
       "id": "B250-097",
       "family_id": "F-c2e9c7f94729a59f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4100,11 +4197,11 @@
       "key": 2,
       "answer": "c",
       "option_reasons": [
-        "La opción propone «Veinte días.»; el manual señala: El manual exige al menos quince días.",
-        "La opción propone «Treinta días.»; el manual señala: El manual exige al menos quince días.",
-        "El manual exige al menos quince días.",
-        "La opción propone «Cinco días.»; el manual señala: El manual exige al menos quince días.",
-        "La opción propone «Diez días.»; el manual señala: El manual exige al menos quince días."
+        "La opción propone «Veinte días.»; el manual señala: Se exige al menos quince días.",
+        "La opción propone «Treinta días.»; el manual señala: Se exige al menos quince días.",
+        "Se exige al menos quince días.",
+        "La opción propone «Cinco días.»; el manual señala: Se exige al menos quince días.",
+        "La opción propone «Diez días.»; el manual señala: Se exige al menos quince días."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 98,
@@ -4112,11 +4209,12 @@
       "id": "B250-098",
       "family_id": "F-cc2139e366a2ddde",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4151,11 +4249,12 @@
       "id": "B250-099",
       "family_id": "F-dd56fab290fefc93",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4190,11 +4289,12 @@
       "id": "B250-100",
       "family_id": "F-cd74a6c17376219c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4229,11 +4329,12 @@
       "id": "B250-101",
       "family_id": "F-9453350b08bc7ca8",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4244,7 +4345,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Desde la notificación de la resolución impugnada, ¿qué plazo establece el manual para interponer el recurso de nulidad laboral?",
+      "stem": "Desde la notificación de la resolución impugnada, ¿qué plazo existe para interponer el recurso de nulidad laboral?",
       "statements": [],
       "options": [
         "Tres días.",
@@ -4266,13 +4367,14 @@
       "number": 102,
       "bank_id": "B250-102",
       "id": "B250-102",
-      "family_id": "F-54d177735f4db5d3",
+      "family_id": "F-3575348460c32a6f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -4299,7 +4401,7 @@
         "La unificación se refiere a la interpretación de derecho.",
         "Se requieren distintas interpretaciones respaldadas por los fallos indicados.",
         "Es el supuesto jurídico definido en la página 87.",
-        "El manual exige fallos firmes."
+        "Se exige fallos firmes."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 103,
@@ -4308,11 +4410,12 @@
       "id": "B250-103",
       "family_id": "F-7a4fb9abcaaad5fd",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4347,11 +4450,12 @@
       "id": "B250-104",
       "family_id": "F-9dde0ebcfc577392",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4386,11 +4490,12 @@
       "id": "B250-105",
       "family_id": "F-fb337b703d434184",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4426,11 +4531,12 @@
       "id": "B250-106",
       "family_id": "F-43c2818d6352b1c1",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4454,11 +4560,11 @@
       "key": 0,
       "answer": "a",
       "option_reasons": [
-        "El manual exige aprobación del juez de garantía.",
+        "Se exige aprobación del juez de garantía.",
         "Es una decisión judicial, no administrativa.",
         "No corresponde al TOP esta aprobación.",
         "Se exige aprobación del juez de garantía, no de la Corte.",
-        "El manual exige aprobación judicial."
+        "Se exige aprobación judicial."
       ],
       "source_edition": "Manual Único para Tribunales, octubre de 2025",
       "number": 107,
@@ -4467,11 +4573,12 @@
       "id": "B250-107",
       "family_id": "F-78b9d1443df60690",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4506,11 +4613,12 @@
       "id": "B250-108",
       "family_id": "F-2d367129394a2e7a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4546,11 +4654,12 @@
       "id": "B250-109",
       "family_id": "F-4883a54e766089fb",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4561,7 +4670,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Cuál es una medida cautelar real descrita en el manual?",
+      "stem": "¿Cuál de las siguientes es una medida cautelar real del procedimiento penal?",
       "statements": [],
       "options": [
         "La privación de libertad en la casa del imputado.",
@@ -4583,13 +4692,14 @@
       "number": 110,
       "bank_id": "B250-110",
       "id": "B250-110",
-      "family_id": "F-e81405cb29625369",
+      "family_id": "F-c8ff3ef6b0b8348b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -4600,7 +4710,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Entre qué límites se fija la duración de la suspensión condicional del procedimiento penal, según el manual?",
+      "stem": "¿Entre qué límites se fija la duración de la suspensión condicional del procedimiento penal?",
       "statements": [],
       "options": [
         "Uno y dos años.",
@@ -4622,13 +4732,14 @@
       "number": 111,
       "bank_id": "B250-111",
       "id": "B250-111",
-      "family_id": "F-13d08a3d4a4b10e8",
+      "family_id": "F-4a11c61a8864d30c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Pulida tras contraste"
+        "editorial_action": "Pulida tras contraste",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -4664,11 +4775,12 @@
       "id": "B250-112",
       "family_id": "F-89c7ae5508319bcc",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4703,11 +4815,12 @@
       "id": "B250-113",
       "family_id": "F-cda1d6f9ba201ee5",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4743,11 +4856,12 @@
       "id": "B250-114",
       "family_id": "F-2ec67e444d2217b8",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4782,11 +4896,12 @@
       "id": "B250-115",
       "family_id": "F-a2b493c12a26e89f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4821,11 +4936,12 @@
       "id": "B250-116",
       "family_id": "F-d57bba744cebd1cb",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4860,11 +4976,12 @@
       "id": "B250-117",
       "family_id": "F-bbd92652a78f1406",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4899,11 +5016,12 @@
       "id": "B250-118",
       "family_id": "F-7db71f300bf52a18",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4938,11 +5056,12 @@
       "id": "B250-119",
       "family_id": "F-d20b30db44e8189c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -4953,7 +5072,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Qué temáticas abordan los tres comités de trabajo de la Corte Suprema descritos en el manual?",
+      "stem": "¿Qué temáticas abordan los tres comités de trabajo de la Corte Suprema?",
       "statements": [],
       "options": [
         "Modernización, presupuesto y personas.",
@@ -4976,13 +5095,14 @@
       "bank_id": "B250-120",
       "specific_stem": true,
       "id": "B250-120",
-      "family_id": "F-230655f419d9a130",
+      "family_id": "F-b1d4e17ae5668b84",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -5018,11 +5138,12 @@
       "id": "B250-121",
       "family_id": "F-1cc94dd4104e965b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5058,11 +5179,12 @@
       "id": "B250-122",
       "family_id": "F-4ab7e2893680a7f6",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5073,7 +5195,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Según el manual, son ciudadanos los chilenos que:",
+      "stem": "Son ciudadanos los chilenos que:",
       "statements": [],
       "options": [
         "Han cumplido veintiún años y no han sido condenados a pena aflictiva.",
@@ -5096,13 +5218,14 @@
       "bank_id": "B250-123",
       "specific_stem": true,
       "id": "B250-123",
-      "family_id": "F-feb02992c4d61544",
+      "family_id": "F-c5590dd565b29cb6",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -5113,7 +5236,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "Las vías de amparo y protección descritas en el manual permiten recurrir a un órgano jurisdiccional para:",
+      "stem": "Las vías de amparo y protección permiten recurrir a un órgano jurisdiccional para:",
       "statements": [],
       "options": [
         "Reemplazar toda acción civil de indemnización.",
@@ -5136,13 +5259,14 @@
       "bank_id": "B250-124",
       "specific_stem": true,
       "id": "B250-124",
-      "family_id": "F-0304a4453a6e8f7d",
+      "family_id": "F-d46c945e7fa29b14",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -5178,11 +5302,12 @@
       "id": "B250-125",
       "family_id": "F-8dcfc742e2213fda",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5238,11 +5363,12 @@
       "id": "B250-126",
       "family_id": "F-51a3820698e501dd",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5296,11 +5422,12 @@
       "id": "B250-127",
       "family_id": "F-e98e8b1da2a1571c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5354,11 +5481,12 @@
       "id": "B250-128",
       "family_id": "F-fe2261de57cdd8d6",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5408,11 +5536,12 @@
       "id": "B250-129",
       "family_id": "F-f62745aa7b067a63",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5465,11 +5594,12 @@
       "id": "B250-130",
       "family_id": "F-23c59d2834590374",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5519,11 +5649,12 @@
       "id": "B250-131",
       "family_id": "F-311d23f2da40a4e9",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5536,7 +5667,7 @@
       "negative": true,
       "stem": "Respecto del principio de inexcusabilidad, ¿cuáles de las siguientes afirmaciones son falsas?",
       "statements": [
-        "En ausencia de ley, el manual menciona el espíritu general de la legislación y la equidad natural.",
+        "A falta de ley que resuelva la contienda, deben aplicarse el espíritu general de la legislación y la equidad natural.",
         "Los jueces deben resolver los asuntos de su competencia sometidos en forma legal a su consideración.",
         "El juez debe resolver cualquier asunto, aunque no sea de su competencia.",
         "La obligación de resolver subsiste aun cuando falte una ley que resuelva la contienda.",
@@ -5571,19 +5702,20 @@
       ],
       "statement_reasons": [
         "Ambos criterios se mencionan al describir la inexcusabilidad.",
-        "El manual exige tanto competencia como intervención reclamada en forma legal.",
+        "Se exige tanto competencia como intervención reclamada en forma legal.",
         "El principio se refiere a negocios de competencia del tribunal.",
         "Es el alcance central de la inexcusabilidad.",
         "La falta de ley no permite excusarse."
       ],
       "id": "B250-132",
-      "family_id": "F-b30f57652d45dcea",
+      "family_id": "F-74e6033f11abe5e4",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -5636,11 +5768,12 @@
       "id": "B250-133",
       "family_id": "F-40f67a68b527bedb",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5693,11 +5826,12 @@
       "id": "B250-134",
       "family_id": "F-f23d25b096d42c3a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5753,11 +5887,12 @@
       "id": "B250-135",
       "family_id": "F-1194df05032adde8",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5811,11 +5946,12 @@
       "id": "B250-136",
       "family_id": "F-f7b82f874fce7f09",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5868,11 +6004,12 @@
       "id": "B250-137",
       "family_id": "F-1b8867a15daa9679",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5922,11 +6059,12 @@
       "id": "B250-138",
       "family_id": "F-ef83e0e4cbe2aa05",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -5979,11 +6117,12 @@
       "id": "B250-139",
       "family_id": "F-10dae9af190a4e1f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6037,11 +6176,12 @@
       "id": "B250-140",
       "family_id": "F-e5829646dc67f2de",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6094,11 +6234,12 @@
       "id": "B250-141",
       "family_id": "F-c037df79b81fe351",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6113,7 +6254,7 @@
       "statements": [
         "Son corporaciones de derecho privado sin patrimonio propio.",
         "Se constituyen por un alcalde y un concejo comunal elegidos directamente.",
-        "El período indicado para alcalde y concejo es de cuatro años, renovable.",
+        "El período de alcalde y concejo es de cuatro años, renovable.",
         "El Consejo Comunal de Seguridad Pública es un órgano consultivo del alcalde."
       ],
       "options": [
@@ -6149,13 +6290,14 @@
         "La página 8 lo describe también como instancia de coordinación interinstitucional."
       ],
       "id": "B250-142",
-      "family_id": "F-852680a154b1df25",
+      "family_id": "F-d0286934152e3b16",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -6167,7 +6309,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿Cuál de las siguientes funciones corresponde al relator, según el manual?",
+      "stem": "¿Cuál de las siguientes funciones corresponde al relator?",
       "statements": [],
       "options": [
         "Representar en juicio a las partes como procurador del número.",
@@ -6190,13 +6332,14 @@
       "bank_id": "B250-143",
       "specific_stem": true,
       "id": "B250-143",
-      "family_id": "F-17035450dd217e67",
+      "family_id": "F-850c4ccf40795b39",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -6249,11 +6392,12 @@
       "id": "B250-144",
       "family_id": "F-1a050e76ba5b10b0",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6307,11 +6451,12 @@
       "id": "B250-145",
       "family_id": "F-b6f91c6dcd99510e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6364,11 +6509,12 @@
       "id": "B250-146",
       "family_id": "F-a21cd524150c3ba8",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6422,11 +6568,12 @@
       "id": "B250-147",
       "family_id": "F-3f84290f43e59575",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6485,11 +6632,12 @@
       "id": "B250-148",
       "family_id": "F-80781da9c243801f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6505,7 +6653,7 @@
       "statements": [
         "Certifican que el proceso se encuentra en estado de relación.",
         "Dan cuenta de asuntos urgentes al tribunal.",
-        "Ponen en conocimiento de las partes el nombre de quienes integrarán el tribunal en los supuestos descritos.",
+        "Ponen en conocimiento de las partes o sus abogados el nombre de las personas que integran el tribunal, cuando corresponde efectuar esa comunicación.",
         "Hacen relación de los procesos."
       ],
       "options": [
@@ -6541,13 +6689,14 @@
         "Es una función característica del relator."
       ],
       "id": "B250-149",
-      "family_id": "F-1169c3a35db3fb34",
+      "family_id": "F-0f506cbb483eb9e2",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -6601,11 +6750,12 @@
       "id": "B250-150",
       "family_id": "F-9280c484b914fc07",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6658,11 +6808,12 @@
       "id": "B250-151",
       "family_id": "F-fe09c56ba2d3e1d6",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6715,11 +6866,12 @@
       "id": "B250-152",
       "family_id": "F-d3642a81beb9bf34",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6755,11 +6907,12 @@
       "id": "B250-153",
       "family_id": "F-21d2701c3dd3ebc3",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6813,11 +6966,12 @@
       "id": "B250-154",
       "family_id": "F-101c7ed6d8832b52",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6873,11 +7027,12 @@
       "id": "B250-155",
       "family_id": "F-84e77565b2de546b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6931,11 +7086,12 @@
       "id": "B250-156",
       "family_id": "F-246452815895dfd2",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -6989,11 +7145,12 @@
       "id": "B250-157",
       "family_id": "F-da6ee2e9f977d80d",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7046,11 +7203,12 @@
       "id": "B250-158",
       "family_id": "F-b31b67f9b532e2bc",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7104,11 +7262,12 @@
       "id": "B250-159",
       "family_id": "F-520fa1f8ca465c8c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7162,11 +7321,12 @@
       "id": "B250-160",
       "family_id": "F-6e6a951c22095f7c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7220,11 +7380,12 @@
       "id": "B250-161",
       "family_id": "F-0ea3a38c5c54d394",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7278,11 +7439,12 @@
       "id": "B250-162",
       "family_id": "F-0938c2f20efc0335",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7330,16 +7492,17 @@
         "Son las circunstancias que deben certificarse.",
         "Es un presupuesto de esta forma de notificación.",
         "El manual recoge la regla sin nueva orden.",
-        "El manual exige búsquedas en dos días distintos."
+        "Se exige búsquedas en dos días distintos."
       ],
       "id": "B250-163",
       "family_id": "F-14e4d36855966435",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7393,11 +7556,12 @@
       "id": "B250-164",
       "family_id": "F-48f45a765e102d77",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7450,11 +7614,12 @@
       "id": "B250-165",
       "family_id": "F-bef9f463c3ce9431",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7507,11 +7672,12 @@
       "id": "B250-166",
       "family_id": "F-b3db19afaf98b94c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7525,7 +7691,7 @@
       "negative": true,
       "stem": "Respecto del desasimiento del tribunal, ¿cuáles de las siguientes afirmaciones son falsas?",
       "statements": [
-        "Impide al tribunal que la dictó alterarla o modificarla, según la regla general descrita.",
+        "Por regla general, impide al tribunal que la dictó alterarla o modificarla.",
         "Se produce respecto de una sentencia definitiva o interlocutoria una vez notificada a alguna de las partes.",
         "Sólo se produce después de notificar la sentencia a todas las partes.",
         "Opera respecto de cualquier decreto desde que se dicta."
@@ -7563,13 +7729,14 @@
         "La regla descrita se refiere a definitivas e interlocutorias y exige notificación."
       ],
       "id": "B250-167",
-      "family_id": "F-ae73767e17eb7b5b",
+      "family_id": "F-f6919a23cce8a526",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -7580,7 +7747,7 @@
       ],
       "format": "Directa",
       "negative": false,
-      "stem": "¿En qué caso procede el verdadero recurso de hecho descrito en el manual?",
+      "stem": "¿En qué caso procede el verdadero recurso de hecho?",
       "statements": [],
       "options": [
         "Cuando se pide invalidar una sentencia por infracción de ley que influye en lo dispositivo.",
@@ -7603,13 +7770,14 @@
       "bank_id": "B250-168",
       "specific_stem": true,
       "id": "B250-168",
-      "family_id": "F-10853dbe6cab4e2f",
+      "family_id": "F-a8c9287b692e3a5b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -7662,11 +7830,12 @@
       "id": "B250-169",
       "family_id": "F-a5b1669fef0d8e14",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7716,11 +7885,12 @@
       "id": "B250-170",
       "family_id": "F-31bbc2b78448cb28",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7733,7 +7903,7 @@
       "negative": false,
       "stem": "Respecto del recurso de reposición civil, ¿cuáles de las siguientes afirmaciones son correctas?",
       "statements": [
-        "Para las sentencias interlocutorias expresamente recurribles por reposición, el plazo indicado es de tres días.",
+        "Para las sentencias interlocutorias expresamente recurribles por reposición, el plazo es de tres días hábiles.",
         "Se solicita al mismo tribunal que dictó la resolución.",
         "El plazo general respecto de autos y decretos es de cinco días hábiles.",
         "Se interpone directamente ante el tribunal superior del que dictó la resolución."
@@ -7771,13 +7941,14 @@
         "Confunde la reposición con un recurso ante la alzada."
       ],
       "id": "B250-171",
-      "family_id": "F-6048033dfcc39984",
+      "family_id": "F-566fa16380c91f92",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -7793,7 +7964,7 @@
         "Se interpone directamente ante la Corte Suprema, sin presentarlo al tribunal que dictó la sentencia.",
         "Busca invalidar una sentencia por infracción de ley que influya sustancialmente en lo dispositivo del fallo.",
         "Su conocimiento corresponde a la Corte Suprema.",
-        "El plazo indicado para interponerlo es de quince días."
+        "El plazo para interponerlo es de quince días."
       ],
       "options": [
         "Sólo 1 y 2.",
@@ -7828,13 +7999,14 @@
         "Es el plazo de la página 56."
       ],
       "id": "B250-172",
-      "family_id": "F-58765eff5bc3bd2f",
+      "family_id": "F-e2d618e89c723005",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -7888,11 +8060,12 @@
       "id": "B250-173",
       "family_id": "F-3f335f237f91972f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -7955,11 +8128,12 @@
       "id": "B250-174",
       "family_id": "F-ea03cc5517490f99",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8012,11 +8186,12 @@
       "id": "B250-175",
       "family_id": "F-c6177b987588b1b3",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8070,11 +8245,12 @@
       "id": "B250-176",
       "family_id": "F-9aaf48a23ea8e72e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8127,11 +8303,12 @@
       "id": "B250-177",
       "family_id": "F-2b5c36669695598e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8184,11 +8361,12 @@
       "id": "B250-178",
       "family_id": "F-83e74235160eb24c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8242,11 +8420,12 @@
       "id": "B250-179",
       "family_id": "F-035fd0925a9616c2",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8302,11 +8481,12 @@
       "id": "B250-180",
       "family_id": "F-63949d8e1b4972a1",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8359,11 +8539,12 @@
       "id": "B250-181",
       "family_id": "F-70e3267ad9fdd585",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8417,11 +8598,12 @@
       "id": "B250-182",
       "family_id": "F-7095f0e648fd2814",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8435,7 +8617,7 @@
       "negative": false,
       "stem": "Respecto de los títulos ejecutivos, ¿cuáles de las siguientes afirmaciones son correctas?",
       "statements": [
-        "El acta de avenimiento pasada ante tribunal competente y autorizada en la forma señalada en el manual.",
+        "El acta de avenimiento pasada ante tribunal competente y autorizada por un ministro de fe o por dos testigos de actuación.",
         "La copia autorizada de escritura pública.",
         "Todo instrumento privado, aunque no haya sido reconocido ni mandado tener por reconocido.",
         "La sentencia firme, definitiva o interlocutoria.",
@@ -8469,20 +8651,21 @@
         true
       ],
       "statement_reasons": [
-        "El manual exige esas condiciones.",
+        "Se exige esas condiciones.",
         "Es un título señalado.",
         "El instrumento privado requiere reconocimiento o ser mandado tener por reconocido, con las reglas particulares descritas.",
         "Es un título señalado en el manual.",
         "Figura entre los títulos ejecutivos."
       ],
       "id": "B250-183",
-      "family_id": "F-6d70b234d82cceda",
+      "family_id": "F-a00e9eb1832c7140",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -8497,8 +8680,8 @@
       "statements": [
         "La regla general se cuenta desde el embargo, aunque la obligación fuera exigible antes.",
         "Para el pagaré, el año se cuenta siempre desde su emisión y nunca desde su exigibilidad.",
-        "Para el cheque, el plazo indicado es de un año desde el protesto.",
-        "La regla general indicada es de tres años desde que la obligación se hace exigible."
+        "Para el cheque, el plazo es de un año desde el protesto.",
+        "Por regla general, la acción ejecutiva prescribe en tres años desde que la obligación se hace exigible."
       ],
       "options": [
         "Sólo 3.",
@@ -8533,13 +8716,14 @@
         "El manual señala luego la subsistencia como ordinaria por dos años más."
       ],
       "id": "B250-184",
-      "family_id": "F-93deaeb4df58b9b4",
+      "family_id": "F-30e638ea2d1dae26",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -8554,7 +8738,7 @@
       "stem": "Respecto de las gestiones preparatorias de la vía ejecutiva, ¿cuáles de las siguientes afirmaciones son falsas?",
       "statements": [
         "Buscan obtener o completar un título ejecutivo.",
-        "El reconocimiento de firma y la confesión de deuda son gestiones preparatorias descritas.",
+        "El reconocimiento de firma y la confesión de deuda son gestiones preparatorias de la vía ejecutiva.",
         "Su finalidad es decidir íntegramente el fondo de un juicio ordinario.",
         "La audiencia se fija dentro del quinto día desde la última notificación."
       ],
@@ -8591,13 +8775,14 @@
         "Es la oportunidad señalada para la citación."
       ],
       "id": "B250-185",
-      "family_id": "F-cca37fb4ef0243ef",
+      "family_id": "F-bc060809e625466c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -8610,7 +8795,7 @@
       "negative": false,
       "stem": "Respecto de la oposición de excepciones en el juicio ejecutivo, ¿cuáles de las siguientes afirmaciones son correctas?",
       "statements": [
-        "Dentro del territorio del tribunal, el plazo indicado para oponerse es de ocho días útiles.",
+        "Si el deudor es requerido dentro del territorio jurisdiccional del tribunal, dispone de ocho días útiles para oponerse.",
         "El término para deducir oposición es fatal.",
         "El ejecutado puede oponer cualquier defensa sin sujeción a la enumeración legal de excepciones.",
         "El plazo para oponerse se cuenta desde el embargo y no desde el requerimiento de pago."
@@ -8648,13 +8833,14 @@
         "Se cuenta desde el requerimiento de pago."
       ],
       "id": "B250-186",
-      "family_id": "F-a99d78b16ec921e0",
+      "family_id": "F-461838249e8cf030",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -8708,11 +8894,12 @@
       "id": "B250-187",
       "family_id": "F-0ec505ccc4bb64db",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8765,11 +8952,12 @@
       "id": "B250-188",
       "family_id": "F-f585284b9ad90a8a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8826,11 +9014,12 @@
       "id": "B250-189",
       "family_id": "F-fac384501824132c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8884,11 +9073,12 @@
       "id": "B250-190",
       "family_id": "F-cd8dd76286d2fdfb",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8941,11 +9131,12 @@
       "id": "B250-191",
       "family_id": "F-bf6c1e5cce9c7487",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -8998,11 +9189,12 @@
       "id": "B250-192",
       "family_id": "F-431d91fd8d27b000",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9056,11 +9248,12 @@
       "id": "B250-193",
       "family_id": "F-846a88c0e94468bc",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9096,11 +9289,12 @@
       "id": "B250-194",
       "family_id": "F-117253d926ed021a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9153,11 +9347,12 @@
       "id": "B250-195",
       "family_id": "F-292c19bc2e13825d",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9211,11 +9406,12 @@
       "id": "B250-196",
       "family_id": "F-8231c57174cef24a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9269,11 +9465,12 @@
       "id": "B250-197",
       "family_id": "F-2eb11d00893a2a63",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9327,11 +9524,12 @@
       "id": "B250-198",
       "family_id": "F-2c60eda268b51213",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9382,11 +9580,12 @@
       "id": "B250-199",
       "family_id": "F-89d1ad7cc45e004a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9443,11 +9642,12 @@
       "id": "B250-200",
       "family_id": "F-133db7b5eb1a83a0",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9460,7 +9660,7 @@
       "negative": true,
       "stem": "Respecto de la suspensión condicional de la dictación de sentencia en violencia intrafamiliar, ¿cuáles de las siguientes afirmaciones son falsas?",
       "statements": [
-        "Sólo procede si se han cumplido simultáneamente las dos condiciones alternativas que enumera el manual.",
+        "Para concederla, deben reunirse conjuntamente la aceptación de obligaciones familiares y reparatorias, y el compromiso de observar medidas cautelares.",
         "Debe concederse aunque los antecedentes permitan presumir que reiterará actos similares.",
         "Requiere que el denunciado o demandado reconozca ante el tribunal los hechos.",
         "Una de las condiciones es el compromiso, con acuerdo de la víctima, de observar medidas cautelares por un lapso de seis meses a un año."
@@ -9498,13 +9698,14 @@
         "Es la segunda condición alternativa."
       ],
       "id": "B250-201",
-      "family_id": "F-c604e4b85a3fae75",
+      "family_id": "F-91b3bd781dcc8af9",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -9558,11 +9759,12 @@
       "id": "B250-202",
       "family_id": "F-762aad8184295aea",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9619,11 +9821,12 @@
       "id": "B250-203",
       "family_id": "F-86a28e90257405d0",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9659,11 +9862,12 @@
       "id": "B250-204",
       "family_id": "F-cad3a51367a1248c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9716,11 +9920,12 @@
       "id": "B250-205",
       "family_id": "F-e04f8d8c250ce17c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9774,11 +9979,12 @@
       "id": "B250-206",
       "family_id": "F-da8c2c53f8ebffdb",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9831,11 +10037,12 @@
       "id": "B250-207",
       "family_id": "F-bf5a41e9fe438b59",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -9847,11 +10054,11 @@
       ],
       "format": "Combinación",
       "negative": false,
-      "stem": "Entre los derechos fundamentales amparados por la tutela laboral, el manual enumera los siguientes:",
+      "stem": "Entre las garantías protegidas por el procedimiento de tutela laboral se encuentran las siguientes:",
       "statements": [
         "La vida e integridad física y psíquica, cuando la vulneración sea consecuencia directa de actos ocurridos en la relación laboral.",
         "La vida privada y honra de la persona y su familia.",
-        "El derecho de propiedad como garantía expresamente enumerada en este procedimiento por el manual.",
+        "El derecho de propiedad, como garantía expresamente protegida por el procedimiento de tutela laboral.",
         "La inviolabilidad de las comunicaciones privadas.",
         "La libertad de conciencia y de cultos que no se opongan a la moral, buenas costumbres u orden público."
       ],
@@ -9890,13 +10097,14 @@
         "Es una garantía enumerada."
       ],
       "id": "B250-208",
-      "family_id": "F-f980b001074c32ed",
+      "family_id": "F-5a824afd758e442f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -9949,11 +10157,12 @@
       "id": "B250-209",
       "family_id": "F-53f91c5eada2f152",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10006,11 +10215,12 @@
       "id": "B250-210",
       "family_id": "F-4b35326790ea900b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10063,11 +10273,12 @@
       "id": "B250-211",
       "family_id": "F-07b3926d9dba5061",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10120,11 +10331,12 @@
       "id": "B250-212",
       "family_id": "F-11645ab297008355",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10177,11 +10389,12 @@
       "id": "B250-213",
       "family_id": "F-40ea3f97157dac3f",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10196,7 +10409,7 @@
       "statements": [
         "Nunca exige reclamo previo ante la Inspección del Trabajo.",
         "La demanda judicial puede presentarse oralmente sin escrito alguno.",
-        "Se aplica a conflictos de cuantía inferior a quince ingresos mínimos mensuales, sin considerar los incrementos que señala el manual.",
+        "Se aplica a conflictos de cuantía inferior a quince ingresos mínimos mensuales, sin considerar los incrementos legales por ineficacia o nulidad del despido.",
         "También se aplica a contiendas por fuero maternal."
       ],
       "options": [
@@ -10227,18 +10440,19 @@
       ],
       "statement_reasons": [
         "Por regla general lo exige; las acciones sobre fuero maternal están exceptuadas.",
-        "El manual exige demanda escrita.",
+        "Se exige demanda escrita.",
         "Es el límite indicado.",
         "Es otro supuesto expresamente incluido."
       ],
       "id": "B250-214",
-      "family_id": "F-e0ba595b54e232c4",
+      "family_id": "F-a2a76eeb68fe7023",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -10291,11 +10505,12 @@
       "id": "B250-215",
       "family_id": "F-a8a042a478428972",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10349,11 +10564,12 @@
       "id": "B250-216",
       "family_id": "F-549a1050e40e8001",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10366,7 +10582,7 @@
       "negative": true,
       "stem": "Respecto de la interposición y competencia del recurso de nulidad penal, ¿cuáles de las siguientes afirmaciones son falsas?",
       "statements": [
-        "El plazo de interposición indicado es de diez días desde la notificación.",
+        "El plazo de interposición es de diez días desde la notificación.",
         "El recurso sólo puede invalidar actos anteriores al juicio y nunca la sentencia.",
         "La errónea aplicación del derecho que influye sustancialmente en lo dispositivo corresponde a la Corte de Apelaciones.",
         "La infracción sustancial de garantías constitucionales se conoce siempre por la Corte de Apelaciones."
@@ -10404,13 +10620,14 @@
         "El manual atribuye esa causal a la Corte Suprema."
       ],
       "id": "B250-217",
-      "family_id": "F-d609a6b48f59e7f8",
+      "family_id": "F-01be7b2392881112",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -10466,11 +10683,12 @@
       "id": "B250-218",
       "family_id": "F-50df8fa6c0b78d20",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10523,11 +10741,12 @@
       "id": "B250-219",
       "family_id": "F-54d77a7c7f6fc1be",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10580,11 +10799,12 @@
       "id": "B250-220",
       "family_id": "F-f918d7b7378772c8",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10630,18 +10850,19 @@
       ],
       "statement_reasons": [
         "Es el principio de publicidad.",
-        "El manual exige petición y resolución fundada para las restricciones que describe.",
+        "Se exige petición y resolución fundada para las restricciones que describe.",
         "Su ausencia constituye abandono y obliga a designar defensor penal público.",
         "Es el principio de defensa necesaria."
       ],
       "id": "B250-221",
       "family_id": "F-445a9fa7884376bb",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10695,11 +10916,12 @@
       "id": "B250-222",
       "family_id": "F-87a832e2464be39b",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10746,17 +10968,18 @@
       "statement_reasons": [
         "Es el segundo requisito.",
         "Es el primer requisito.",
-        "La prisión preventiva es cautelar; el manual no exige una condena firme por ese hecho.",
+        "La prisión preventiva es cautelar; no se exige una condena firme por ese hecho.",
         "Es el tercer requisito con sus hipótesis."
       ],
       "id": "B250-223",
       "family_id": "F-006aa2cd3a2221a4",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10809,11 +11032,12 @@
       "id": "B250-224",
       "family_id": "F-bd4978ac0f99b554",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10870,11 +11094,12 @@
       "id": "B250-225",
       "family_id": "F-6ab9989a25a7fd4e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10927,11 +11152,12 @@
       "id": "B250-226",
       "family_id": "F-9d2774440efc89bc",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -10981,11 +11207,12 @@
       "id": "B250-227",
       "family_id": "F-92814e0d5c97c779",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11038,11 +11265,12 @@
       "id": "B250-228",
       "family_id": "F-d250592b1f0097f5",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11096,11 +11324,12 @@
       "id": "B250-229",
       "family_id": "F-f9f8de32cd792c9e",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11116,7 +11345,7 @@
         "Antes de cerrar el debate, se otorga la palabra al acusado para que manifieste lo que estime conveniente.",
         "Lo dirige el juez presidente, quien resuelve las incidencias de la audiencia.",
         "La prueba se recibe primero del fiscal, luego del querellante y finalmente de la defensa.",
-        "Cada interviniente debe rendir sus medios de prueba en un orden único impuesto por el manual."
+        "Cada interviniente debe rendir los medios que ofrece en un orden legal obligatorio, sin poder decidir su orden interno."
       ],
       "options": [
         "Sólo 1, 2 y 3.",
@@ -11151,13 +11380,14 @@
         "El orden interno de la prueba de cada uno es discrecional."
       ],
       "id": "B250-230",
-      "family_id": "F-101846bdf257aa15",
+      "family_id": "F-1717356ac6ce46e4",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Pregunta formulada directamente sobre la regla; referencia documental reservada a la corrección"
       }
     },
     {
@@ -11210,11 +11440,12 @@
       "id": "B250-231",
       "family_id": "F-ec1afc62e06841f5",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11269,11 +11500,12 @@
       "id": "B250-232",
       "family_id": "F-d610f1070a619cb6",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11326,11 +11558,12 @@
       "id": "B250-233",
       "family_id": "F-e2cd2ff21279c6f3",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11383,11 +11616,12 @@
       "id": "B250-234",
       "family_id": "F-20e42beb0fa86459",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11440,11 +11674,12 @@
       "id": "B250-235",
       "family_id": "F-48050cd5b198d11c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11497,11 +11732,12 @@
       "id": "B250-236",
       "family_id": "F-548fa0e9be16cb5d",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11537,11 +11773,12 @@
       "id": "B250-237",
       "family_id": "F-2e2218f70a7b4e88",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Reconocer una definición, función, plazo o condición",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11596,11 +11833,12 @@
       "id": "B250-238",
       "family_id": "F-d35b8cd3055e10bd",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11654,11 +11892,12 @@
       "id": "B250-239",
       "family_id": "F-e4d2250296798d9c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Evaluar una enumeración o afirmaciones sobre un mismo subtema",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11699,11 +11938,12 @@
       "id": "B250-240",
       "family_id": "F-6bacb3dae48f84e0",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11745,11 +11985,12 @@
       "id": "B250-241",
       "family_id": "F-c872343f0f92fc41",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11788,11 +12029,12 @@
       "id": "B250-242",
       "family_id": "F-db48ce697ee9284a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11831,11 +12073,12 @@
       "id": "B250-243",
       "family_id": "F-ed1a0bab1248e707",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11877,11 +12120,12 @@
       "id": "B250-244",
       "family_id": "F-8b2a0f40d289190a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11922,11 +12166,12 @@
       "id": "B250-245",
       "family_id": "F-20a19e33a8af22d7",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -11970,11 +12215,12 @@
       "id": "B250-246",
       "family_id": "F-2873b08923a43c3c",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -12019,11 +12265,12 @@
       "id": "B250-247",
       "family_id": "F-6a966d91608d3de4",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -12066,11 +12313,12 @@
       "id": "B250-248",
       "family_id": "F-6f80c9f44197b24a",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -12110,11 +12358,12 @@
       "id": "B250-249",
       "family_id": "F-0f401abf744915a9",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Reescrita o sustituida"
+        "editorial_action": "Reescrita o sustituida",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     },
     {
@@ -12155,18 +12404,70 @@
       "id": "B250-250",
       "family_id": "F-d19ade9c3106d401",
       "review": {
-        "version": "20261007-estandar250",
+        "version": "20261007-lenguaje-normativo",
         "basis": "Manual octubre 2025 y formato de los modelos 20-5 y 23-4",
         "content": "Contrastada con las páginas indicadas",
         "task": "Ordenar etapas expresamente descritas",
-        "editorial_action": "Conservada tras contraste"
+        "editorial_action": "Conservada tras contraste",
+        "language": "Enunciado sin atribución normativa al manual"
       }
     }
   ],
   "editorial_revision": {
     "date": "2026-10-07",
-    "version": "20261007-estandar250",
+    "version": "20261007-lenguaje-normativo",
     "scope": "250 preguntas base revisadas; 120 combinaciones genéricas sustituidas por especificaciones editoriales y ajustes adicionales",
-    "rewritten": 135
+    "rewritten": 135,
+    "language_changes": [
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      21,
+      23,
+      27,
+      28,
+      31,
+      32,
+      33,
+      36,
+      37,
+      39,
+      42,
+      43,
+      44,
+      47,
+      59,
+      60,
+      64,
+      73,
+      102,
+      110,
+      111,
+      120,
+      123,
+      124,
+      132,
+      142,
+      143,
+      149,
+      167,
+      168,
+      171,
+      172,
+      183,
+      184,
+      185,
+      186,
+      201,
+      208,
+      214,
+      217,
+      230
+    ]
   }
 }

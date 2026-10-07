@@ -433,7 +433,7 @@ async function init() {
   bindEvents();
   renderHistory();
   try {
-    const response = await fetch('banco_B250.json?v=20261007-estandar250');
+    const response = await fetch('banco_B250.json?v=20261007-lenguaje-normativo');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];

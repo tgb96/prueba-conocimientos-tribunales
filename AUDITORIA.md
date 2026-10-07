@@ -1,6 +1,6 @@
 # Revisión editorial del banco B250
 
-**Banco activo: 250 preguntas. Versión 20261007-estandar250.** La web oficial es [GitHub Pages](https://tgb96.github.io/prueba-conocimientos-tribunales/?v=20261007-estandar250).
+**Banco activo: 250 preguntas. Versión 20261007-lenguaje-normativo.** La web oficial es [GitHub Pages](https://tgb96.github.io/prueba-conocimientos-tribunales/?v=20261007-lenguaje-normativo).
 
 Se revisaron las 250 preguntas base respecto de su contenido, enunciado, alternativas, clave y explicación, contrastándolas con las páginas del Manual Único para Tribunales de octubre de 2025. Los dos exámenes proporcionados orientan el estilo; las alternativas marcadas en esos documentos no se tomaron como pauta oficial.
 
@@ -13,6 +13,12 @@ Se revisaron las 250 preguntas base respecto de su contenido, enunciado, alterna
 - Explicar cada proposición y el fundamento de la clave, con páginas del manual. Las preguntas negativas piden expresamente las falsas o incorrectas.
 
 ## Cambios de contenido
+
+### Redacción normativa
+
+La última revisión distingue entre fuente de estudio y fuente de la regla. Se revisaron los campos visibles durante el intento de las 250 preguntas; se ajustaron 49 ítems. Los enunciados, proposiciones y alternativas preguntan directamente el requisito, definición o regla, sin «el manual exige», «según el manual» o remisiones indeterminadas a lo que el documento describe. Las referencias al manual y a sus páginas se conservan como respaldo en las correcciones. No se reemplazó indiscriminadamente «manual» por «ley»: distintas reglas pueden provenir de la Constitución, códigos, leyes o normativa interna.
+
+**B250-042:** «Para ser elegido senador, se requiere tener cumplidos:». La respuesta sigue siendo treinta y cinco años el día de la elección; respaldo en la página 9. La comprobación de los 250 registros verifica también que esta revisión conserve las claves y el valor de verdad de las proposiciones.
 
 Se sustituyeron las 120 combinaciones genéricas de la base anterior por preguntas redactadas sobre subtemas concretos. Algunas se convirtieron en directas y una en ordenación. Se revisaron también el piloto, las preguntas directas restantes y todas las secuencias.
 
