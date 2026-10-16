@@ -6,6 +6,7 @@ const chapterNames = {
 
 const state = {
   bank: [],
+  profile: null,
   attempt: null,
   current: 0,
   answers: {},
@@ -41,18 +42,14 @@ function shuffle(list) {
 
 function sampleAttempt(total = 30) {
   if (![10, 30].includes(total)) throw new Error('Elige un intento de 10 o 30 preguntas.');
-  let targets = [6, 2, 3, 3, 2, 2, 7, 3, 2];
-  if (total === 10) {
-    // Redondeo aleatorio: cada cuota promedia un tercio de la pauta completa.
-    // Rotan los capítulos de menor cuota para no excluir siempre el mismo tema.
-    targets = targets.map(quota => Math.floor(quota / 3));
-    const extraPenal = Math.random() < 1 / 3;
-    if (extraPenal) targets[6] += 1;
-    for (const chapter of shuffle([1, 4, 5, 8]).slice(0, extraPenal ? 2 : 3)) targets[chapter] += 1;
-  }
-  // 28 directas, 30 combinaciones y 3 ordenaciones entre 61 ítems de los modelos.
-  const directTarget = total === 10 ? 4 + (Math.random() < (10 * 28 / 61 - 4) ? 1 : 0) : 14;
-  const orderTarget = total === 10 ? (Math.random() < 10 * 3 / 61 ? 1 : 0) : (Math.random() < (30 * 3 / 61 - 1) ? 2 : 1);
+  const profile = state.profile;
+  if (!profile) throw new Error('No se ha cargado la pauta de selección.');
+  const targets = total === 30 ? profile.chapter_quotas_30
+    : roundQuotas(profile.chapter_quotas_30.map(quota => quota / 3));
+  // 91 ítems de tres modelos completos: 52 directas, 36 combinaciones, 3 ordenaciones.
+  const roundRandom = n => Math.floor(n) + (Math.random() < n % 1 ? 1 : 0);
+  const directTarget = roundRandom(total * profile.formats.Directa / profile.reference_items);
+  const orderTarget = roundRandom(total * profile.formats.Ordenación / profile.reference_items);
   const pools = [];
   for (let chapter = 1; chapter <= 9; chapter += 1) {
     const groups = new Map();
@@ -117,6 +114,22 @@ function sampleAttempt(total = 30) {
   return shuffle(selected);
 }
 
+function roundQuotas(values) {
+  const integers = values.map(Math.floor);
+  const fractions = values.map((value, index) => value - integers[index]);
+  // Redondeo dependiente: mantiene la suma y el promedio de cada capítulo.
+  let pending = fractions.map((value, index) => index).filter(index => fractions[index] > 1e-9 && fractions[index] < 1 - 1e-9);
+  while (pending.length >= 2) {
+    const [i, j] = shuffle(pending);
+    const up = Math.min(1 - fractions[i], fractions[j]);
+    const down = Math.min(fractions[i], 1 - fractions[j]);
+    if (Math.random() < down / (up + down)) { fractions[i] += up; fractions[j] -= up; }
+    else { fractions[i] -= down; fractions[j] += down; }
+    pending = pending.filter(index => fractions[index] > 1e-9 && fractions[index] < 1 - 1e-9);
+  }
+  return integers.map((value, index) => value + Math.round(fractions[index]));
+}
+
 function configureAttempt() {
   const total = Number($('#attempt-select').value);
   const quick = total === 10;
@@ -131,7 +144,7 @@ function configureAttempt() {
   }
   $('#setup-description').textContent = quick
     ? '10 preguntas distintas para practicar en menos tiempo. Los temas rotan entre intentos para aproximar la proporción de las pruebas completas.'
-    : '30 preguntas distintas, con la distribución de temas y la mezcla de formatos de tus pruebas de ejemplo.';
+    : '30 preguntas de todos los capítulos, siguiendo la distribución de tus tres pruebas completas.';
 }
 
 function formatTime(total) {
@@ -471,7 +484,9 @@ function renderReview(rows) {
     if (q.origin?.kind === 'previous_exam') {
       const origin = document.createElement('p');
       origin.className = 'model-origin';
-      origin.textContent = q.origin.sources.map(s => `${s.file} · pregunta ${s.question} · página PDF ${s.pdf_page}`).join(' / ');
+      origin.textContent = q.origin.sources.map(s => s.pdf_page
+        ? `${s.file} · pregunta ${s.question} · página PDF ${s.pdf_page}`
+        : `${s.file} · ${s.section || 'modelo aportado'} · pregunta ${s.question}`).join(' / ');
       source.appendChild(origin);
       if (q.origin.adjustments.length) {
         const note = document.createElement('p');
@@ -566,15 +581,18 @@ async function loadBank() {
   button.disabled = true;
   button.textContent = 'Cargando preguntas…';
   try {
-    const response = await fetch('banco_B310.json?v=20261007-inicio-simple');
+    const response = await fetch('banco_B400.json?v=20261015-modelos2020');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];
+    state.profile = payload.selection_profile;
     if (state.bank.length < 30) throw new Error('El banco no tiene suficientes preguntas');
+    if (!state.profile?.chapter_quotas_30 || state.profile.chapter_quotas_30.reduce((sum, n) => sum + n, 0) !== 30) throw new Error('La pauta de temas no es válida');
     button.innerHTML = 'Iniciar intento <span aria-hidden="true">↗</span>';
     button.disabled = false;
   } catch (error) {
     state.bank = [];
+    state.profile = null;
     button.textContent = 'Reintentar carga';
     button.disabled = false;
   }

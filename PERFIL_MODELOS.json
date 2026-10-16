@@ -1,0 +1,37 @@
+{
+  "version": "20261015-modelos2020",
+  "sources": [
+    "Prueba general 20-5.pdf",
+    "Prueba general 23-4.pdf",
+    "prueba conocimiento.docx · Junio 2020"
+  ],
+  "reference_items": 91,
+  "chapter_counts": [
+    18,
+    9,
+    13,
+    10,
+    6,
+    8,
+    17,
+    7,
+    3
+  ],
+  "chapter_quotas_30": [
+    6,
+    3,
+    4,
+    3,
+    2,
+    3,
+    6,
+    2,
+    1
+  ],
+  "formats": {
+    "Directa": 52,
+    "Combinación": 36,
+    "Ordenación": 3
+  },
+  "notes": "La distribución usa los 91 ítems visibles de tres modelos completos como referencia de estructura, no de claves. El bloque parcial de febrero no interviene en las cuotas. Las cuotas enteras se asignan por mayores restos; el modo de 10 redondea proporcionalmente con rotación de temas."
+}

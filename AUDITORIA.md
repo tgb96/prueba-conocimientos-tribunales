@@ -1,4 +1,12 @@
-# Banco activo: 310 preguntas
+# Banco activo: 400 preguntas
+
+La versión **20261015-modelos2020** conserva 310 preguntas y añade **29 del nuevo modelo revisado y 61 originales de práctica**. La batería contiene 387 familias y explica las respuestas incorrectas con respaldo del manual. Se conserva el inicio simplificado y la elección de 10 o 30 preguntas.
+
+La selección toma las tres pruebas completas: **6 / 3 / 4 / 3 / 2 / 3 / 6 / 2 / 1** por capítulo en un intento completo. Los intentos rápidos redondean proporcionalmente con rotación de temas. La revisión del documento completo, los ajustes, las exclusiones, el criterio de redacción y la validación se documentan en [MODELOS_2020.md](MODELOS_2020.md) y [REVISION_2020.json](REVISION_2020.json).
+
+---
+
+# Antecedente del banco de 310 preguntas
 
 La interfaz **20261007-inicio-simple** elimina los elementos señalados por el usuario: marca PJ, indicador superior del banco, texto sobre el título, encabezado de la tarjeta, enlace «¿Cómo funciona?», notas bajo el botón, bloque del método y pie de página. Se mantienen la configuración, los intentos de 10 y 30 preguntas, el historial y la corrección.
 

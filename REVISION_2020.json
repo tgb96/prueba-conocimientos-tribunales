@@ -1,0 +1,1833 @@
+{
+  "version": "20261015-modelos2020",
+  "source_document": "prueba conocimiento.docx",
+  "source_sha256": "6ef765d3ef4cc41d8e71c8939b5a067450e316e286e6abcaf5743404f07f02e5",
+  "appearances": 32,
+  "incorporated_questions": 29,
+  "represented_appearances": 30,
+  "duplicate_appearances": 1,
+  "excluded": [
+    "2020-02-P02",
+    "2020-06-P17"
+  ],
+  "original_keys_are_official": false,
+  "items": [
+    {
+      "source": {
+        "id": "2020-02-P01",
+        "file": "prueba conocimiento.docx",
+        "section": "Prueba Febrero 2020",
+        "question": 1,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "Respecto de la ley 20886, que modifica el código de procedimiento civil para establecer la tramitación digital de los procedimientos judiciales pasa a afirmar que:",
+        "original_statements": [],
+        "original_options": [
+          "Rige respecto de las causas que conozca el tribunal de defensa de la libre competencia",
+          "Rige respecto de las causas que conozca la Corte Suprema",
+          "Rige respecto de las causas que conozca la Corte de Apelaciones",
+          "Rige respecto de las causas que conozca los juzgados de cobranza laboral y previsional",
+          "Rige respecto de las causas que conozcan los ministros de corte"
+        ]
+      },
+      "bank_id": "M-2020-06-P23",
+      "status": "Duplicada con enunciado reparado",
+      "pages": [
+        36
+      ],
+      "key": "b",
+      "adjustments": [
+        "El ítem de febrero 1 repite esta materia y alternativas con un enunciado incompleto; se vincula a esta versión con ambos orígenes."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-02-P02",
+        "file": "prueba conocimiento.docx",
+        "section": "Prueba Febrero 2020",
+        "question": 2,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "Respecto de la Notificación Tacita es cierto que:",
+        "original_statements": [],
+        "original_options": [
+          "Opera cuando una persona quien debiera haberse notificado efectúa en el proceso cualquier gestión distinta desligada que la falta de notificación que supone que ha tomado conocimiento de ella"
+        ]
+      },
+      "bank_id": null,
+      "status": "Sólo referencia de estilo",
+      "pages": [],
+      "key": null,
+      "adjustments": [],
+      "reason": "Faltan cuatro alternativas: no se reconstruyen como si fueran oficiales."
+    },
+    {
+      "source": {
+        "id": "2020-06-P01",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 1,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "¿Cuál de las siguientes alternativas es FALSA?",
+        "original_statements": [],
+        "original_options": [
+          "El fiscal pude encargar diligencias investigativas a las policías",
+          "La formalización de la investigación  se verifica ante el juez de garantía",
+          "La citación es una medida cautelar personal",
+          "Las medidas cautelares tienen por objeto asegurar el resultado del proceso penal",
+          "El plazo máximo legal de la investigación corre desde que se declara admisible la querella"
+        ]
+      },
+      "bank_id": "M-2020-06-P01",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        95,
+        96
+      ],
+      "key": "e",
+      "adjustments": [
+        "Se explicita el ámbito penal del enunciado."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P02",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 2,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "¿Cuál de los siguientes documentos NO se acompaña con citación?",
+        "original_statements": [],
+        "original_options": [
+          "Los documentos suscritos por la contraparte",
+          "Los documentos electrónico firmados con firma electrónica avanzada",
+          "Las copias que,  en caso de ser objetadas sean cotejadas y halladas conforme a su original",
+          "Los documentos originales",
+          "Los testimonios que el tribunal mande agregar durante el juicio."
+        ]
+      },
+      "bank_id": "M-2020-06-P02",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        50
+      ],
+      "key": "a",
+      "adjustments": [
+        "Se distingue expresamente el instrumento privado de los públicos para evitar la amplitud de «documentos suscritos por la contraparte»."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P03",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 3,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "Respecto de la suspensión condicional del procedimiento, ¿Cuál de las siguientes afirmaciones es FALSA?",
+        "original_statements": [],
+        "original_options": [
+          "Debe ser aprobada por el juez de garantía",
+          "Supone un acuerdo entre el imputado y la victima",
+          "Supone un lapso de tiempo de que el imputado este afecto al cumplimiento de una condición",
+          "No extingue las acciones civiles de la victima",
+          "Supone que se haya formalizado la investigación"
+        ]
+      },
+      "bank_id": "M-2020-06-P03",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        99,
+        100
+      ],
+      "key": "b",
+      "adjustments": [
+        "La última alternativa se limita al carácter de salida alternativa expresamente descrito en la página 99."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P04",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 4,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "En el Procedimiento Ordinario de Mayor Cuantía para que se pueda dictar sentencia, siempre se debe:",
+        "original_statements": [],
+        "original_options": [
+          "Haber contestado la demanda",
+          "Haber rendido prueba",
+          "Haber deducido reconvención",
+          "Recibir la causa de la prueba",
+          "Encontrar emplazado al demandado"
+        ]
+      },
+      "bank_id": "M-2020-06-P04",
+      "status": "Incorporada",
+      "pages": [
+        35,
+        36,
+        47,
+        48
+      ],
+      "key": "e",
+      "adjustments": []
+    },
+    {
+      "source": {
+        "id": "2020-06-P05",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 5,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "A la unidad administrativa de causa le corresponde:",
+        "original_statements": [],
+        "original_options": [
+          "El manejo de registros del juzgados, incluidas las relativas a las notificaciones, las fechas y las  salas para las audiencias y el archivo judicial.",
+          "Llevar la contabilidad y apoyo a la actividad administrativa del tribunal",
+          "Es responsable de la organización y asistencia a la realización de audiencia",
+          "Otorgar una adecuada atención, orientación e información al púbico que concurra al tribunal",
+          "Es responsable por desarrollar las gestiones necesarias para el adecuado  y cabal cumplimiento de las resoluciones."
+        ]
+      },
+      "bank_id": "M-2020-06-P05",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        29,
+        30
+      ],
+      "key": "a",
+      "adjustments": [
+        "Se normaliza el nombre de la unidad administrativa."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P06",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 6,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "¿Cuál de las siguientes afirmaciones es FALSA?",
+        "original_statements": [],
+        "original_options": [
+          "los relatores pertenecen al escalafón primario.",
+          "los cargos en el poder judicial se clasifican en tres escalafones",
+          "los empleos a contrata duran hasta el 31 de diciembre de cada año",
+          "los funcionarios del PJUD son nombrados mediante resolución para asumir un cargo",
+          "son suplentes aquellos empleados que se nombran para ocupar una plaza vacante mientras se provee un titular."
+        ]
+      },
+      "bank_id": "M-2020-06-P06",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        32,
+        33
+      ],
+      "key": "e",
+      "adjustments": [
+        "Se hace explícita la ausencia de prórroga de la contrata."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P07",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 7,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "Respecto del juicio oral es falso que:",
+        "original_statements": [],
+        "original_options": [
+          "el juicio empieza con la lectura de las acusaciones",
+          "el orden de recepción de la prueba es, primero el fiscal luego el querellante y finalmente la defensa",
+          "interviene el juez de garantía",
+          "inmediatamente después de clausurado el debate, sin suspender la audiencia, los jueces que hubieren asistido pasaran a deliberar en privado.",
+          "tienen lugar los alegatos de apertura de las partes."
+        ]
+      },
+      "bank_id": "M-2020-06-P07",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        102,
+        103
+      ],
+      "key": "c",
+      "adjustments": [
+        "Se precisa que se pregunta por la audiencia de juicio oral."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P08",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 8,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "Es un procedimiento SUPLETORIO:",
+        "original_statements": [],
+        "original_options": [
+          "juicio ordinario de Mínima Cuantía",
+          "juicio ejecutivo",
+          "juicio sumario",
+          "juicio simplificado",
+          "juicio ordinario de Mayor Cuantía"
+        ]
+      },
+      "bank_id": "M-2020-06-P08",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        45
+      ],
+      "key": "e",
+      "adjustments": [
+        "Se precisa el ámbito civil."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P09",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 9,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "el comité de jueces está presente en:",
+        "original_statements": [
+          "juzgados civiles",
+          "tribunal juicio oral en lo penal",
+          "Cortes de apelaciones",
+          "tribunal en lo que sirva 3 o más jueces"
+        ],
+        "original_options": [
+          "Solo I",
+          "I, II Y III",
+          "II y IV",
+          "II, III y IV",
+          "Todas las anteriores."
+        ]
+      },
+      "bank_id": "M-2020-06-P09",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        27,
+        28
+      ],
+      "key": "c",
+      "adjustments": [
+        "Se sustituye la afirmación genérica «tribunal en que sirvan tres o más jueces» por una afirmación verificable sobre la estructura reformada."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P10",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 10,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "son de Competencia de los juzgados de Familia:",
+        "original_statements": [
+          "Causas relativas al Derecho de alimentos",
+          "las acciones de separación, nulidad y divorcio reguladas en la ley de matrimonio Civil",
+          "el conocimiento de los delitos cometidos contra los niños/niñas y adolescentes",
+          "Cuidado personal"
+        ],
+        "original_options": [
+          "I y II",
+          "III y  IV",
+          "I,  II y IV",
+          "I, II, III y IV",
+          "I, III Y IV"
+        ]
+      },
+      "bank_id": "M-2020-06-P10",
+      "status": "Incorporada",
+      "pages": [
+        16
+      ],
+      "key": "c",
+      "adjustments": []
+    },
+    {
+      "source": {
+        "id": "2020-06-P11",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 11,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "en relación al procedimiento en materia de alimentos, es FALSO que:",
+        "original_statements": [],
+        "original_options": [
+          "es competente para conocer una ejecución de una resolución que fija una pensión de alimentos el juzgado del domicilio del alimentante o alimentario a elección de este último.",
+          "el juez debe pronunciarse sobre los alimentos provisorios junto con admitir la demanda a tramitación.",
+          "el tribunal podrá admitir provisionalmente al cese, rebaja o aumento de alimentos",
+          "son competentes para conocer los juzgados de familia.",
+          "toda resolución judicial que fije una pensión de alimentos o apruebe una transacción que cumpla los requisitos legales tendrá merito ejecutivo."
+        ]
+      },
+      "bank_id": "M-2020-06-P11",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        80,
+        81
+      ],
+      "key": "a",
+      "adjustments": [
+        "Se diferencia la competencia para ejecutar de la competencia para presentar la demanda inicial."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P12",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 12,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "son unidades administrativas del PJUD",
+        "original_statements": [
+          "Unidad de protección víctima y testigos.",
+          "Unidad de Sala",
+          "Unidad de atención al Público",
+          "Unidad de jueces.",
+          "Unidad de administración de causas."
+        ],
+        "original_options": [
+          "I , II y III",
+          "I, II, III y  V",
+          "II,  III y V",
+          "II, III y IV",
+          "III, IV y V"
+        ]
+      },
+      "bank_id": "M-2020-06-P12",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        29,
+        30
+      ],
+      "key": "c",
+      "adjustments": [
+        "Se precisa el ámbito de tribunales reformados; la Unidad de Apoyo a Testigos y Peritos no debe confundirse con el distractor."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P13",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 13,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "De los Consejeros Técnicos, se puede afirmar que:",
+        "original_statements": [
+          "Colaboran con los jueces al dictar sentencia",
+          "Asesoran a los jueces de familia",
+          "Representan a alguna de las partes en el proceso.",
+          "Están presentes en todas las competencias."
+        ],
+        "original_options": [
+          "Solo I",
+          "Solo II",
+          "I, II,  y III",
+          "III y IV",
+          "Todas las anteriores."
+        ]
+      },
+      "bank_id": "M-2020-06-P13",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        32
+      ],
+      "key": "b",
+      "adjustments": [
+        "Se cambia la imprecisa «colaboran con los jueces al dictar sentencia» por «dictan sentencias en reemplazo de los jueces»."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P14",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 14,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "cuál de las siguientes afirmaciones es Falsa.",
+        "original_statements": [],
+        "original_options": [
+          "los jueces y funcionarios públicos están obligados al uso de dispositivos técnicos disponibles del sistema informático.",
+          "la ley 20.886 se aplica a todos los tribunales del País.",
+          "las sentencias se deben llevar en un registro en soporte escrito de papel firmado y autorizado.",
+          "las presentaciones de las partes deben ser ingresadas directamente al sistema informático.",
+          "los registros administrativos deben efectuarse y almacenarse por medios electrónico."
+        ]
+      },
+      "bank_id": "M-2020-06-P14",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        36,
+        37
+      ],
+      "key": "c",
+      "adjustments": [
+        "La opción original sobre «todos los tribunales del país» también era falsa. Se acota para que sólo exista una respuesta incorrecta.",
+        "Se preserva la excepción a las presentaciones electrónicas."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P15",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 15,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "conocen de asuntos de Familia:",
+        "original_statements": [
+          "Las cortes de apelaciones",
+          "Los juzgados de Familia",
+          "los tribunales de competencia común",
+          "los juzgados de garantía."
+        ],
+        "original_options": [
+          "I y II",
+          "I y III",
+          "I, II y  III",
+          "II, III y IV",
+          "Todas las anteriores."
+        ]
+      },
+      "bank_id": "M-2020-06-P15",
+      "status": "Incorporada",
+      "pages": [
+        13,
+        16,
+        18
+      ],
+      "key": "c",
+      "adjustments": []
+    },
+    {
+      "source": {
+        "id": "2020-06-P16",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 16,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "respectos de los derechos políticos es correcto afirmar que:",
+        "original_statements": [
+          "tienen derecho a votar únicamente los chilenos",
+          "tienen derecho a sufragio los que NO han cumplido 18 años.",
+          "No tienen derecho a sufragio los que hayan sido condenados por un tribunal de competencia penal.",
+          "los extranjeros tienen derecho a sufragio bajo ciertas condiciones",
+          "los ciudadanos chilenos con derecho a  sufragio que se encuentren fuera del país no pueden sufragar."
+        ],
+        "original_options": [
+          "Solo IV",
+          "Solo I",
+          "I y  III",
+          "I, II, III y IV",
+          "Todas las anteriores"
+        ]
+      },
+      "bank_id": "M-2020-06-P16",
+      "status": "Incorporada",
+      "pages": [
+        20
+      ],
+      "key": "a",
+      "adjustments": []
+    },
+    {
+      "source": {
+        "id": "2020-06-P17",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 17,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "¿Qué derecho no se encuentra expresamente reconocido por el artículo 19 de la CPR?",
+        "original_statements": [],
+        "original_options": [
+          "Derecho a seguridad social",
+          "Derecho a sindicarse",
+          "Derecho a educación",
+          "Derecho a una vivienda adecuada",
+          "Derecho a vivir en un medio ambiente libre de contaminación."
+        ]
+      },
+      "bank_id": null,
+      "status": "Sólo referencia de estilo",
+      "pages": [],
+      "key": null,
+      "adjustments": [],
+      "reason": "El catálogo constitucional completo necesario para demostrar la alternativa excluida no se reproduce en el manual. Se conserva como referencia de estilo y no se incorpora como pregunta manual verificable."
+    },
+    {
+      "source": {
+        "id": "2020-06-P18",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 18,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "es correcto afirmar que las superintendencias cumplen las siguientes funciones:",
+        "original_statements": [],
+        "original_options": [
+          "Ejercer la superintendencia directiva, correccional y económica de todos los tribunales",
+          "Satisfacer la necesidad de la comunidad local",
+          "Cautelar el principio de legalidad",
+          "Fiscalizar el cumplimiento de la normativa de un sector",
+          "Satisfacer necesidades colectivas."
+        ]
+      },
+      "bank_id": "M-2020-06-P18",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        7
+      ],
+      "key": "d",
+      "adjustments": [
+        "Se precisan los distractores para evitar que la finalidad genérica de los servicios públicos sea también correcta."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P19",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 19,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "la primera notificación al demandado debe hacerse.",
+        "original_statements": [],
+        "original_options": [
+          "A sus familiares más cercanos",
+          "Personalmente",
+          "Por el estado diario",
+          "Por cédula",
+          "A través de su abogado"
+        ]
+      },
+      "bank_id": "M-2020-06-P19",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        41
+      ],
+      "key": "b",
+      "adjustments": [
+        "Se explicita el ámbito civil y la regla general."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P20",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 20,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "respecto a la notificación tácita.",
+        "original_statements": [],
+        "original_options": [
+          "es aquella notificación sustitutiva de la personal de la notificación por cédula…",
+          "opera cuando la persona a quien debiera haberse notificado, efectúa en el proceso cualquier gestión distinta a alegar la falta de nulidad que supone ha tomado conocimiento de ella",
+          "consiste en la inclusión de la noticia…",
+          "consiste en la entrega que hace el ministro de fe en el domicilio del demandado",
+          "opera cuando se ha efectuado una notificación nula y el afectado comparece en el procedimiento a alegar la nulidad y declarada la nulidad la resolución judicial se entenderá notificada desde que se notifique válidamente la sentencia que declara la nulidad de la notificación."
+        ]
+      },
+      "bank_id": "M-2020-06-P20",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        41,
+        42
+      ],
+      "key": "b",
+      "adjustments": [
+        "Se completan los distractores truncados del documento y se corrige «falta de nulidad» por «falta o nulidad»."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P21",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 21,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "los funcionarios judiciales en el ejercicio de su función pueden",
+        "original_statements": [],
+        "original_options": [
+          "ejercer libremente la abogacía",
+          "adquirir bienes subastados por la CAPJ",
+          "recibir estímulos simbólicos de carácter pecuniario de parte de los usuarios.",
+          "recibir pagos de los usuarios por los servicios judiciales que prestan.",
+          "recibir todo tipo de estímulos pecuniarios de los usuarios."
+        ]
+      },
+      "bank_id": "M-2020-06-P21",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        26
+      ],
+      "key": "c",
+      "adjustments": [
+        "Se sustituye la alternativa sobre estímulos pecuniarios simbólicos por una excepción expresamente descrita, y se concretan los distractores. La versión adaptada no se presenta como transcripción literal."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P22",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 22,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "el mandado judicial termina por:",
+        "original_statements": [],
+        "original_options": [
+          "muerte del imputado",
+          "muerte del juez de causa",
+          "muerte del abogado patrocinante.",
+          "muerte del mandante",
+          "muerte del mandatario."
+        ]
+      },
+      "bank_id": "M-2020-06-P22",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        35
+      ],
+      "key": "e",
+      "adjustments": [
+        "Se distingue al patrocinante del mandatario y se evita confundir el mandato judicial con el mandato civil general."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P23",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 23,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "Respecto de la ley 20 886 que modifica el código de procedimiento civil, para establecer la tramitación digital de los procedimientos, es FALSO que:",
+        "original_statements": [],
+        "original_options": [
+          "Rige respecto de la causa que conozcan los ministros de corte",
+          "Rige respecto de la causa que conozcan el tribunal de libre competencia",
+          "Rige respecto de la causa que conozcan la corte de apelaciones",
+          "Rige respecto de la causa que conozcan la corte SUPREMA",
+          "Rige respecto de la causa que conozcan los juzgados de cobranza laboral y previsional"
+        ]
+      },
+      "bank_id": "M-2020-06-P23",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        36
+      ],
+      "key": "b",
+      "adjustments": [
+        "El ítem de febrero 1 repite esta materia y alternativas con un enunciado incompleto; se vincula a esta versión con ambos orígenes."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P24",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 24,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "Es sentencia de Término",
+        "original_statements": [],
+        "original_options": [
+          "aquella que da traslado a la contraparte",
+          "aquella que verifica el vencimiento del plazo  o término legal",
+          "la sentencia firme o ejecutoriada.",
+          "la sentencia definitiva del tribunal de única instancia.",
+          "aquella que resuelve un incidente."
+        ]
+      },
+      "bank_id": "M-2020-06-P24",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        43
+      ],
+      "key": "d",
+      "adjustments": [
+        "Se precisa la definición de última instancia para evitar equipararla con una sentencia firme."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P25",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 25,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "respecto del procedimiento ordinario Laboral, cuál de las siguientes afirmaciones es Falsa:",
+        "original_statements": [],
+        "original_options": [
+          "en los juicios de despido, corresponde la rendición de la prueba en primer lugar al demandante.",
+          "la audiencia de juicio se debe llevar a efecto en un solo acto.",
+          "el tribunal debe apreciar la prueba conforma a la sana critica.",
+          "la audiencia de juicio se inicia siempre con la rendición de prueba decretada por el tribunal.",
+          "al finalizar la audiencia debe levantarse un acta."
+        ]
+      },
+      "bank_id": "M-2020-06-P25",
+      "status": "Incorporada",
+      "pages": [
+        85,
+        86
+      ],
+      "key": "a",
+      "adjustments": []
+    },
+    {
+      "source": {
+        "id": "2020-06-P26",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 26,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "¿Cuál de las siguientes afirmaciones es Falsa?:",
+        "original_statements": [],
+        "original_options": [
+          "Solo los abogados pueden ser mandatarios judiciales",
+          "los estudiantes de derecho que cursen 3°4° y 5° año pueden ser mandatarios judiciales.",
+          "para ser abogado patrocinante se requiere ser abogado habilitado para el ejercicio de la profesión, que se acredita por cualquier medio idóneo.",
+          "las partes y el juez son elementos subjetivos del proceso.",
+          "el mandato se puede constituir por escritura pública."
+        ]
+      },
+      "bank_id": "M-2020-06-P26",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        34,
+        35
+      ],
+      "key": "a",
+      "adjustments": [
+        "Se elimina la frase «se acredita por cualquier medio idóneo»: el control de la habilitación se describe mediante registros del tribunal."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P27",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 27,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "No es requisito de la sentencia",
+        "original_statements": [],
+        "original_options": [
+          "Contener consideraciones de otras sentencias en casos similares",
+          "identificación de las partes",
+          "contener la decisión del asunto controvertido",
+          "contener consideraciones de derecho aplicables al caso",
+          "indicar si se citó o no a oír sentencia."
+        ]
+      },
+      "bank_id": "M-2020-06-P27",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        43
+      ],
+      "key": "a",
+      "adjustments": [
+        "Se precisa el tipo de resolución judicial."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P28",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 28,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "son auxiliares de la justicia:",
+        "original_statements": [],
+        "original_options": [
+          "policías",
+          "fiscales del ministerio público",
+          "los jueces y ministros",
+          "los receptores judiciales.",
+          "los defensores penales públicos"
+        ]
+      },
+      "bank_id": "M-2020-06-P28",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        30,
+        31,
+        32
+      ],
+      "key": "d",
+      "adjustments": [
+        "Se explicitan las instituciones para evitar confundir fiscales o defensores de distinta naturaleza."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P29",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 29,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "una demanda por despido injustificado puede tramitarse en un juicio:",
+        "original_statements": [],
+        "original_options": [
+          "reclamación de multa",
+          "monitorio",
+          "sumario",
+          "simplificado",
+          "ejecutivo."
+        ]
+      },
+      "bank_id": "M-2020-06-P29",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        90
+      ],
+      "key": "b",
+      "adjustments": [
+        "Se añaden la cuantía y la etapa administrativa: el enunciado original no permitía determinar por sí solo el procedimiento."
+      ]
+    },
+    {
+      "source": {
+        "id": "2020-06-P30",
+        "file": "prueba conocimiento.docx",
+        "section": "Junio 2020",
+        "question": 30,
+        "marked_answer": null,
+        "marked_answer_is_official": false,
+        "original_stem": "recibida la demanda en un procedimiento ordinario laboral, el tribunal no puede.",
+        "original_statements": [],
+        "original_options": [
+          "rechazar de plano la demanda de previsión o seguridad social",
+          "declarase de oficio incompetente",
+          "dar curso a la demanda",
+          "rechazar de plano las demandas de despido injustificado",
+          "declarar de oficio la caducidad de la acción."
+        ]
+      },
+      "bank_id": "M-2020-06-P30",
+      "status": "Incorporada con ajuste",
+      "pages": [
+        83
+      ],
+      "key": "d",
+      "adjustments": [
+        "Se precisa la causa del rechazo y las condiciones de las demás facultades para no presentar prohibiciones absolutas."
+      ]
+    }
+  ],
+  "selection_profile": {
+    "version": "20261015-modelos2020",
+    "sources": [
+      "Prueba general 20-5.pdf",
+      "Prueba general 23-4.pdf",
+      "prueba conocimiento.docx · Junio 2020"
+    ],
+    "reference_items": 91,
+    "chapter_counts": [
+      18,
+      9,
+      13,
+      10,
+      6,
+      8,
+      17,
+      7,
+      3
+    ],
+    "chapter_quotas_30": [
+      6,
+      3,
+      4,
+      3,
+      2,
+      3,
+      6,
+      2,
+      1
+    ],
+    "formats": {
+      "Directa": 52,
+      "Combinación": 36,
+      "Ordenación": 3
+    },
+    "notes": "La distribución usa los 91 ítems visibles de tres modelos completos como referencia de estructura, no de claves. El bloque parcial de febrero no interviene en las cuotas. Las cuotas enteras se asignan por mayores restos; el modo de 10 redondea proporcionalmente con rotación de temas."
+  },
+  "new_practice": [
+    {
+      "id": "N-20261015-001",
+      "chapter": 1,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        10
+      ],
+      "stem": "Si un proyecto de ley se califica de suma urgencia, su discusión y votación en la Cámara requerida deben terminar dentro de:",
+      "answer": "b",
+      "correct_option": "Quince días.",
+      "reason": "La suma urgencia establece quince días. La discusión inmediata establece seis y la urgencia simple, treinta.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-002",
+      "chapter": 1,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        10
+      ],
+      "stem": "La calificación de discusión inmediata de un proyecto de ley fija un plazo de:",
+      "answer": "c",
+      "correct_option": "Seis días.",
+      "reason": "La discusión inmediata fija seis días, contados desde la sesión en que se da cuenta del mensaje u oficio que requiere la urgencia.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-003",
+      "chapter": 1,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        7,
+        8
+      ],
+      "stem": "El jefe superior de una superintendencia recibe el nombre de:",
+      "answer": "c",
+      "correct_option": "Superintendente.",
+      "reason": "El jefe superior es el superintendente, a quien corresponde dirigir, organizar, administrar y controlar el servicio.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-004",
+      "chapter": 1,
+      "format": "Directa",
+      "negative": true,
+      "pages": [
+        23,
+        24
+      ],
+      "stem": "Respecto de la transparencia y el Poder Judicial, ¿cuál de las siguientes afirmaciones es FALSA?",
+      "answer": "c",
+      "correct_option": "La Ley N.º 20.285 impone al Poder Judicial las mismas obligaciones de transparencia pasiva que a los órganos administrativos.",
+      "reason": "La página 24 distingue la obligación legal de transparencia activa de la incorporación voluntaria del Poder Judicial a la transparencia pasiva.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-005",
+      "chapter": 1,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        22
+      ],
+      "stem": "Cuando no es obligatoria la intervención de abogado u otro profesional, los formularios necesarios para ejercer derechos ante los tribunales deben estar disponibles:",
+      "answer": "c",
+      "correct_option": "Gratuitamente.",
+      "reason": "El usuario tiene derecho a disponer gratuitamente de esos formularios cuando no es obligatoria la intervención profesional.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-006",
+      "chapter": 1,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        24,
+        25
+      ],
+      "stem": "La regulación del acceso a carpetas electrónicas y al buscador de jurisprudencia busca:",
+      "answer": "c",
+      "correct_option": "Equilibrar la transparencia con la protección de los datos personales y sensibles.",
+      "reason": "El Auto Acordado 164-2024 busca equilibrar publicidad y transparencia con la protección de datos; contempla limitaciones y anonimización cuando corresponde.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-007",
+      "chapter": 1,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        26
+      ],
+      "stem": "¿Cuál de las siguientes conductas se encuentra prohibida a los funcionarios del Poder Judicial?",
+      "answer": "d",
+      "correct_option": "Adquirir bienes subastados por la Corporación Administrativa del Poder Judicial.",
+      "reason": "La adquisición de bienes subastados por la Corporación Administrativa está expresamente prohibida. Las otras alternativas describen excepciones o deberes.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-008",
+      "chapter": 1,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        6
+      ],
+      "stem": "Son atribuciones del Presidente de la República las siguientes:",
+      "answer": "e",
+      "correct_option": "Sólo 1, 3 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-009",
+      "chapter": 1,
+      "format": "Combinación",
+      "negative": true,
+      "pages": [
+        22
+      ],
+      "stem": "Respecto de los derechos de los usuarios del sistema judicial, ¿cuáles de las siguientes afirmaciones son FALSAS?",
+      "answer": "d",
+      "correct_option": "Sólo 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-010",
+      "chapter": 1,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        25
+      ],
+      "stem": "Respecto de los principios de ética judicial, es correcto afirmar que:",
+      "answer": "c",
+      "correct_option": "Sólo 1 y 2.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-011",
+      "chapter": 2,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        29,
+        30
+      ],
+      "stem": "Las labores de soporte técnico de la red computacional y contabilidad del tribunal corresponden principalmente a la Unidad de:",
+      "answer": "d",
+      "correct_option": "Servicios.",
+      "reason": "Servicios se ocupa del soporte técnico, la contabilidad, el apoyo administrativo y el abastecimiento material para audiencias.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-012",
+      "chapter": 2,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        30
+      ],
+      "stem": "La unidad encargada de desarrollar las gestiones para el cumplimiento de resoluciones que requieren ejecución sostenida en el tiempo es:",
+      "answer": "d",
+      "correct_option": "Cumplimiento.",
+      "reason": "La Unidad de Cumplimiento existe en juzgados de familia y se ocupa particularmente de resoluciones que requieren cumplimiento sostenido.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-013",
+      "chapter": 2,
+      "format": "Directa",
+      "negative": true,
+      "pages": [
+        29,
+        30
+      ],
+      "stem": "¿En cuáles de los siguientes tribunales reformados NO existe Unidad de Sala?",
+      "answer": "d",
+      "correct_option": "Juzgados de Cobranza Laboral y Previsional.",
+      "reason": "La excepción a la existencia de Unidad de Sala son los Juzgados de Cobranza Laboral y Previsional.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-014",
+      "chapter": 2,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        33
+      ],
+      "stem": "El empleado nombrado para ocupar una plaza vacante mientras se provee con un titular tiene la calidad de:",
+      "answer": "d",
+      "correct_option": "Interino.",
+      "reason": "El interino ocupa una plaza vacante mientras se provee titular. El suplente reemplaza a un titular o interino impedido.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-015",
+      "chapter": 2,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        32
+      ],
+      "stem": "Los ministros de fe encargados de registros de bienes raíces, comercio y otros registros que les encomienden las leyes son:",
+      "answer": "d",
+      "correct_option": "Conservadores.",
+      "reason": "Los conservadores se encargan de los registros conservatorios enumerados; los notarios autorizan instrumentos y los archiveros custodian documentos.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-016",
+      "chapter": 2,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        30,
+        32
+      ],
+      "stem": "Respecto de las unidades administrativas especializadas, es correcto afirmar que:",
+      "answer": "b",
+      "correct_option": "Sólo 1, 2 y 3.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-017",
+      "chapter": 2,
+      "format": "Combinación",
+      "negative": true,
+      "pages": [
+        32,
+        33
+      ],
+      "stem": "Respecto de los escalafones del Poder Judicial, ¿cuáles de las siguientes afirmaciones son FALSAS?",
+      "answer": "a",
+      "correct_option": "Sólo 1 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-018",
+      "chapter": 2,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        28,
+        29
+      ],
+      "stem": "Respecto de la distribución de funciones en los tribunales reformados, es correcto afirmar que:",
+      "answer": "e",
+      "correct_option": "Sólo 1, 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-019",
+      "chapter": 3,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        37
+      ],
+      "stem": "Si una persona autorizada por carecer de medios tecnológicos presenta un escrito en papel, el tribunal debe:",
+      "answer": "a",
+      "correct_option": "Digitalizarlo e ingresarlo inmediatamente a la carpeta electrónica.",
+      "reason": "La presentación material autorizada es excepcional y el escrito debe digitalizarse e ingresarse de inmediato a la carpeta electrónica.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-020",
+      "chapter": 3,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        38
+      ],
+      "stem": "Un título ejecutivo cuyo formato original no es electrónico debe presentarse:",
+      "answer": "a",
+      "correct_option": "Materialmente en el tribunal, acompañando copia digital salvo la excepción autorizada.",
+      "reason": "Los títulos ejecutivos no electrónicos deben presentarse materialmente en todo caso; se acompaña copia digital, salvo la excepción de falta de medios tecnológicos autorizada.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-021",
+      "chapter": 3,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        38
+      ],
+      "stem": "Cuando el patrocinio se constituye mediante firma electrónica simple, debe:",
+      "answer": "a",
+      "correct_option": "Ratificarse ante el ministro de fe del tribunal por videoconferencia.",
+      "reason": "La firma simple exige ratificación remota ante el ministro de fe; la firma avanzada se distingue de esa modalidad.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-022",
+      "chapter": 3,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        38
+      ],
+      "stem": "¿Qué condición debe reunir una forma de notificación electrónica propuesta por una parte para que el tribunal pueda aceptarla?",
+      "answer": "a",
+      "correct_option": "Ser suficientemente eficaz y no causar indefensión.",
+      "reason": "El tribunal puede aceptarla si es suficientemente eficaz y no causa indefensión, incluso donde la ley dispone cédula, con los alcances descritos.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-023",
+      "chapter": 3,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        41,
+        42
+      ],
+      "stem": "Declarada la nulidad de una notificación, la resolución originalmente notificada se entiende notificada, en la notificación ficta, desde:",
+      "answer": "a",
+      "correct_option": "La notificación válida de la sentencia que declara esa nulidad.",
+      "reason": "La ficta se produce cuando se notifica válidamente la sentencia que declara la nulidad de la notificación anterior.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-024",
+      "chapter": 3,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        41
+      ],
+      "stem": "Cuando un tribunal encarga a otro de distinta jurisdicción la realización de una actuación judicial, utiliza:",
+      "answer": "a",
+      "correct_option": "Un exhorto.",
+      "reason": "El exhorto permite que otro tribunal de una jurisdicción distinta realice una actuación judicial.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-025",
+      "chapter": 3,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        41
+      ],
+      "stem": "Si un plazo de días concedido a un interviniente penal vence en día feriado, se amplía hasta:",
+      "answer": "a",
+      "correct_option": "Las veinticuatro horas del día siguiente que no sea feriado.",
+      "reason": "Aunque en penal los días y horas son hábiles, el plazo concedido a intervinientes que vence en feriado se amplía hasta las veinticuatro horas del día siguiente no feriado.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-026",
+      "chapter": 3,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        36,
+        37
+      ],
+      "stem": "Respecto de los principios de tramitación electrónica, es correcto afirmar que:",
+      "answer": "b",
+      "correct_option": "Sólo 1 y 2.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-027",
+      "chapter": 3,
+      "format": "Combinación",
+      "negative": true,
+      "pages": [
+        38
+      ],
+      "stem": "Respecto del registro electrónico de actuaciones de receptores judiciales, ¿cuáles de las siguientes afirmaciones son FALSAS?",
+      "answer": "a",
+      "correct_option": "Sólo 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-028",
+      "chapter": 3,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        35
+      ],
+      "stem": "Son causales de término del mandato judicial las siguientes:",
+      "answer": "e",
+      "correct_option": "Sólo 1, 2 y 3.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-029",
+      "chapter": 4,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        48
+      ],
+      "stem": "El acta de conciliación total o parcial del juicio ordinario civil se estima, para todos los efectos legales, como:",
+      "answer": "e",
+      "correct_option": "Una sentencia ejecutoriada.",
+      "reason": "El acta que consigna el arreglo, suscrita en la forma descrita, se estima como sentencia ejecutoriada para todos los efectos legales.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-030",
+      "chapter": 4,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        49
+      ],
+      "stem": "En segunda instancia civil, los instrumentos pueden presentarse hasta:",
+      "answer": "e",
+      "correct_option": "La vista de la causa.",
+      "reason": "La prueba instrumental puede presentarse hasta el vencimiento del probatorio en primera instancia y hasta la vista de la causa en segunda.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-031",
+      "chapter": 4,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        50
+      ],
+      "stem": "Si un instrumento privado emana de un tercero, para su incorporación probatoria se debe:",
+      "answer": "e",
+      "correct_option": "Citar al tercero como testigo para que declare sobre él.",
+      "reason": "Cuando el instrumento privado emana de un tercero, debe citarse a éste como testigo para declarar sobre él.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-032",
+      "chapter": 4,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        51
+      ],
+      "stem": "Las tachas para hacer efectivas las inhabilidades de un testigo civil deben oponerse:",
+      "answer": "e",
+      "correct_option": "Antes de que el testigo preste declaración.",
+      "reason": "Las tachas se oponen antes de que el testigo declare. Si es necesario para resolver el juicio, el tribunal puede recibirlas a prueba.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-033",
+      "chapter": 4,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        52
+      ],
+      "stem": "La fuerza probatoria del dictamen de peritos en el procedimiento civil se aprecia conforme a:",
+      "answer": "e",
+      "correct_option": "Las reglas de la sana crítica.",
+      "reason": "Los tribunales aprecian la fuerza probatoria del dictamen de peritos conforme a las reglas de la sana crítica.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-034",
+      "chapter": 4,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        50
+      ],
+      "stem": "Respecto de la prueba instrumental civil, es correcto afirmar que:",
+      "answer": "d",
+      "correct_option": "Sólo 1, 2 y 3.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-035",
+      "chapter": 4,
+      "format": "Combinación",
+      "negative": true,
+      "pages": [
+        53
+      ],
+      "stem": "Luego de la citación para oír sentencia en el juicio ordinario civil, ¿cuáles de las siguientes afirmaciones son FALSAS?",
+      "answer": "c",
+      "correct_option": "Sólo 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-036",
+      "chapter": 4,
+      "format": "Ordenación",
+      "negative": false,
+      "pages": [
+        48,
+        53
+      ],
+      "stem": "En un juicio ordinario civil que no termina por conciliación y requiere prueba, ordene las siguientes actuaciones:",
+      "answer": "b",
+      "correct_option": "2, 4, 1, 3.",
+      "reason": "Después del llamado a conciliación sin acuerdo se recibe la causa a prueba. Vencido el término probatorio, las partes pueden presentar observaciones dentro de los diez días siguientes.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-037",
+      "chapter": 5,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        75
+      ],
+      "stem": "Si la audiencia de juicio de familia se prolongó por más de dos días, el juez puede excepcionalmente postergar la decisión hasta:",
+      "answer": "b",
+      "correct_option": "El día siguiente hábil.",
+      "reason": "La excepción permite comunicar la decisión el día siguiente hábil y exige indicar a las partes cuándo se comunicará. La redacción del fallo tiene un plazo distinto.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-038",
+      "chapter": 5,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        75
+      ],
+      "stem": "La redacción del fallo de familia puede posponerse hasta por cinco días, que pueden ampliarse:",
+      "answer": "b",
+      "correct_option": "Por otros cinco días por razones fundadas.",
+      "reason": "La redacción puede posponerse cinco días, ampliables por otros cinco por razones fundadas, fijando la fecha de lectura de la sentencia.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-039",
+      "chapter": 5,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        76
+      ],
+      "stem": "La medida cautelar especial adoptada para proteger los derechos de un niño, niña o adolescente no puede durar más de:",
+      "answer": "b",
+      "correct_option": "Noventa días.",
+      "reason": "La cautelar especial de protección descrita tiene una duración máxima de noventa días.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-040",
+      "chapter": 5,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        77
+      ],
+      "stem": "Si los hechos de una denuncia de violencia intrafamiliar son constitutivos de delito, el juez de familia debe remitirlos de inmediato al Ministerio Público. En ningún caso pueden transcurrir más de:",
+      "answer": "b",
+      "correct_option": "Tres días.",
+      "reason": "La remisión debe ser inmediata y no pueden transcurrir más de tres días sin efectuarse el envío.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-041",
+      "chapter": 5,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        74
+      ],
+      "stem": "Respecto de la audiencia de juicio de familia, es correcto afirmar que:",
+      "answer": "b",
+      "correct_option": "Sólo 1, 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-042",
+      "chapter": 5,
+      "format": "Combinación",
+      "negative": true,
+      "pages": [
+        81
+      ],
+      "stem": "Respecto de la oposición a los alimentos provisorios, ¿cuáles de las siguientes afirmaciones son FALSAS?",
+      "answer": "a",
+      "correct_option": "Sólo 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-043",
+      "chapter": 6,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        91
+      ],
+      "stem": "Contra la resolución inicial que acoge o rechaza las pretensiones en el monitorio laboral, las partes pueden reclamar dentro de:",
+      "answer": "e",
+      "correct_option": "Diez días hábiles.",
+      "reason": "El plazo de reclamación es diez días hábiles y no procede otro recurso contra esa resolución inicial.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-044",
+      "chapter": 6,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        91
+      ],
+      "stem": "Para comparecer mediante mandatario a la audiencia única del monitorio laboral, éste debe estar expresamente facultado para:",
+      "answer": "e",
+      "correct_option": "Transigir.",
+      "reason": "El mandatario debe estar expresamente revestido de la facultad de transigir y las partes deben asistir con todos sus medios de prueba.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-045",
+      "chapter": 6,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        88
+      ],
+      "stem": "Certificada la firmeza de la sentencia laboral, si no se acredita el cumplimiento dentro de los cinco días siguientes, la ejecución se inicia:",
+      "answer": "e",
+      "correct_option": "De oficio.",
+      "reason": "La ejecución se inicia de oficio, remitiéndose los antecedentes al Juzgado de Cobranza competente cuando corresponde.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-046",
+      "chapter": 6,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        87
+      ],
+      "stem": "El recurso de unificación de jurisprudencia laboral debe interponerse ante la Corte de Apelaciones para que sea conocido por:",
+      "answer": "e",
+      "correct_option": "La Corte Suprema.",
+      "reason": "Se interpone ante la Corte de Apelaciones dentro de quince días y lo conoce la Corte Suprema.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-047",
+      "chapter": 6,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        88
+      ],
+      "stem": "En la ejecución de una sentencia definitiva laboral ejecutoriada, la parte ejecutada puede oponer, con antecedentes escritos, las siguientes excepciones:",
+      "answer": "a",
+      "correct_option": "Sólo 1, 2 y 3.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-048",
+      "chapter": 6,
+      "format": "Combinación",
+      "negative": true,
+      "pages": [
+        90,
+        91
+      ],
+      "stem": "Respecto de la audiencia única del monitorio laboral, ¿cuáles de las siguientes afirmaciones son FALSAS?",
+      "answer": "e",
+      "correct_option": "Sólo 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-049",
+      "chapter": 7,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        96
+      ],
+      "stem": "Para las hipótesis de flagrancia que utilizan la expresión «tiempo inmediato», no deben haber transcurrido más de:",
+      "answer": "c",
+      "correct_option": "Doce horas.",
+      "reason": "El tiempo inmediato comprende entre el hecho y la captura un máximo de doce horas en las hipótesis señaladas.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-050",
+      "chapter": 7,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        94
+      ],
+      "stem": "Si la víctima deduce querella y el juez de garantía la admite después de un archivo provisional, el fiscal debe:",
+      "answer": "c",
+      "correct_option": "Continuar la investigación conforme a las reglas generales.",
+      "reason": "La admisión de la querella provoca la intervención judicial y obliga al fiscal a seguir adelante con la investigación conforme a las reglas generales.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-051",
+      "chapter": 7,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        103
+      ],
+      "stem": "Recibida la causa por el Tribunal de Juicio Oral en lo Penal, el juicio debe celebrarse, desde la notificación del auto de apertura:",
+      "answer": "c",
+      "correct_option": "No antes de quince ni después de sesenta días.",
+      "reason": "El juez presidente fija el juicio entre quince y sesenta días desde la notificación del auto de apertura.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-052",
+      "chapter": 7,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        103
+      ],
+      "stem": "El acusado debe ser citado a la audiencia de juicio oral con una anticipación mínima de:",
+      "answer": "c",
+      "correct_option": "Siete días.",
+      "reason": "La citación del acusado exige al menos siete días de anticipación, distintos del margen de quince a sesenta días para fijar el juicio.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-053",
+      "chapter": 7,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        95
+      ],
+      "stem": "Respecto del principio de oportunidad penal, es correcto afirmar que:",
+      "answer": "e",
+      "correct_option": "Sólo 1, 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-054",
+      "chapter": 7,
+      "format": "Combinación",
+      "negative": true,
+      "pages": [
+        99,
+        100
+      ],
+      "stem": "Respecto de la suspensión condicional del procedimiento penal, ¿cuáles de las siguientes afirmaciones son FALSAS?",
+      "answer": "d",
+      "correct_option": "Sólo 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-055",
+      "chapter": 7,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        102,
+        103
+      ],
+      "stem": "Respecto de las garantías del juicio oral penal, es correcto afirmar que:",
+      "answer": "c",
+      "correct_option": "Sólo 1, 2 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-056",
+      "chapter": 8,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        106
+      ],
+      "stem": "La visita judicial ordinaria o extraordinaria para fiscalizar la conducta funcionaria bajo la supervisión de una Corte de Apelaciones se efectúa por:",
+      "answer": "e",
+      "correct_option": "Un ministro visitador.",
+      "reason": "La Corte efectúa la visita judicial por medio de un ministro visitador para fiscalizar la conducta funcionaria de los miembros bajo su supervisión.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-057",
+      "chapter": 8,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        110
+      ],
+      "stem": "Si la inhabilidad afecta a todos los miembros de una Corte de Apelaciones, el asunto pasa, por regla, a:",
+      "answer": "e",
+      "correct_option": "La Corte de Apelaciones que debe subrogar según las reglas legales.",
+      "reason": "El asunto pasa a la Corte llamada legalmente a subrogar; sólo si esas reglas no pueden aplicarse conoce la Corte cuya sede está más próxima.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-058",
+      "chapter": 8,
+      "format": "Combinación",
+      "negative": true,
+      "pages": [
+        106,
+        108
+      ],
+      "stem": "Respecto de las Cortes de Apelaciones, ¿cuáles de las siguientes afirmaciones son FALSAS?",
+      "answer": "e",
+      "correct_option": "Sólo 3 y 4.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-059",
+      "chapter": 9,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        112
+      ],
+      "stem": "Respecto del Presidente de la Corte Suprema, es correcto afirmar que:",
+      "answer": "d",
+      "correct_option": "Es elegido por los ministros, dura dos años y no puede ser reelegido.",
+      "reason": "Los propios ministros eligen a su presidente por dos años, sin reelección.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-060",
+      "chapter": 9,
+      "format": "Directa",
+      "negative": false,
+      "pages": [
+        112
+      ],
+      "stem": "La audiencia pública en que se realiza la cuenta anual del Presidente de la Corte Suprema tiene lugar:",
+      "answer": "d",
+      "correct_option": "El primer día hábil de marzo.",
+      "reason": "La Corte inicia sus funciones en audiencia pública el primer día hábil de marzo, con la cuenta pública anual de su presidente.",
+      "source_kind": "original_practice"
+    },
+    {
+      "id": "N-20261015-061",
+      "chapter": 9,
+      "format": "Combinación",
+      "negative": false,
+      "pages": [
+        112,
+        114
+      ],
+      "stem": "Respecto del funcionamiento de la Corte Suprema, es correcto afirmar que:",
+      "answer": "b",
+      "correct_option": "Sólo 1, 3 y 4.",
+      "source_kind": "original_practice"
+    }
+  ]
+}

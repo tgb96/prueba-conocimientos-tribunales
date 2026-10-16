@@ -1,0 +1,51 @@
+{
+  "version": "20261015-modelos2020",
+  "questions": 400,
+  "previous_unchanged": 310,
+  "new_models": 29,
+  "new_practice": 61,
+  "families": 387,
+  "original_appearances": 32,
+  "excluded_appearances": 2,
+  "duplicate_appearances": 1,
+  "simulations": {
+    "full": 2000,
+    "quick": 5000
+  },
+  "coverage": 400,
+  "chapter_quotas_30": [
+    6,
+    3,
+    4,
+    3,
+    2,
+    3,
+    6,
+    2,
+    1
+  ],
+  "chapter_averages_10": [
+    1.999999999999845,
+    0.9999999999999225,
+    1.3343999999999026,
+    0.9999999999999225,
+    0.6659999999999593,
+    0.9999999999999225,
+    1.999999999999845,
+    0.6551999999999605,
+    0.3443999999999947
+  ],
+  "format_averages": {
+    "10": {
+      "Directa": 5.715799999999803,
+      "Ordenación": 0.33219999999999605
+    },
+    "30": {
+      "Directa": 17.146999999999956,
+      "Ordenación": 0.9919999999999461
+    }
+  },
+  "explanations": 1600,
+  "max_explanation_words": 96,
+  "note": "Las comprobaciones estructurales no sustituyen el contraste editorial con las páginas del manual."
+}
