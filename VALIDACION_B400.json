@@ -1,51 +1,418 @@
 {
-  "version": "20261015-modelos2020",
+  "version": "20261017-revision400",
   "questions": 400,
-  "previous_unchanged": 310,
-  "new_models": 29,
-  "new_practice": 61,
-  "families": 387,
-  "original_appearances": 32,
-  "excluded_appearances": 2,
-  "duplicate_appearances": 1,
-  "simulations": {
-    "full": 2000,
-    "quick": 5000
+  "families": 381,
+  "structural_questions_checked": 400,
+  "explanation_cases_checked": 2400,
+  "max_explanation_words": 96,
+  "independent_attempts_checked": 2000,
+  "sequential_attempts_checked": 8400,
+  "quick_chapter_averages": [
+    2.0000000000000457,
+    1.0000000000000229,
+    1.3259999999999956,
+    1.0000000000000229,
+    0.6713333333333378,
+    1.0000000000000229,
+    2.0000000000000457,
+    0.6860000000000053,
+    0.31666666666666643
+  ],
+  "quick_format_averages": {
+    "Directa": 5.733999999999827,
+    "Ordenación": 0.33866666666666584
   },
-  "coverage": 400,
-  "chapter_quotas_30": [
-    6,
-    3,
-    4,
-    3,
-    2,
-    3,
-    6,
-    2,
-    1
-  ],
-  "chapter_averages_10": [
-    1.999999999999845,
-    0.9999999999999225,
-    1.3343999999999026,
-    0.9999999999999225,
-    0.6659999999999593,
-    0.9999999999999225,
-    1.999999999999845,
-    0.6551999999999605,
-    0.3443999999999947
-  ],
-  "format_averages": {
+  "rotation": {
     "10": {
-      "Directa": 5.715799999999803,
-      "Ordenación": 0.33219999999999605
+      "before": {
+        "trials": 12,
+        "checkpoints": {
+          "2": {
+            "questions": 19.75,
+            "families": 19.75,
+            "pages": 24.58,
+            "previousOverlap": 0.25
+          },
+          "5": {
+            "questions": 47.08,
+            "families": 47,
+            "pages": 47.58,
+            "previousOverlap": 0
+          },
+          "10": {
+            "questions": 88.67,
+            "families": 88.17,
+            "pages": 69.42,
+            "previousOverlap": 0.17
+          },
+          "20": {
+            "questions": 154.92,
+            "families": 153.58,
+            "pages": 85.92,
+            "previousOverlap": 0.25
+          },
+          "30": {
+            "questions": 204.75,
+            "families": 202.33,
+            "pages": 93.75,
+            "previousOverlap": 0.5
+          },
+          "50": {
+            "questions": 276.42,
+            "families": 271.58,
+            "pages": 98.25,
+            "previousOverlap": 0.33
+          },
+          "100": {
+            "questions": 355.42,
+            "families": 344.42,
+            "pages": 101.83,
+            "previousOverlap": 0.33
+          },
+          "150": {
+            "questions": 381.83,
+            "families": 367.42,
+            "pages": 102.67,
+            "previousOverlap": 0.42
+          }
+        },
+        "all_questions_by_attempt": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "after": {
+        "trials": 12,
+        "checkpoints": {
+          "2": {
+            "questions": 20,
+            "families": 20,
+            "pages": 24.5,
+            "previousOverlap": 0
+          },
+          "5": {
+            "questions": 50,
+            "families": 50,
+            "pages": 49.25,
+            "previousOverlap": 0
+          },
+          "10": {
+            "questions": 100,
+            "families": 100,
+            "pages": 72,
+            "previousOverlap": 0
+          },
+          "20": {
+            "questions": 200,
+            "families": 200,
+            "pages": 89.67,
+            "previousOverlap": 0
+          },
+          "30": {
+            "questions": 297.5,
+            "families": 293.08,
+            "pages": 96.92,
+            "previousOverlap": 0
+          },
+          "50": {
+            "questions": 376,
+            "families": 359.17,
+            "pages": 101.17,
+            "previousOverlap": 0
+          },
+          "100": {
+            "questions": 400,
+            "families": 381,
+            "pages": 103,
+            "previousOverlap": 0
+          },
+          "150": {
+            "questions": 400,
+            "families": 381,
+            "pages": 103,
+            "previousOverlap": 0.08
+          }
+        },
+        "all_questions_by_attempt": [
+          82,
+          79,
+          74,
+          83,
+          83,
+          84,
+          82,
+          80,
+          77,
+          80,
+          87,
+          74
+        ]
+      }
     },
     "30": {
-      "Directa": 17.146999999999956,
-      "Ordenación": 0.9919999999999461
+      "before": {
+        "trials": 12,
+        "checkpoints": {
+          "2": {
+            "questions": 57.33,
+            "families": 57.17,
+            "pages": 51.25,
+            "previousOverlap": 2.83
+          },
+          "5": {
+            "questions": 129,
+            "families": 128.33,
+            "pages": 79.5,
+            "previousOverlap": 2.5
+          },
+          "10": {
+            "questions": 213.17,
+            "families": 210.33,
+            "pages": 91.17,
+            "previousOverlap": 1.92
+          },
+          "20": {
+            "questions": 304,
+            "families": 297.33,
+            "pages": 99.17,
+            "previousOverlap": 2.08
+          },
+          "30": {
+            "questions": 348.42,
+            "families": 337.92,
+            "pages": 101.08,
+            "previousOverlap": 2.25
+          },
+          "50": {
+            "questions": 382.75,
+            "families": 367.67,
+            "pages": 102.42,
+            "previousOverlap": 3.42
+          },
+          "100": {
+            "questions": 397.58,
+            "families": 379.5,
+            "pages": 102.92,
+            "previousOverlap": 2.08
+          }
+        },
+        "all_questions_by_attempt": [
+          null,
+          96,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "after": {
+        "trials": 12,
+        "checkpoints": {
+          "2": {
+            "questions": 60,
+            "families": 60,
+            "pages": 54.92,
+            "previousOverlap": 0
+          },
+          "5": {
+            "questions": 150,
+            "families": 150,
+            "pages": 82.25,
+            "previousOverlap": 0
+          },
+          "10": {
+            "questions": 298.42,
+            "families": 294,
+            "pages": 96.58,
+            "previousOverlap": 0.42
+          },
+          "20": {
+            "questions": 389,
+            "families": 372,
+            "pages": 102.5,
+            "previousOverlap": 3.92
+          },
+          "30": {
+            "questions": 400,
+            "families": 381,
+            "pages": 103,
+            "previousOverlap": 0.92
+          },
+          "50": {
+            "questions": 400,
+            "families": 381,
+            "pages": 103,
+            "previousOverlap": 0
+          },
+          "100": {
+            "questions": 400,
+            "families": 381,
+            "pages": 103,
+            "previousOverlap": 1.33
+          }
+        },
+        "all_questions_by_attempt": [
+          27,
+          27,
+          24,
+          28,
+          27,
+          27,
+          26,
+          27,
+          25,
+          26,
+          28,
+          27
+        ]
+      }
+    },
+    "mixed": {
+      "before": {
+        "trials": 12,
+        "checkpoints": {
+          "2": {
+            "questions": 39.25,
+            "families": 39.17,
+            "pages": 40.83,
+            "previousOverlap": 0.83
+          },
+          "5": {
+            "questions": 81.83,
+            "families": 81.42,
+            "pages": 65.33,
+            "previousOverlap": 0.58
+          },
+          "10": {
+            "questions": 158.5,
+            "families": 157.33,
+            "pages": 85.5,
+            "previousOverlap": 1
+          },
+          "20": {
+            "questions": 249.83,
+            "families": 245.92,
+            "pages": 96.33,
+            "previousOverlap": 1.17
+          },
+          "30": {
+            "questions": 301.67,
+            "families": 295,
+            "pages": 99.5,
+            "previousOverlap": 0.42
+          },
+          "50": {
+            "questions": 358.92,
+            "families": 347.42,
+            "pages": 102.08,
+            "previousOverlap": 0.92
+          },
+          "100": {
+            "questions": 391.58,
+            "families": 374.58,
+            "pages": 103,
+            "previousOverlap": 0.58
+          }
+        },
+        "all_questions_by_attempt": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "after": {
+        "trials": 12,
+        "checkpoints": {
+          "2": {
+            "questions": 40,
+            "families": 40,
+            "pages": 43.5,
+            "previousOverlap": 0
+          },
+          "5": {
+            "questions": 90,
+            "families": 90,
+            "pages": 68.42,
+            "previousOverlap": 0
+          },
+          "10": {
+            "questions": 200,
+            "families": 200,
+            "pages": 89.17,
+            "previousOverlap": 0
+          },
+          "20": {
+            "questions": 358.33,
+            "families": 342.33,
+            "pages": 99.75,
+            "previousOverlap": 0
+          },
+          "30": {
+            "questions": 389,
+            "families": 372,
+            "pages": 102.67,
+            "previousOverlap": 2.08
+          },
+          "50": {
+            "questions": 400,
+            "families": 381,
+            "pages": 103,
+            "previousOverlap": 0.25
+          },
+          "100": {
+            "questions": 400,
+            "families": 381,
+            "pages": 103,
+            "previousOverlap": 0.92
+          }
+        },
+        "all_questions_by_attempt": [
+          42,
+          41,
+          38,
+          40,
+          40,
+          42,
+          41,
+          40,
+          40,
+          40,
+          41,
+          41
+        ]
+      }
     }
   },
-  "explanations": 1600,
-  "max_explanation_words": 96,
-  "note": "Las comprobaciones estructurales no sustituyen el contraste editorial con las páginas del manual."
+  "storage": {
+    "reload": "pass",
+    "shared_10_30": "pass",
+    "corrupt": "pass",
+    "blocked_memory_fallback": "pass"
+  },
+  "limits": "Simulaciones reproducibles con semilla 4272026. La cobertura es una observación, no un número garantizado de intentos para todo usuario. Se conservan cuotas temáticas y de formatos; puede haber repeticiones cuando esas cuotas lo requieran."
 }

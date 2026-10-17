@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "candidate",
+    "viewport": {
+      "width": 1366,
+      "height": 950,
+      "name": "pc"
+    },
+    "bank_matches": true,
+    "full": 30,
+    "quick": 10,
+    "overlap_after_reload_and_mode_change": 0,
+    "exposure_persists": true,
+    "explanation_cases": 10,
+    "empty_explanations": 0,
+    "adapted_model_notes": 4,
+    "external_dependencies": 0,
+    "unlimited_and_expiration": true,
+    "horizontal_overflow": false,
+    "javascript_errors": []
+  },
+  {
+    "mode": "candidate",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "name": "movil"
+    },
+    "bank_matches": true,
+    "full": 30,
+    "quick": 10,
+    "overlap_after_reload_and_mode_change": 0,
+    "exposure_persists": true,
+    "explanation_cases": 10,
+    "empty_explanations": 0,
+    "adapted_model_notes": 4,
+    "external_dependencies": 0,
+    "unlimited_and_expiration": true,
+    "horizontal_overflow": false,
+    "javascript_errors": []
+  }
+]

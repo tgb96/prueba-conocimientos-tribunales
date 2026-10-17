@@ -1,8 +1,32 @@
 # Banco activo: 400 preguntas
 
-La versión **20261015-modelos2020** conserva 310 preguntas y añade **29 del nuevo modelo revisado y 61 originales de práctica**. La batería contiene 387 familias y explica las respuestas incorrectas con respaldo del manual. Se conserva el inicio simplificado y la elección de 10 o 30 preguntas.
+La versión **20261017-revision400** revisa editorialmente las **400 preguntas**, sus alternativas, claves, afirmaciones, fundamentos y referencias al Manual Único para Tribunales de octubre de 2025. La batería contiene **381 familias**. Se conserva el inicio simplificado y la elección de 10 o 30 preguntas.
 
-La selección toma las tres pruebas completas: **6 / 3 / 4 / 3 / 2 / 3 / 6 / 2 / 1** por capítulo en un intento completo. Los intentos rápidos redondean proporcionalmente con rotación de temas. La revisión del documento completo, los ajustes, las exclusiones, el criterio de redacción y la validación se documentan en [MODELOS_2020.md](MODELOS_2020.md) y [REVISION_2020.json](REVISION_2020.json).
+Se corrigieron ambigüedades, alternativas autorreferentes en preguntas negativas, condiciones omitidas y referencias imprecisas. Cuatro preguntas de los modelos que necesitaban fuentes externas se adaptaron a información explícita del manual, conservando su original y documentando el ajuste. Se completaron los fundamentos vacíos de veinte combinaciones nuevas, se sustituyeron remisiones genéricas por explicaciones útiles y se mejoraron distractores demasiado evidentes.
+
+El registro vigente por pregunta es [REVISION_B400.json](REVISION_B400.json). Incluye las páginas, sus huellas SHA-256 y los cambios. El banco vigente es [banco_B400.json](banco_B400.json); los bancos B250, B310 y B500 y los registros anteriores son antecedentes históricos y no se cargan en la aplicación.
+
+## Rotación entre intentos
+
+La selección mantiene las cuotas de los tres modelos completos: **6 / 3 / 4 / 3 / 2 / 3 / 6 / 2 / 1** por capítulo en un intento de 30. Los de 10 redondean proporcionalmente. Se mantienen las proporciones de directas, combinaciones y ordenaciones. No aparecen dos variantes de la misma familia en un intento.
+
+Ahora la aplicación registra las preguntas asignadas al iniciar cada intento en el almacenamiento de este navegador. Manteniendo las cuotas, prioriza en este orden familias que aún no han salido, variantes menos utilizadas y equilibrio del uso total de familias. Dentro de una familia prioriza la variante menos utilizada y más antigua. Los empates se sortean. Se agruparon otras seis variantes del mismo conocimiento para que no salgan juntas. La memoria se comparte entre las modalidades de 10 y 30 y se conserva al recargar. No se sincroniza entre dispositivos y, si el navegador bloquea el almacenamiento, funciona durante la sesión. Borrar el historial de resultados no borra esta memoria de selección.
+
+Puede ser necesario repetir preguntas para mantener las cuotas; no se promete recorrer las 400 sin ninguna repetición. No se conserva el intento en curso al recargar: se conserva la memoria de selección.
+
+## Comprobaciones actuales
+
+Se comprobaron las 400 estructuras y **2400 casos de explicación**: cuatro errores, acierto y omisión por pregunta. Se validaron cinco alternativas diferentes, claves de combinaciones y secuencias, páginas de referencia y ausencia de duplicados textuales completos. Se ejecutaron **2000 selecciones independientes y 8400 selecciones consecutivas**, además de pruebas de almacenamiento persistente, corrupto y bloqueado. Los resultados reproducibles están en [VALIDACION_B400.json](VALIDACION_B400.json). Puede repetirse el control con `node tests/verify.cjs`; la comparación usa el código histórico del commit 821d44c, disponible en un clon con su historial.
+
+En doce series de prueba por modalidad, diez intentos completos cubrieron en promedio **298,42 preguntas distintas**, frente a **213,17** con el algoritmo anterior. Las doce series completas recorrieron las 400 entre los intentos 24 y 28; las rápidas, entre el 74 y el 87. Son observaciones de simulaciones, no un número garantizado para cada usuario. La distribución de formatos y temas se sigue comprobando en cada intento.
+
+El contenido se basa en la edición de octubre de 2025. La revisión editorial y los controles automáticos no constituyen una pauta oficial ni una equivalencia estadística de dificultad con un examen futuro. Los modelos orientan el tipo de tarea, la lógica, extensión y formato de las preguntas. La revisión del DOCX y las exclusiones originales están documentadas en [MODELOS_2020.md](MODELOS_2020.md) y [REVISION_2020.json](REVISION_2020.json).
+
+---
+
+## Antecedente: ampliación a 400
+
+La versión 20261015-modelos2020 incorporó 29 preguntas del modelo de 2020 y 61 originales a las 310 previas. Los apartados siguientes describen versiones anteriores y no sustituyen la revisión vigente.
 
 ---
 

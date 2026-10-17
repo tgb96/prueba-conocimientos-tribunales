@@ -7,6 +7,7 @@ const chapterNames = {
 const state = {
   bank: [],
   profile: null,
+  exposure: { sequence: 0, items: {} },
   attempt: null,
   current: 0,
   answers: {},
@@ -40,6 +41,69 @@ function shuffle(list) {
   return copy;
 }
 
+const EXPOSURE_KEY = 'tribunales-question-exposure-v1';
+
+function readExposure() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(EXPOSURE_KEY));
+    if (!saved || !Number.isSafeInteger(saved.sequence) || saved.sequence < 0 || !saved.items) return;
+    const items = {};
+    for (const question of state.bank) {
+      const entry = saved.items[question.bank_id];
+      if (entry && Number.isSafeInteger(entry.seen) && entry.seen > 0 &&
+          Number.isSafeInteger(entry.last) && entry.last > 0 && entry.last <= saved.sequence) {
+        items[question.bank_id] = { seen: entry.seen, last: entry.last };
+      }
+    }
+    state.exposure = { sequence: saved.sequence, items };
+  } catch { /* Si el navegador bloquea el almacenamiento, se conserva la memoria de esta sesión. */ }
+}
+
+function recordExposure(questions) {
+  state.exposure.sequence += 1;
+  for (const question of questions) {
+    const previous = state.exposure.items[question.bank_id];
+    state.exposure.items[question.bank_id] = {
+      seen: (previous?.seen || 0) + 1,
+      last: state.exposure.sequence
+    };
+  }
+  try { localStorage.setItem(EXPOSURE_KEY, JSON.stringify(state.exposure)); }
+  catch { /* La selección sigue funcionando con memoria durante esta sesión. */ }
+}
+
+function exposureOf(variants) {
+  const result = variants.reduce((result, question) => {
+    const entry = state.exposure.items[question.bank_id];
+    result.seen += entry?.seen || 0;
+    result.minimum = Math.min(result.minimum, entry?.seen || 0);
+    result.last = Math.max(result.last, entry?.last || 0);
+    return result;
+  }, { seen: 0, last: 0, minimum: Infinity });
+  // Primero ampliar conocimientos; después recorrer sus variantes y equilibrar el uso.
+  result.priority = [result.seen > 0 ? 1 : 0, result.minimum, result.seen];
+  return result;
+}
+
+function compareUse(left, right) {
+  for (let i = 0; i < left.length; i += 1) {
+    if (left[i] !== right[i]) return left[i] < right[i] ? -1 : 1;
+  }
+  return 0;
+}
+
+function addUse(...scores) {
+  return [0, 1, 2].map(index => scores.reduce((sum, score) => sum + score[index], 0));
+}
+
+function leastUsed(list, exposure) {
+  return shuffle(list).sort((a, b) => {
+    const left = exposure(a), right = exposure(b);
+    const rank = left.priority && right.priority ? compareUse(left.priority, right.priority) : left.seen - right.seen;
+    return rank || left.last - right.last;
+  });
+}
+
 function sampleAttempt(total = 30) {
   if (![10, 30].includes(total)) throw new Error('Elige un intento de 10 o 30 preguntas.');
   const profile = state.profile;
@@ -60,6 +124,13 @@ function sampleAttempt(total = 30) {
     }
     const byFormat = { Directa: [], Combinación: [], Ordenación: [] };
     for (const variants of groups.values()) byFormat[variants[0].format].push(variants);
+    for (const format of Object.keys(byFormat)) byFormat[format] = leastUsed(byFormat[format], exposureOf);
+    byFormat.costs = {};
+    for (const format of ['Directa', 'Combinación', 'Ordenación']) {
+      const sums = [[0, 0, 0]];
+      for (const variants of byFormat[format]) sums.push(addUse(sums.at(-1), exposureOf(variants).priority));
+      byFormat.costs[format] = sums;
+    }
     pools.push(byFormat);
   }
   function choose(n, k) {
@@ -78,19 +149,25 @@ function sampleAttempt(total = 30) {
         const c = quota - d - o;
         if (c > pool.Combinación.length) continue;
         const future = ways(chapter + 1, directLeft - d, orderLeft - o);
-        const weight = choose(pool.Directa.length, d) * choose(pool.Combinación.length, c) * choose(pool.Ordenación.length, o) * future;
-        if (weight > 0) options.push({ d, c, o, weight });
+        const cost = addUse(future.cost, pool.costs.Directa[d], pool.costs.Combinación[c], pool.costs.Ordenación[o]);
+        const weight = choose(pool.Directa.length, d) * choose(pool.Combinación.length, c) * choose(pool.Ordenación.length, o) * future.weight;
+        if (weight > 0) options.push({ d, c, o, weight, cost });
       }
     }
-    return options;
+    const minimum = options.reduce((best, option) => compareUse(option.cost, best) < 0 ? option.cost : best, [Infinity, Infinity, Infinity]);
+    return options.filter(option => compareUse(option.cost, minimum) === 0);
   }
   function ways(chapter, directLeft, orderLeft) {
-    if (chapter === 9) return directLeft === 0 && orderLeft === 0 ? 1 : 0;
+    if (chapter === 9) return directLeft === 0 && orderLeft === 0
+      ? { cost: [0, 0, 0], weight: 1 } : { cost: [Infinity, Infinity, Infinity], weight: 0 };
     const key = `${chapter}/${directLeft}/${orderLeft}`;
-    if (!memo.has(key)) memo.set(key, allocations(chapter, directLeft, orderLeft).reduce((sum, a) => sum + a.weight, 0));
+    if (!memo.has(key)) {
+      const options = allocations(chapter, directLeft, orderLeft);
+      memo.set(key, { cost: options[0]?.cost ?? [Infinity, Infinity, Infinity], weight: options.reduce((sum, a) => sum + a.weight, 0) });
+    }
     return memo.get(key);
   }
-  if (!ways(0, directTarget, orderTarget)) throw new Error('No hay suficientes preguntas para mantener la pauta del intento.');
+  if (!ways(0, directTarget, orderTarget).weight) throw new Error('No hay suficientes preguntas para mantener la pauta del intento.');
   const selected = [];
   let directLeft = directTarget;
   let orderLeft = orderTarget;
@@ -103,8 +180,8 @@ function sampleAttempt(total = 30) {
       if (ticket <= 0) { allocation = option; break; }
     }
     for (const [format, amount] of [['Directa', allocation.d], ['Combinación', allocation.c], ['Ordenación', allocation.o]]) {
-      for (const variants of shuffle(pools[chapter][format]).slice(0, amount)) {
-        selected.push(variants[Math.floor(Math.random() * variants.length)]);
+      for (const variants of pools[chapter][format].slice(0, amount)) {
+        selected.push(leastUsed(variants, question => state.exposure.items[question.bank_id] || { seen: 0, last: 0 })[0]);
       }
     }
     directLeft -= allocation.d;
@@ -143,8 +220,8 @@ function configureAttempt() {
     duration.appendChild(option);
   }
   $('#setup-description').textContent = quick
-    ? '10 preguntas distintas para practicar en menos tiempo. Los temas rotan entre intentos para aproximar la proporción de las pruebas completas.'
-    : '30 preguntas de todos los capítulos, siguiendo la distribución de tus tres pruebas completas.';
+    ? '10 preguntas para practicar en menos tiempo. Los temas rotan y se priorizan preguntas que te hayan salido menos veces en este navegador.'
+    : '30 preguntas de todos los capítulos, con la proporción de tus modelos y prioridad a las que te hayan salido menos veces en este navegador.';
 }
 
 function formatTime(total) {
@@ -155,7 +232,9 @@ function formatTime(total) {
 }
 
 function startAttempt() {
+  readExposure();
   state.attempt = sampleAttempt(Number($('#attempt-select').value));
+  recordExposure(state.attempt);
   state.current = 0;
   state.answers = {};
   state.marked = new Set();
@@ -581,7 +660,7 @@ async function loadBank() {
   button.disabled = true;
   button.textContent = 'Cargando preguntas…';
   try {
-    const response = await fetch('banco_B400.json?v=20261015-modelos2020');
+    const response = await fetch('banco_B400.json?v=20261017-revision400');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];
