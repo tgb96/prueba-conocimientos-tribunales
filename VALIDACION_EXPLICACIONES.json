@@ -1,0 +1,14 @@
+{
+  "version": "20261024-explicaciones",
+  "questions": 400,
+  "combinations": 179,
+  "false_statements": 255,
+  "study_points": 951,
+  "explanation_cases": 2400,
+  "questions_and_keys_unchanged": true,
+  "sampling_profile_unchanged": true,
+  "sampling_algorithm_unchanged": true,
+  "user_example": "Se explica la omisión de 1 y se enseñan los cuatro puntos, incluido el plazo correcto de seis días de la afirmación falsa 2.",
+  "correct_and_omitted": "El bloque de estudio se genera a partir de la pregunta, independientemente de lo elegido.",
+  "inline_styles": true
+}

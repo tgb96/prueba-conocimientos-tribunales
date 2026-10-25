@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "candidate",
+    "viewport": {
+      "width": 1366,
+      "height": 950,
+      "name": "pc"
+    },
+    "bank_matches": true,
+    "example_all_four_statements": true,
+    "correct_six_days_and_start": true,
+    "all_five_false_statements_explained": true,
+    "correct_omitted_and_negative": true,
+    "comparative_notes_and_sources": true,
+    "study_sections": 10,
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "inline_fallback_checked": false
+  },
+  {
+    "mode": "candidate",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "name": "movil"
+    },
+    "bank_matches": true,
+    "example_all_four_statements": true,
+    "correct_six_days_and_start": true,
+    "all_five_false_statements_explained": true,
+    "correct_omitted_and_negative": true,
+    "comparative_notes_and_sources": true,
+    "study_sections": 10,
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "inline_fallback_checked": true
+  }
+]

@@ -1,4 +1,18 @@
-# Banco activo: 400 preguntas
+# Explicaciones para estudiar · 24 de octubre de 2026
+
+La versión **20261024-explicaciones** conserva las 400 preguntas, alternativas, claves, valores de verdad, familias y algoritmo de selección de la versión anterior. Cambia la corrección para enseñar el contenido, además de señalar el error en la alternativa elegida.
+
+Todas las preguntas tienen un bloque **«Para aprender la regla»**, también cuando se aciertan o se dejan sin responder. En las **179 combinaciones** se explican todas las afirmaciones, con su valor de verdad y la regla correcta de cada falsa. Se muestran las **255 afirmaciones falsas** aunque el usuario las haya descartado correctamente; ya no se limita el aprendizaje a las dos primeras discrepancias con su selección.
+
+Se ampliaron **53 fundamentos** para concretar reglas, condiciones, plazos o hitos de cómputo. En **29 preguntas** se añadieron notas para distinguir procedimientos o instituciones que pueden confundirse, con sus propias páginas de respaldo. No se incorpora legislación externa al manual de octubre de 2025.
+
+El ejemplo B250-187 ahora enseña los diez días de prueba, su ampliación por otros diez a solicitud oportuna del acreedor, los seis días para observar desde el vencimiento del probatorio, los cuatro días del traslado de excepciones y los diez días para sentenciar desde que el pleito queda concluso. Una nota separa esos plazos de los del ordinario y sumario. El diagnóstico de la respuesta sigue indicando que faltó incluir la afirmación 1; el bloque de estudio también corrige la falsa 2.
+
+La revisión de las ampliaciones y sus referencias consta en [REVISION_EXPLICACIONES.json](REVISION_EXPLICACIONES.json). El control con `node tests/explanations.cjs` verifica 400 preguntas, 951 puntos de estudio, 2400 casos de respuesta, conservación de preguntas y claves y conservación exacta de las funciones de selección. Resultado: [VALIDACION_EXPLICACIONES.json](VALIDACION_EXPLICACIONES.json). También se verificó en navegador la explicación del ejemplo, cinco afirmaciones falsas en una misma pregunta, preguntas negativas, aciertos, omisiones, lectura en computador y celular y estilos incorporados cuando falla la hoja externa.
+
+---
+
+# Antecedente: revisión del banco de 400 preguntas
 
 La versión **20261017-revision400** revisa editorialmente las **400 preguntas**, sus alternativas, claves, afirmaciones, fundamentos y referencias al Manual Único para Tribunales de octubre de 2025. La batería contiene **381 familias**. Se conserva el inicio simplificado y la elección de 10 o 30 preguntas.
 

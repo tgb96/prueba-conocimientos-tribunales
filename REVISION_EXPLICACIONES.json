@@ -1,0 +1,646 @@
+{
+  "version": "20261024-explicaciones",
+  "questions_with_study_explanation": 400,
+  "combinations_with_all_statements": 179,
+  "false_statements_always_explained": 255,
+  "expanded_corrections": [
+    {
+      "id": "B250-005",
+      "statement": 2,
+      "correction": "La formalización es la comunicación que el fiscal hace al imputado, ante el juez de garantía, de que desarrolla una investigación en su contra por determinados delitos. No es una sentencia ni declara culpabilidad.",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": "B250-017",
+      "statement": 4,
+      "correction": "El término probatorio ordinario es común: corre para todas las partes a la vez, no en períodos sucesivos. Su duración general es de veinte días.",
+      "pages": [
+        48
+      ]
+    },
+    {
+      "id": "B250-024",
+      "statement": 3,
+      "correction": "La cosa juzgada corresponde a sentencias definitivas o interlocutorias firmes o ejecutoriadas. No se atribuye a los decretos por el solo hecho de dictarse.",
+      "pages": [
+        43,
+        44
+      ]
+    },
+    {
+      "id": "B250-132",
+      "statement": 3,
+      "correction": "La obligación de resolver exige que el asunto sea de competencia del tribunal y esté sometido legalmente a su consideración; no autoriza a decidir cualquier asunto.",
+      "pages": [
+        13
+      ]
+    },
+    {
+      "id": "B250-132",
+      "statement": 5,
+      "correction": "La falta de una ley que resuelva la contienda no permite excusarse. El tribunal debe resolver recurriendo al espíritu general de la legislación y a la equidad natural.",
+      "pages": [
+        13
+      ]
+    },
+    {
+      "id": "B250-133",
+      "statement": 1,
+      "correction": "La inamovilidad no es absoluta: los jueces pueden cesar por causa legalmente sentenciada, además de las otras causales indicadas.",
+      "pages": [
+        13
+      ]
+    },
+    {
+      "id": "B250-133",
+      "statement": 2,
+      "correction": "La renuncia es una causal autónoma de cesación; no exige haber cumplido setenta y cinco años. La edad de setenta y cinco años es otra causal distinta.",
+      "pages": [
+        13
+      ]
+    },
+    {
+      "id": "B250-135",
+      "statement": 1,
+      "correction": "Desde el extranjero se puede votar en primarias presidenciales, elecciones presidenciales y plebiscitos nacionales; esa enumeración no incluye las elecciones de senadores.",
+      "pages": [
+        20
+      ]
+    },
+    {
+      "id": "B250-135",
+      "statement": 5,
+      "correction": "Las votaciones desde el extranjero comprenden primarias presidenciales, elecciones presidenciales y plebiscitos nacionales, no las elecciones de alcaldes.",
+      "pages": [
+        20
+      ]
+    },
+    {
+      "id": "B250-154",
+      "statement": 1,
+      "correction": "Ser capaz de ser parte no equivale a tener ius postulandi. Éste es el conjunto de requisitos que habilita para formular peticiones ante el tribunal, con las reglas de comparecencia que correspondan.",
+      "pages": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": "B250-156",
+      "statement": 3,
+      "correction": "El patrocinio admite firma electrónica simple o avanzada. Cuando se usa la simple, debe ratificarse ante el ministro de fe del tribunal por videoconferencia.",
+      "pages": [
+        35,
+        38
+      ]
+    },
+    {
+      "id": "B250-158",
+      "statement": 4,
+      "correction": "La renuncia debe ponerse en conocimiento del mandante junto con el estado del juicio y debe transcurrir el término de emplazamiento contado desde la renuncia. No termina el mandato de inmediato por la sola renuncia.",
+      "pages": [
+        35
+      ]
+    },
+    {
+      "id": "B250-162",
+      "statement": 1,
+      "correction": "Si un plazo de días concedido a un interviniente penal vence en feriado, se amplía hasta las veinticuatro horas del día siguiente que no sea feriado, no hasta el mediodía.",
+      "pages": [
+        40,
+        41
+      ]
+    },
+    {
+      "id": "B250-162",
+      "statement": 3,
+      "correction": "Los días feriados no suspenden los plazos penales. La regla especial es que, si un plazo de días de un interviniente vence en feriado, se amplía hasta las veinticuatro horas del siguiente día no feriado.",
+      "pages": [
+        40,
+        41
+      ]
+    },
+    {
+      "id": "B250-163",
+      "statement": 4,
+      "correction": "Deben existir búsquedas infructuosas en dos días distintos y certificarse el domicilio y que la persona está en el lugar del juicio. Establecidos esos hechos, en la segunda búsqueda se notifica sin nueva orden del tribunal.",
+      "pages": [
+        41
+      ]
+    },
+    {
+      "id": "B250-165",
+      "statement": 1,
+      "correction": "En la notificación ficta, la resolución cuya notificación fue anulada se entiende notificada desde la notificación válida de la sentencia que declara la nulidad; no se repite necesariamente la forma anulada.",
+      "pages": [
+        42
+      ]
+    },
+    {
+      "id": "B250-166",
+      "statement": 3,
+      "correction": "Los fundamentos de hecho y de derecho van en la parte considerativa. La expositiva identifica a las partes y expone las acciones, excepciones y antecedentes del proceso.",
+      "pages": [
+        43
+      ]
+    },
+    {
+      "id": "B250-169",
+      "statement": 1,
+      "correction": "El plazo general de apelación civil es de cinco días hábiles desde la notificación; si se apela una sentencia definitiva, es de diez días hábiles, no tres.",
+      "pages": [
+        55
+      ]
+    },
+    {
+      "id": "B250-169",
+      "statement": 4,
+      "correction": "Debe existir agravio: una diferencia perjudicial entre lo pedido y lo concedido. Quien obtuvo todo lo solicitado no cumple ese presupuesto por el solo deseo de recurrir.",
+      "pages": [
+        55
+      ]
+    },
+    {
+      "id": "B250-170",
+      "statement": 1,
+      "correction": "Si se concede una apelación improcedente o con un efecto distinto del debido, corresponde el falso recurso de hecho. El verdadero se refiere a la denegación de una apelación procedente.",
+      "pages": [
+        55
+      ]
+    },
+    {
+      "id": "B250-170",
+      "statement": 2,
+      "correction": "Si se deniega una apelación que debía concederse, corresponde el verdadero recurso de hecho. El falso se refiere a una apelación concedida indebidamente o con efectos incorrectos.",
+      "pages": [
+        55
+      ]
+    },
+    {
+      "id": "B250-171",
+      "statement": 4,
+      "correction": "La reposición se presenta ante el mismo tribunal que dictó la resolución y la resuelve ese tribunal; no se interpone directamente ante el superior jerárquico.",
+      "pages": [
+        55
+      ]
+    },
+    {
+      "id": "B250-175",
+      "statement": 3,
+      "correction": "La minuta de puntos de prueba y la nómina de testigos deben presentarse dentro de los cinco días siguientes a la última notificación de la resolución que recibe la causa a prueba, no después de vencido el probatorio.",
+      "pages": [
+        51
+      ]
+    },
+    {
+      "id": "B250-176",
+      "statement": 3,
+      "correction": "La consecuencia descrita opera ante la segunda incomparecencia, la negativa a declarar o las respuestas evasivas: a petición de parte se tienen por confesados los hechos categóricamente afirmados, bajo el apercibimiento correspondiente. No basta la primera incomparecencia.",
+      "pages": [
+        51,
+        52
+      ]
+    },
+    {
+      "id": "B250-178",
+      "statement": 3,
+      "correction": "Los hechos certificados por un ministro de fe por orden del tribunal se presumen verdaderos, pero esa presunción admite prueba en contrario.",
+      "pages": [
+        53
+      ]
+    },
+    {
+      "id": "B250-184",
+      "statement": 1,
+      "correction": "La regla general es de tres años desde que la obligación se hace exigible, no desde el embargo. El inicio del cómputo importa tanto como su duración.",
+      "pages": [
+        58
+      ]
+    },
+    {
+      "id": "B250-184",
+      "statement": 2,
+      "correction": "La acción ejecutiva de la letra de cambio y del pagaré prescribe en un año desde que la obligación se hace exigible. Para el cheque protestado, el año se cuenta desde el protesto.",
+      "pages": [
+        58
+      ]
+    },
+    {
+      "id": "B250-186",
+      "statement": 4,
+      "correction": "El plazo de oposición es fatal y se cuenta desde el requerimiento de pago. Si éste ocurre dentro del territorio jurisdiccional del tribunal ejecutor, son ocho días útiles; no se inicia con el embargo.",
+      "pages": [
+        60
+      ]
+    },
+    {
+      "id": "B250-187",
+      "statement": 2,
+      "correction": "Las partes tienen seis días para formular observaciones a la prueba, contados desde el vencimiento del término probatorio. No son veinte días.",
+      "pages": [
+        60,
+        61
+      ]
+    },
+    {
+      "id": "B250-191",
+      "statement": 1,
+      "correction": "El término probatorio del procedimiento sumario es de ocho días, pues se rige por las reglas de los incidentes. No es de veinte días.",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": "B250-191",
+      "statement": 2,
+      "correction": "La nómina de testigos debe presentarse dentro de los dos primeros días del término probatorio de ocho días. No se puede esperar hasta cualquiera de los ocho días.",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": "B250-192",
+      "statement": 4,
+      "correction": "Si el ejecutado no opone excepciones, se omite la sentencia: el mandamiento de ejecución y embargo basta para continuar el apremio. No se exige siempre una sentencia definitiva.",
+      "pages": [
+        61
+      ]
+    },
+    {
+      "id": "B250-207",
+      "statement": 3,
+      "correction": "Las opiniones emitidas por el juez al proponer bases de conciliación no lo inhabilitan para seguir conociendo del juicio.",
+      "pages": [
+        84
+      ]
+    },
+    {
+      "id": "B250-208",
+      "statement": 3,
+      "correction": "La enumeración de tutela comprende las garantías de vida e integridad, vida privada y honra, comunicaciones privadas, conciencia y cultos, opinión e información, y libertad de trabajo en los términos descritos. No incluye el derecho de propiedad propuesto.",
+      "pages": [
+        89,
+        90
+      ]
+    },
+    {
+      "id": "B250-210",
+      "statement": 2,
+      "correction": "Si no se dicta al término de la audiencia de juicio, la sentencia laboral debe dictarse dentro de quince días desde la realización de esa audiencia, no treinta días.",
+      "pages": [
+        86
+      ]
+    },
+    {
+      "id": "B250-211",
+      "statement": 4,
+      "correction": "La nulidad laboral se interpone ante el tribunal que dictó la resolución dentro de diez días desde su notificación. La conoce la Corte de Apelaciones; no se presenta directamente ante la Corte Suprema.",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": "B250-219",
+      "statement": 4,
+      "correction": "El principio de oportunidad no procede si la pena mínima asignada al delito supera los 541 días. Tampoco procede para delitos de funcionarios públicos cometidos en ejercicio de sus funciones.",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": "B250-222",
+      "statement": 1,
+      "correction": "El detenido debe quedar a disposición del tribunal en un plazo no superior a veinticuatro horas desde la detención. En flagrancia, además, debe informarse al Ministerio Público dentro de doce horas.",
+      "pages": [
+        96,
+        97
+      ]
+    },
+    {
+      "id": "B250-222",
+      "statement": 2,
+      "correction": "El fiscal puede solicitar al juez una ampliación de la detención hasta por tres días en los supuestos descritos. La policía no puede decidirla unilateralmente.",
+      "pages": [
+        96,
+        97
+      ]
+    },
+    {
+      "id": "B250-228",
+      "statement": 1,
+      "correction": "La rebeldía del imputado corresponde a sobreseimiento temporal: suspende el proceso. El definitivo pone término al procedimiento por una de sus causales, como la inocencia claramente establecida.",
+      "pages": [
+        101
+      ]
+    },
+    {
+      "id": "B250-228",
+      "statement": 2,
+      "correction": "El sobreseimiento temporal suspende el procedimiento; el definitivo le pone término. No tienen el mismo efecto.",
+      "pages": [
+        101
+      ]
+    },
+    {
+      "id": "B250-231",
+      "statement": 4,
+      "correction": "La reposición contra una resolución dictada en audiencia se promueve de inmediato y sólo es admisible si no fue precedida de debate. Fuera de audiencia, el plazo indicado es de tercero día.",
+      "pages": [
+        104
+      ]
+    },
+    {
+      "id": "B250-232",
+      "statement": 2,
+      "correction": "La presidencia de una Corte de Apelaciones dura un año y se ejerce por turno según la antigüedad. La elección por los ministros y la duración de dos años corresponden a la Corte Suprema.",
+      "pages": [
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "id": "M-23-4-P04",
+      "statement": 2,
+      "correction": "El órgano requerido tiene veinte días hábiles para responder la solicitud, no veinticinco.",
+      "pages": [
+        23
+      ]
+    },
+    {
+      "id": "M-23-4-P04",
+      "statement": 3,
+      "correction": "La prórroga excepcional es por otros diez días hábiles y debe comunicarse al solicitante; no es de quince días.",
+      "pages": [
+        23
+      ]
+    },
+    {
+      "id": "M-23-4-P04",
+      "statement": 4,
+      "correction": "El amparo ante el Consejo para la Transparencia se presenta dentro de quince días hábiles ante denegación o falta de entrega dentro de plazo. No debe confundirse con la ilegalidad contra la resolución del Consejo: quince días corridos ante la Corte de Apelaciones.",
+      "pages": [
+        23
+      ]
+    },
+    {
+      "id": "M-23-4-P04",
+      "statement": 5,
+      "correction": "Recibido el amparo, el organismo reclamado dispone de diez días hábiles para formular observaciones o descargos, no quince.",
+      "pages": [
+        23
+      ]
+    },
+    {
+      "id": "M-2020-06-P16",
+      "statement": 1,
+      "correction": "También pueden sufragar extranjeros que cumplan las condiciones: avecindamiento en Chile por más de cinco años, dieciocho años cumplidos y ausencia de condena a pena aflictiva.",
+      "pages": [
+        20
+      ]
+    },
+    {
+      "id": "N-20261015-027",
+      "statement": 2,
+      "correction": "El registro debe contener lugar, fecha y horario, mediante la georreferenciación de las notificaciones, requerimientos y embargos contemplados. No basta el nombre del receptor.",
+      "pages": [
+        38
+      ]
+    },
+    {
+      "id": "N-20261015-035",
+      "statement": 2,
+      "correction": "La citación para oír sentencia cierra el debate. Se exceptúan las peticiones de nulidad de lo obrado, las medidas para mejor resolver y las medidas precautorias; no se permite presentar libremente cualquier prueba.",
+      "pages": [
+        53
+      ]
+    },
+    {
+      "id": "N-20261015-035",
+      "statement": 4,
+      "correction": "Las medidas para mejor resolver deben decretarse dentro del plazo para dictar sentencia: sesenta días en el juicio ordinario. Su cumplimiento tiene otro plazo: veinte días desde la notificación de la resolución que las decreta.",
+      "pages": [
+        53
+      ]
+    },
+    {
+      "id": "N-20261015-042",
+      "statement": 2,
+      "correction": "La oposición al monto de alimentos provisorios se resuelve de plano. Si los antecedentes hacen necesaria una audiencia, debe celebrarse dentro de los diez días siguientes; no se cita a audiencia en todos los casos.",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": "N-20261015-047",
+      "statement": 4,
+      "correction": "En la ejecución de la sentencia laboral sólo se admiten pago, remisión, novación y transacción, con antecedentes escritos. No se vuelve a discutir la valoración probatoria del juicio.",
+      "pages": [
+        88
+      ]
+    }
+  ],
+  "notes_added_to_questions": [
+    "B250-012",
+    "B250-017",
+    "B250-018",
+    "B250-076",
+    "B250-081",
+    "B250-082",
+    "B250-109",
+    "B250-125",
+    "B250-138",
+    "B250-139",
+    "B250-169",
+    "B250-171",
+    "B250-175",
+    "B250-184",
+    "B250-187",
+    "B250-191",
+    "B250-193",
+    "B250-200",
+    "B250-203",
+    "B250-222",
+    "B250-231",
+    "B250-249",
+    "M-23-4-P04",
+    "M-23-4-P05",
+    "M-23-4-P09",
+    "N-20261015-032",
+    "N-20261015-039",
+    "N-20261015-042",
+    "N-20261015-049"
+  ],
+  "unchanged": [
+    "Enunciados",
+    "Alternativas",
+    "Claves",
+    "Valores de verdad",
+    "Familias",
+    "Cuotas y algoritmo de selección"
+  ],
+  "source": "Manual Único para Tribunales, octubre de 2025, proporcionado por el usuario. Las reglas nuevas o ampliadas se contrastaron con las páginas indicadas; no se añade legislación externa.",
+  "source_pages": [
+    {
+      "page": 13,
+      "sha256": "e686543d316f000a7cd9128d7bdb6f19c26a1246bc64e22b367ad17db1c7dd59"
+    },
+    {
+      "page": 20,
+      "sha256": "a41a84364516b085feb12e35cddc4754e9a7ae09df9e26ce12e8b2713e4d140f"
+    },
+    {
+      "page": 23,
+      "sha256": "57fb14b2c4f53926d99340ca693480cb48e2a376e2f3e540266012d9f5d5be24"
+    },
+    {
+      "page": 34,
+      "sha256": "0ca3a5c9f6089bc2e3de34cc3c8b878c2e41af7b09ef9b59bdcdfa652fc737c6"
+    },
+    {
+      "page": 35,
+      "sha256": "9be8f74f4ab0133207b4570d9278ccf45fb255ca65bfd52e629ba700bad29478"
+    },
+    {
+      "page": 38,
+      "sha256": "b82fd55f276c18f73a263cdebf617b1cd907eb42dd39524f1e52d656860eca0c"
+    },
+    {
+      "page": 40,
+      "sha256": "827fa43f9e683faa936348544650a96cdd77b35b59f531b0adf2d8f9a015bce8"
+    },
+    {
+      "page": 41,
+      "sha256": "d0f36a4a7673684ab3dd6f771b24e6ffd244cf2c4de14395ba3155d421b728d1"
+    },
+    {
+      "page": 42,
+      "sha256": "032f94f7ca1631c62120c2add3cfe7bb3b4504963815f070d55d5aa0590937f9"
+    },
+    {
+      "page": 43,
+      "sha256": "71e893f582be43b17da3a3b3158aa531570dc7a1455bc370bdaa41134e01e40b"
+    },
+    {
+      "page": 44,
+      "sha256": "b7d7dfbd5d81b6cc92cdf3f83d2924a0cc1bf2e4d395320044162eb5ebc4124a"
+    },
+    {
+      "page": 48,
+      "sha256": "4544c0c6878a58f9621bdf712d537699d7d19e60705bbb7b302388393601341b"
+    },
+    {
+      "page": 51,
+      "sha256": "56f52e01c571b0245a3ebb35ba861351e1387dfc9770f5e05eda0c73ef1d6195"
+    },
+    {
+      "page": 52,
+      "sha256": "52d00119f97e5c94a3bd446b1dac624f68fe0cdce3f56cd4762ff492a963884e"
+    },
+    {
+      "page": 53,
+      "sha256": "4dc25c6f6dcc6db6a26fde275412042b456227bf9941b81bde004adee37beb55"
+    },
+    {
+      "page": 54,
+      "sha256": "9ea931f72354350f05a8a58c7b74e27c3e53cba209a82df280d4a5bd8bb9e0b1"
+    },
+    {
+      "page": 55,
+      "sha256": "e25eac22565e4da3ce59683fe8f42a980b861b1c7793b1acebcf059dab56a8a6"
+    },
+    {
+      "page": 58,
+      "sha256": "cf6fe9ae88e9ba1e124389bc366446bc7a1b9075fcc3e51e6630147b4a3962d8"
+    },
+    {
+      "page": 60,
+      "sha256": "5a89d1ebf1052c214f35b909ff05a05f36c7fb644749b7ad33a2e92e4024ed31"
+    },
+    {
+      "page": 61,
+      "sha256": "9393b147705da06f25a4290f3b4556310149459a5170ae17ad648e368354ff8c"
+    },
+    {
+      "page": 70,
+      "sha256": "2dda422ab2c8f54be414a555cdb321d27850d88b21b21c81d87c50b4303325d9"
+    },
+    {
+      "page": 76,
+      "sha256": "5d42eab57d4b6ab22de04ddc70c0e4ff4f84c161233e7173093491ef8f3ed687"
+    },
+    {
+      "page": 78,
+      "sha256": "3f5e6f405faf2a99727d7d405d165bd5e9751fc038f9735e92e01c427687ba0d"
+    },
+    {
+      "page": 80,
+      "sha256": "562f398da2e87e92b181b36e717677882fb94a2f3fc2441fe24f8fb9805ccea6"
+    },
+    {
+      "page": 81,
+      "sha256": "c90b9b468c81ad17fc90866ee0a1c4ea9005204aec3b7e7cf8235bba78e9ba43"
+    },
+    {
+      "page": 84,
+      "sha256": "606c6f218b84e0d8b2fc0248b6eec7454d004ec9d3506d0c2755c2a6cab65446"
+    },
+    {
+      "page": 86,
+      "sha256": "e2ca1bb18adb4e22e0cd944686d1a11edca15cfc21250dd33acc977ae3b27a2c"
+    },
+    {
+      "page": 87,
+      "sha256": "203b5a2e37f78a9b8ef66b9c211dcc0bb648568a619ad7181775043a47aacfcb"
+    },
+    {
+      "page": 88,
+      "sha256": "5de411e9905a60778d2b21f5cee92d881ccb4bcc85f7c660db18db3ecec2397f"
+    },
+    {
+      "page": 89,
+      "sha256": "a3179fa47cf8b02d27d63330494fdd183a0c72f3b492b5efd60294ec09b84e05"
+    },
+    {
+      "page": 90,
+      "sha256": "1f1f73673b96bde8de96b0b170dfcddcb60dfc31157a78ffc990d376ba38077c"
+    },
+    {
+      "page": 95,
+      "sha256": "e953879c31cd4bfd130f3137b45b5f58a0da63262d4d523cc974b6b35bd6d9a6"
+    },
+    {
+      "page": 96,
+      "sha256": "37445bcc602bbb3315d703e23d7e6cf9a303bd0266ac262e1394a4432bae5748"
+    },
+    {
+      "page": 97,
+      "sha256": "c21829485e49c574a2526dc12850079b87c19ba887f107edeed86dbe8e5e08b2"
+    },
+    {
+      "page": 101,
+      "sha256": "8948969c043078568805d2204ef099568165c05d155d1ee61fd083906a4228f7"
+    },
+    {
+      "page": 104,
+      "sha256": "a3ae1f7288d70377be1e7366b9544a9aeb82391e2885b9588530657221a908ab"
+    },
+    {
+      "page": 106,
+      "sha256": "24edc24da7602034446e575c116787b0e7cef5a3b951b3991cbc8df621ce1ffb"
+    },
+    {
+      "page": 107,
+      "sha256": "d20974c6f8d760534c61672333ec31833df113d675de938d8ce6f5aef3db2d7b"
+    },
+    {
+      "page": 108,
+      "sha256": "11733e4cfe9cc55fb75107343606923eb08f3e0f2441212421a2ca5e6dacfb13"
+    },
+    {
+      "page": 110,
+      "sha256": "da8ad9dc9c65de860d11140fe642a66a8409a0069cd33586fb8e6b11aa1001be"
+    }
+  ]
+}

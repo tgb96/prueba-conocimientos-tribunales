@@ -459,12 +459,8 @@ function reviewExplanation(row) {
     const error = [];
     if (extra.length) error.push(`Tu respuesta incluye indebidamente ${extra.length === 1 ? 'la afirmación' : 'las afirmaciones'} ${extra.join(', ')}.`);
     if (missing.length) error.push(`${missing.length === 1 ? 'Falta incluir la afirmación' : 'Faltan las afirmaciones'} ${missing.join(', ')}.`);
-    const details = mismatches.slice(0, 2).map(index => {
-      if (q.truth[index]) return `La afirmación ${index + 1} es verdadera: «${q.statements[index].replace(/\.$/, '')}».`;
-      return `La afirmación ${index + 1} es falsa: ${q.statement_reasons[index]}`;
-    });
     const task = q.negative ? 'Se pedían las afirmaciones falsas.' : 'Se pedían las afirmaciones verdaderas.';
-    return [task, ...error, ...details].join(' ');
+    return [task, ...error].join(' ');
   }
 
   const selectedReason = q.option_reasons?.[row.selected] || '';
@@ -483,6 +479,64 @@ function reviewExplanation(row) {
   const specificError = !selectedReason.startsWith('La opción propone') && selectedReason !== correctReason
     ? selectedReason : '';
   return [specificError, rule].filter(Boolean).join(' ');
+}
+
+function studyPoints(question) {
+  if (question.format === 'Combinación') {
+    return question.statements.map((statement, index) => ({
+      label: `Afirmación ${index + 1} · ${question.truth[index] ? 'Verdadera' : 'Falsa: regla correcta'}`,
+      text: question.study_statement_notes?.[index] || (question.truth[index]
+        ? (statement.length < 35 && question.statement_reasons[index] !== statement
+          ? `${statement} ${question.statement_reasons[index]}` : statement)
+        : question.statement_reasons[index]),
+      isCorrection: !question.truth[index]
+    }));
+  }
+  const reason = question.option_reasons[question.key];
+  // Una clave negativa contiene un error: enseñar su corrección, no presentarla como regla.
+  const generic = /^(?:Ésa es|Es (?:la (?:definición|noción|función|secuencia|caracterización|regla)|el (?:trámite|contenido|carácter|período|supuesto))|Son (?:los (?:dos|requisitos)|las (?:dos|tres))|Reúne|El manual (?:diferencia|identifica)|La (?:enumeración|composición|edad y los estudios)|El (?:plazo|período) está|La página \d+ (?:lo establece|contiene ese|establece ambas)|Ambas condiciones|Coincide con|La definición corresponde)/i.test(reason);
+  return [{
+    label: question.format === 'Ordenación' ? 'Orden de las etapas' : 'Regla que debes recordar',
+    text: generic && !question.negative ? `${question.options[question.key]} ${reason}` : reason,
+    isCorrection: false
+  }];
+}
+
+function renderStudyExplanation(question) {
+  const section = document.createElement('section');
+  section.className = 'study-explanation';
+  section.setAttribute('aria-label', 'Para aprender la regla');
+  const title = document.createElement('h3');
+  title.textContent = 'Para aprender la regla';
+  const list = document.createElement('ul');
+  list.className = 'study-points';
+  for (const point of studyPoints(question)) {
+    const item = document.createElement('li');
+    item.className = point.isCorrection ? 'study-point correction' : 'study-point';
+    const label = document.createElement('strong');
+    label.className = 'study-point-label';
+    label.textContent = point.label;
+    const text = document.createElement('p');
+    text.className = 'study-text';
+    text.textContent = point.text;
+    item.append(label, text);
+    list.appendChild(item);
+  }
+  section.append(title, list);
+  for (const note of question.study_notes || []) {
+    const aside = document.createElement('div');
+    aside.className = 'study-note';
+    const label = document.createElement('strong');
+    label.textContent = note.title || 'Distingue estas reglas';
+    const text = document.createElement('p');
+    text.textContent = note.text;
+    const source = document.createElement('small');
+    source.className = 'study-note-source';
+    source.textContent = `Manual · página${note.pages.length > 1 ? 's' : ''} ${note.pages.join(', ')}`;
+    aside.append(label, text, source);
+    section.appendChild(aside);
+  }
+  return section;
 }
 
 function updateReviewToggle() {
@@ -591,7 +645,11 @@ function renderReview(rows) {
     }
     body.appendChild(stem);
     if (q.statements.length) body.appendChild(statements);
-    body.append(answers, explanation, source);
+    body.appendChild(answers);
+    // El diagnóstico explica la selección; el bloque de estudio enseña todas las reglas,
+    // incluidas las proposiciones falsas que el usuario descartó correctamente.
+    if (!row.isCorrect && !row.isOmitted) body.appendChild(explanation);
+    body.append(renderStudyExplanation(q), source);
     summary.addEventListener('click', () => {
       card.classList.toggle('open');
       summary.setAttribute('aria-expanded', String(card.classList.contains('open')));
@@ -660,7 +718,7 @@ async function loadBank() {
   button.disabled = true;
   button.textContent = 'Cargando preguntas…';
   try {
-    const response = await fetch('banco_B400.json?v=20261017-revision400');
+    const response = await fetch('banco_B400.json?v=20261024-explicaciones');
     if (!response.ok) throw new Error('No se pudo cargar el banco');
     const payload = await response.json();
     state.bank = payload.items || [];
