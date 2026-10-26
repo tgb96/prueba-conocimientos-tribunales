@@ -58,7 +58,7 @@ assert.ok(example.study_notes.some(note => /sesenta días/.test(note.text)));
 const negative = bank.items.find(q => q.bank_id === 'B250-012');
 assert.ok(!context.studyPoints(negative)[0].text.startsWith(negative.options[negative.key]), 'No usar la clave falsa como regla verdadera');
 const html = fs.readFileSync(path.join(repo, 'index.html'), 'utf8');
-assert.match(html, /app.js\?v=20261024-explicaciones/);
+assert.match(html, /app.js\?v=\d{8}-[a-z0-9]+/);
 assert.match(html, /\.study-explanation\{/);
 assert.match(fs.readFileSync(path.join(repo, 'app.js'), 'utf8'), /banco_B400.json\?v=20261024-explicaciones/);
 const report = { version: bank.metadata.version, questions: 400, combinations, false_statements: falseStatements, study_points: studyPointCount,

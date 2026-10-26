@@ -1,0 +1,60 @@
+{
+  "version": "20261026-puntaje20",
+  "scale": "Proporcional: aciertos × 20 ÷ 30, mínimo 1 y máximo 20, hasta dos decimales.",
+  "full_results_checked": 31,
+  "checkpoints": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1.33
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      15,
+      10
+    ],
+    [
+      21,
+      14
+    ],
+    [
+      24,
+      16
+    ],
+    [
+      27,
+      18
+    ],
+    [
+      29,
+      19.33
+    ],
+    [
+      30,
+      20
+    ]
+  ],
+  "mixed_wrong_and_omitted": true,
+  "automatic_finish": true,
+  "history_score_saved": true,
+  "quick_attempt_unchanged": true,
+  "decimal_separator": "coma"
+}

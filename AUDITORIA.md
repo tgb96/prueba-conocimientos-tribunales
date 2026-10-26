@@ -1,4 +1,14 @@
-# Explicaciones para estudiar · 24 de octubre de 2026
+# Puntaje de 1 a 20 · 26 de octubre de 2026
+
+La interfaz **20261026-puntaje20** muestra el puntaje sobre veinte al finalizar un intento completo de treinta preguntas. La conversión es proporcional: **aciertos × 20 ÷ 30**, con mínimo de 1, máximo de 20 y redondeo a dos decimales. Por ejemplo, 15 aciertos dan 10 puntos; 29 dan 19,33; 30 dan 20. Errores y omisiones no suman aciertos ni descuentan puntos adicionales.
+
+El resultado conserva el número de aciertos, errores, omisiones, tiempo y porcentaje. El puntaje se guarda en el historial y se calcula también para registros anteriores de treinta preguntas. Los intentos rápidos conservan su resultado sobre diez. No cambia el banco ni las funciones de selección de preguntas.
+
+`node tests/score.cjs` comprueba los 31 resultados posibles, casos con errores y omisiones, cierre automático, formato decimal e historial. Los controles de explicaciones existentes también pasan. Resultados: [VALIDACION_PUNTAJE.json](VALIDACION_PUNTAJE.json). Se verificaron en navegador computador y celular, incluidos los estilos incorporados si falla la hoja externa.
+
+---
+
+# Antecedente: explicaciones para estudiar · 24 de octubre de 2026
 
 La versión **20261024-explicaciones** conserva las 400 preguntas, alternativas, claves, valores de verdad, familias y algoritmo de selección de la versión anterior. Cambia la corrección para enseñar el contenido, además de señalar el error en la alternativa elegida.
 

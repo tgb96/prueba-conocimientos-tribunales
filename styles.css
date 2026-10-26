@@ -78,3 +78,7 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:lin
 .study-note>strong{display:block;margin-bottom:6px;font-size:13px;color:var(--deep)}
 .study-note-source{display:block;margin-top:8px;font:400 10px/1.5 'DM Mono',monospace;color:#55736a}
 @media(max-width:560px){.study-explanation{padding:17px 14px}.study-explanation h3{font-size:16px}.study-text,.study-note p{font-size:13px}.study-point{padding-left:10px}.study-points{gap:17px}}
+.result-score.has-points{display:grid;grid-template-columns:auto auto;row-gap:0}
+.result-grade-label{grid-column:1/-1;margin:0 0 12px;color:#bdd0ca;font:500 11px/1.4 'DM Mono',monospace;letter-spacing:.12em}
+.result-scale-note{grid-column:1/-1;max-width:210px;margin:12px 0 0;color:#bdd0ca;font:400 11px/1.5 'DM Sans',system-ui,sans-serif}
+.history-row{gap:12px;flex-wrap:wrap}

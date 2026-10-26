@@ -374,6 +374,15 @@ function finishAttempt(auto = false) {
   setScreen('results');
 }
 
+function calculateScore20(correct, total) {
+  if (total !== 30) return null;
+  return Math.round(Math.max(1, Math.min(20, correct * 20 / 30)) * 100) / 100;
+}
+
+function formatScore20(score) {
+  return score.toLocaleString('es-CL', { maximumFractionDigits: 2 });
+}
+
 function calculateResult(auto) {
   let correct = 0;
   let omitted = 0;
@@ -385,21 +394,25 @@ function calculateResult(auto) {
     if (isCorrect) correct += 1;
     return { question, selected, isOmitted, isCorrect };
   });
-  return { correct, omitted, wrong: state.attempt.length - correct - omitted, total: state.attempt.length, rows, auto, elapsed: state.elapsed, finishedAt: new Date().toISOString() };
+  return { correct, omitted, wrong: state.attempt.length - correct - omitted, total: state.attempt.length, score20: calculateScore20(correct, state.attempt.length), rows, auto, elapsed: state.elapsed, finishedAt: new Date().toISOString() };
 }
 
 function saveHistory(result) {
   try {
     const history = JSON.parse(localStorage.getItem('b500-history') || '[]');
-    history.unshift({ correct: result.correct, wrong: result.wrong, omitted: result.omitted, total: result.total, elapsed: result.elapsed, date: result.finishedAt });
+    history.unshift({ correct: result.correct, wrong: result.wrong, omitted: result.omitted, total: result.total, score20: result.score20, elapsed: result.elapsed, date: result.finishedAt });
     localStorage.setItem('b500-history', JSON.stringify(history.slice(0, 8)));
   } catch (error) { /* storage can be unavailable in private browser contexts */ }
 }
 
 function renderResults(result) {
   const total = result.total;
-  $('#result-score').textContent = result.correct;
-  $('#result-total').textContent = `/ ${total}`;
+  const showPoints = total === 30;
+  $('.result-score').classList.toggle('has-points', showPoints);
+  $('#result-grade-label').hidden = !showPoints;
+  $('#result-scale-note').hidden = !showPoints;
+  $('#result-score').textContent = showPoints ? formatScore20(result.score20) : result.correct;
+  $('#result-total').textContent = showPoints ? '/ 20' : `/ ${total}`;
   $('#result-percent').textContent = `${Math.round((result.correct / total) * 100)}%`;
   $('#result-correct').textContent = result.correct;
   $('#result-wrong').textContent = result.wrong;
@@ -673,7 +686,8 @@ function renderHistory() {
       row.className = 'history-row';
       const date = new Date(entry.date);
       const total = entry.total || 30;
-      row.innerHTML = `<strong>${entry.correct}/${total} · ${Math.round(entry.correct / total * 100)}%</strong><span>${date.toLocaleDateString('es-CL')} · ${formatTime(entry.elapsed)} · ${entry.wrong} errores · ${entry.omitted} omitidas</span>`;
+      const points = total === 30 ? ` · ${formatScore20(entry.score20 ?? calculateScore20(entry.correct, total))}/20 puntos` : '';
+      row.innerHTML = `<strong>${entry.correct}/${total} · ${Math.round(entry.correct / total * 100)}%${points}</strong><span>${date.toLocaleDateString('es-CL')} · ${formatTime(entry.elapsed)} · ${entry.wrong} errores · ${entry.omitted} omitidas</span>`;
       list.appendChild(row);
     });
   } catch (error) { section.hidden = true; }

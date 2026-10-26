@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "candidate",
+    "viewport": {
+      "width": 1366,
+      "height": 950,
+      "name": "pc"
+    },
+    "full_30_perfect_score": 20,
+    "full_29_score": 19.33,
+    "full_15_score": 10,
+    "full_0_minimum": 1,
+    "quick_10_unchanged": true,
+    "correct_wrong_omitted_counts": true,
+    "legacy_history_compatible": true,
+    "score_saved": true,
+    "explanations_preserved": true,
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "inline_style_fallback": false
+  },
+  {
+    "mode": "candidate",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "name": "movil"
+    },
+    "full_30_perfect_score": 20,
+    "full_29_score": 19.33,
+    "full_15_score": 10,
+    "full_0_minimum": 1,
+    "quick_10_unchanged": true,
+    "correct_wrong_omitted_counts": true,
+    "legacy_history_compatible": true,
+    "score_saved": true,
+    "explanations_preserved": true,
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "inline_style_fallback": true
+  }
+]
