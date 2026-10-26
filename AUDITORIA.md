@@ -1,10 +1,10 @@
 # Puntaje de 1 a 20 · 26 de octubre de 2026
 
-La interfaz **20261026-puntaje20** muestra el puntaje sobre veinte al finalizar un intento completo de treinta preguntas. La conversión es proporcional: **aciertos × 20 ÷ 30**, con mínimo de 1, máximo de 20 y redondeo a dos decimales. Por ejemplo, 15 aciertos dan 10 puntos; 29 dan 19,33; 30 dan 20. Errores y omisiones no suman aciertos ni descuentan puntos adicionales.
+La interfaz **20261026-puntaje-entero** muestra el puntaje sobre veinte al finalizar un intento completo de treinta preguntas. La conversión es proporcional: **aciertos × 20 ÷ 30**, con mínimo de 1, máximo de 20 y redondeo al entero más cercano: desde ,5 hacia arriba, por debajo de ,5 hacia abajo. Por ejemplo, 15 aciertos dan 10 puntos; 23 dan 15; 25 dan 17; 29 dan 19; 30 dan 20. Errores y omisiones no suman aciertos ni descuentan puntos adicionales.
 
 El resultado conserva el número de aciertos, errores, omisiones, tiempo y porcentaje. El puntaje se guarda en el historial y se calcula también para registros anteriores de treinta preguntas. Los intentos rápidos conservan su resultado sobre diez. No cambia el banco ni las funciones de selección de preguntas.
 
-`node tests/score.cjs` comprueba los 31 resultados posibles, casos con errores y omisiones, cierre automático, formato decimal e historial. Los controles de explicaciones existentes también pasan. Resultados: [VALIDACION_PUNTAJE.json](VALIDACION_PUNTAJE.json). Se verificaron en navegador computador y celular, incluidos los estilos incorporados si falla la hoja externa.
+`node tests/score.cjs` comprueba los 31 resultados posibles, casos con errores y omisiones, cierre automático, presentación sin decimales, aproximación desde ,5 e historial anterior con puntajes decimales. Los controles de explicaciones existentes también pasan. Resultados: [VALIDACION_PUNTAJE.json](VALIDACION_PUNTAJE.json). Se verificaron en navegador computador y celular, incluidos los estilos incorporados si falla la hoja externa.
 
 ---
 

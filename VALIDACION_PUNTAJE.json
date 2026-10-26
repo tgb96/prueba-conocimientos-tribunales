@@ -1,6 +1,6 @@
 {
-  "version": "20261026-puntaje20",
-  "scale": "Proporcional: aciertos × 20 ÷ 30, mínimo 1 y máximo 20, hasta dos decimales.",
+  "version": "20261026-puntaje-entero",
+  "scale": "Proporcional: aciertos × 20 ÷ 30, mínimo 1 y máximo 20; entero más cercano, desde ,5 hacia arriba.",
   "full_results_checked": 31,
   "checkpoints": [
     [
@@ -13,7 +13,7 @@
     ],
     [
       2,
-      1.33
+      1
     ],
     [
       3,
@@ -36,8 +36,16 @@
       14
     ],
     [
+      23,
+      15
+    ],
+    [
       24,
       16
+    ],
+    [
+      25,
+      17
     ],
     [
       27,
@@ -45,7 +53,7 @@
     ],
     [
       29,
-      19.33
+      19
     ],
     [
       30,
@@ -56,5 +64,7 @@
   "automatic_finish": true,
   "history_score_saved": true,
   "quick_attempt_unchanged": true,
-  "decimal_separator": "coma"
+  "decimals": false,
+  "legacy_scores_rounded": true,
+  "half_rounded_up": true
 }

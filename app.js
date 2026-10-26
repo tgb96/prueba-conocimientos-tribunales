@@ -376,11 +376,11 @@ function finishAttempt(auto = false) {
 
 function calculateScore20(correct, total) {
   if (total !== 30) return null;
-  return Math.round(Math.max(1, Math.min(20, correct * 20 / 30)) * 100) / 100;
+  return Math.round(Math.max(1, Math.min(20, correct * 20 / 30)));
 }
 
 function formatScore20(score) {
-  return score.toLocaleString('es-CL', { maximumFractionDigits: 2 });
+  return Math.round(score).toLocaleString('es-CL', { maximumFractionDigits: 0 });
 }
 
 function calculateResult(auto) {
